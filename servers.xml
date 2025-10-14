@@ -1,0 +1,1158 @@
+<!--
+To inactivate a server, use
+  <bibleserver status="inactive">
+
+The books can have up to 3 names on a server:
+- the German name 
+- the English name (on a German server that also provides English versions)
+- a few even use a third one
+
+Placeholders in the chapter URLs:
+
+{book}        book name
+{chapter}     chapter number
+{la}          language ("de", "en")
+{language}    language ("german", "english")
+{version}     version name
+
+ToDo: Add information about versions and how to parse the text
+(versions will probably be encoded differently on different servers).
+The versions can then define a list of preferred servers.
+The servers should have a "weight" that defines the sequence in which they are tried
+-->
+
+<bibleservers>
+
+  <!-- ##############################################################
+       # Biblegateway                                               #
+       ############################################################## -->
+  <bibleserver>
+    <name>Biblegateway</name>
+    <url>https://www.biblegateway.com/</url>
+    <!-- passage/?search=mt+1&version=NIV -->
+    <chapterurl>passage/?search={book}+{chapter}&amp;version={version}</chapterurl>
+    <books>
+      <book name_de="Genesis" name_en="Genesis" name_extra="Gen">GEN</book>
+      <book name_de="Exodus" name_en="Exodus" name_extra="Exod">EX</book>
+      <book name_de="Leviticus" name_en="Leviticus" name_extra="Lev">LEV</book>
+      <book name_de="Numbers" name_en="Numbers" name_extra="Num">NUM</book>
+      <book name_de="Deuteronomy" name_en="Deuteronomy" name_extra="Deut">DTN</book>
+      <book name_de="Joshua" name_en="Joshua" name_extra="Josh">JOS</book>
+      <book name_de="Judges" name_en="Judges" name_extra="Judg">RI</book>
+      <book name_de="Ruth" name_en="Ruth" name_extra="Ruth">RT</book>
+      <book name_de="1 Samuel" name_en="1 Samuel" name_extra="1Sam">1SAM</book>
+      <book name_de="2 Samuel" name_en="2 Samuel" name_extra="2Sam">2SAM</book>
+      <book name_de="1 Kings" name_en="1 Kings" name_extra="1Kgs">1KÖN</book>
+      <book name_de="2 Kings" name_en="2 Kings" name_extra="2Kgs">2KÖN</book>
+      <book name_de="1 Chronicles" name_en="1 Chronicles" name_extra="1Chr">1CHR</book>
+      <book name_de="2 Chronicles" name_en="2 Chronicles" name_extra="2Chr">2CHR</book>
+      <book name_de="Ezra" name_en="Ezra" name_extra="Ezra">ESR</book>
+      <book name_de="Nehemiah" name_en="Nehemiah" name_extra="Neh">NEH</book>
+      <book name_de="Esther" name_en="Esther" name_extra="Esth">EST</book>
+      <book name_de="Job" name_en="Job" name_extra="Job">HI</book>
+      <book name_de="Psalm" name_en="Psalm" name_extra="Ps">PS</book>
+      <book name_de="Proverbs" name_en="Proverbs" name_extra="Prov">SPR</book>
+      <book name_de="Ecclesiastes" name_en="Ecclesiastes" name_extra="Eccl">PRD</book>
+      <book name_de="Song of Solomon" name_en="Song of Solomon" name_extra="Song">HOH</book>
+      <book name_de="Isaiah" name_en="Isaiah" name_extra="Isa">JES</book>
+      <book name_de="Jeremiah" name_en="Jeremiah" name_extra="Jer">JER</book>
+      <book name_de="Lamentations" name_en="Lamentations" name_extra="Lam">KLA</book>
+      <book name_de="Ezekiel" name_en="Ezekiel" name_extra="Ezek">HES</book>
+      <book name_de="Daniel" name_en="Daniel" name_extra="Dan">DAN</book>
+      <book name_de="Hosea" name_en="Hosea" name_extra="Hos">HOS</book>
+      <book name_de="Joel" name_en="Joel" name_extra="Joel">JO</book>
+      <book name_de="Amos" name_en="Amos" name_extra="Amos">AM</book>
+      <book name_de="Obadiah" name_en="Obadiah" name_extra="Obad">OB</book>
+      <book name_de="Jonah" name_en="Jonah" name_extra="Jonah">JON</book>
+      <book name_de="Micah" name_en="Micah" name_extra="Mic">MI</book>
+      <book name_de="Nahum" name_en="Nahum" name_extra="Nah">NAH</book>
+      <book name_de="Habakkuk" name_en="Habakkuk" name_extra="Hab">HAB</book>
+      <book name_de="Zephaniah" name_en="Zephaniah" name_extra="Zeph">ZEP</book>
+      <book name_de="Haggai" name_en="Haggai" name_extra="Hag">HAG</book>
+      <book name_de="Zechariah" name_en="Zechariah" name_extra="Zech">SACH</book>
+      <book name_de="Malachi" name_en="Malachi" name_extra="Mal">MAL</book>
+      <book name_de="Matthew" name_en="Matthew" name_extra="Matt">MT</book>
+      <book name_de="Mark" name_en="Mark" name_extra="Mark">MK</book>
+      <book name_de="Luke" name_en="Luke" name_extra="Luke">LK</book>
+      <book name_de="John" name_en="John" name_extra="John">JOH</book>
+      <book name_de="Acts" name_en="Acts" name_extra="Acts">APG</book>
+      <book name_de="Romans" name_en="Romans" name_extra="Rom">RÖM</book>
+      <book name_de="1 Corinthians" name_en="1 Corinthians" name_extra="1Cor">1KOR</book>
+      <book name_de="2 Corinthians" name_en="2 Corinthians" name_extra="2Cor">2KOR</book>
+      <book name_de="Galatians" name_en="Galatians" name_extra="Gal">GAL</book>
+      <book name_de="Ephesians" name_en="Ephesians" name_extra="Eph">EPH</book>
+      <book name_de="Philippians" name_en="Philippians" name_extra="Phil">PHIL</book>
+      <book name_de="Colossians" name_en="Colossians" name_extra="Col">KOL</book>
+      <book name_de="1 Thessalonians" name_en="1 Thessalonians" name_extra="1Thess">1THES</book>
+      <book name_de="2 Thessalonians" name_en="2 Thessalonians" name_extra="2Thess">2THES</book>
+      <book name_de="1 Timothy" name_en="1 Timothy" name_extra="1Tim">1TIM</book>
+      <book name_de="2 Timothy" name_en="2 Timothy" name_extra="2Tim">2TIM</book>
+      <book name_de="Titus" name_en="Titus" name_extra="Titus">TIT</book>
+      <book name_de="Philemon" name_en="Philemon" name_extra="Phlm">PHIM</book>
+      <book name_de="Hebrews" name_en="Hebrews" name_extra="Heb">HEB</book>
+      <book name_de="James" name_en="James" name_extra="Jas">JAK</book>
+      <book name_de="1 Peter" name_en="1 Peter" name_extra="1Pet">1PET</book>
+      <book name_de="2 Peter" name_en="2 Peter" name_extra="2Pet">2PET</book>
+      <book name_de="1 John" name_en="1 John" name_extra="1John">1JOH</book>
+      <book name_de="2 John" name_en="2 John" name_extra="2John">2JOH</book>
+      <book name_de="3 John" name_en="3 John" name_extra="3John">3JOH</book>
+      <book name_de="Jude" name_en="Jude" name_extra="Jude">JUD</book>
+      <book name_de="Revelation" name_en="Revelation" name_extra="Rev">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Biblehub                                                   #
+       #                                                            #
+       # CAUTION: This works for CEV2006 only! For other versions   #
+       # they use other patterns - this is too commplicated, as the #
+       # other versions are available from elsewhere or are not     #
+       # interesting enough.                                        #
+       ############################################################## -->
+  <bibleserver>
+    <name>Biblehub</name>
+    <url>https://www.biblehub.com/</url>
+    <!-- isv/john/3.htm -->
+    <chapterurl>{version}/{book}/{chapter}.htm</chapterurl>
+    <books>
+      <book name_de="1.Mose" name_en="genesis">GEN</book>
+      <book name_de="2.Mose" name_en="exodus">EX</book>
+      <book name_de="3.Mose" name_en="leviticus">LEV</book>
+      <book name_de="4.Mose" name_en="numbers">NUM</book>
+      <book name_de="5.Mose" name_en="deuteronomy">DTN</book>
+      <book name_de="Josua" name_en="joshua">JOS</book>
+      <book name_de="Richter" name_en="judges">RI</book>
+      <book name_de="Rut" name_en="ruth">RT</book>
+      <book name_de="1.Samuel" name_en="1_samuel">1SAM</book>
+      <book name_de="2.Samuel" name_en="2_samuel">2SAM</book>
+      <book name_de="1.Könige" name_en="1_kings">1KÖN</book>
+      <book name_de="2.Könige" name_en="2_kings">2KÖN</book>
+      <book name_de="1.Chronik" name_en="1_chronicles">1CHR</book>
+      <book name_de="2.Chronik" name_en="2_chronicles">2CHR</book>
+      <book name_de="Esra" name_en="ezra">ESR</book>
+      <book name_de="Nehemia" name_en="nehemiah">NEH</book>
+      <book name_de="Esther" name_en="esther">EST</book>
+      <book name_de="Hiob" name_en="job">HI</book>
+      <book name_de="Psalm" name_en="psalms">PS</book>
+      <book name_de="Sprüche" name_en="proverbs">SPR</book>
+      <book name_de="Prediger" name_en="ecclesiastes">PRD</book>
+      <book name_de="Hoheslied" name_en="songs">HOH</book>
+      <book name_de="Jesaja" name_en="isaiah">JES</book>
+      <book name_de="Jeremia" name_en="jeremiah">JER</book>
+      <book name_de="Klagelieder" name_en="lamentations">KLA</book>
+      <book name_de="Hesekiel" name_en="ezekiel">HES</book>
+      <book name_de="Daniel" name_en="daniel">DAN</book>
+      <book name_de="Hosea" name_en="hosea">HOS</book>
+      <book name_de="Joel" name_en="joel">JO</book>
+      <book name_de="Amos" name_en="amos">AM</book>
+      <book name_de="Obadja" name_en="obadiah">OB</book>
+      <book name_de="Jona" name_en="jonah">JON</book>
+      <book name_de="Micha" name_en="micah">MI</book>
+      <book name_de="Nahum" name_en="nahum">NAH</book>
+      <book name_de="Habakuk" name_en="habbakuk">HAB</book>
+      <book name_de="Zefanja" name_en="zephaniah">ZEP</book>
+      <book name_de="Haggai" name_en="haggai">HAG</book>
+      <book name_de="Sacharja" name_en="zechariah">SACH</book>
+      <book name_de="Maleachi" name_en="malachi">MAL</book>
+      <book name_de="Matthäus" name_en="matthew">MT</book>
+      <book name_de="Markus" name_en="mark">MK</book>
+      <book name_de="Lukas" name_en="luke">LK</book>
+      <book name_de="Johannes" name_en="john">JOH</book>
+      <book name_de="Apostelgeschichte" name_en="acts">APG</book>
+      <book name_de="Römer" name_en="romans">RÖM</book>
+      <book name_de="1.Korinther" name_en="1_corinthians">1KOR</book>
+      <book name_de="2.Korinther" name_en="2_corinthians">2KOR</book>
+      <book name_de="Galater" name_en="galatians">GAL</book>
+      <book name_de="Epheser" name_en="ephesians">EPH</book>
+      <book name_de="Philipper" name_en="philippians">PHIL</book>
+      <book name_de="Kolosser" name_en="colossians">KOL</book>
+      <book name_de="1.Thessalonicher" name_en="1_thessalonians">1THES</book>
+      <book name_de="2.Thessalonicher" name_en="2_thessalonians">2THES</book>
+      <book name_de="1.Timotheus" name_en="1_timothy">1TIM</book>
+      <book name_de="2.Timotheus" name_en="2_timothy">2TIM</book>
+      <book name_de="Titus" name_en="titus">TIT</book>
+      <book name_de="Philemon" name_en="philemon">PHIM</book>
+      <book name_de="Hebräer" name_en="hebrews">HEB</book>
+      <book name_de="Jakobus" name_en="james">JAK</book>
+      <book name_de="1.Petrus" name_en="1_peter">1PET</book>
+      <book name_de="2.Petrus" name_en="2_peter">2PET</book>
+      <book name_de="1.Johannes" name_en="1_john">1JOH</book>
+      <book name_de="2.Johannes" name_en="2_john">2JOH</book>
+      <book name_de="3.Johannes" name_en="3_john">3JOH</book>
+      <book name_de="Judas" name_en="jude">JUD</book>
+      <book name_de="Offenbarung" name_en="revelation">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Bibleserver                                                #
+       #                                                            #
+       # They use different book names for English versions         #
+       ############################################################## -->
+  <bibleserver>
+    <name>Bibleserver</name>
+    <url>https://www.bibleserver.com/</url>
+    <!-- LUT/Matthäus1 -->
+    <chapterurl>{version}/{book}{chapter}</chapterurl>
+    <books>
+      <book name_de="1.Mose" name_en="Genesis">GEN</book>
+      <book name_de="2.Mose" name_en="Exodus">EX</book>
+      <book name_de="3.Mose" name_en="Leviticus">LEV</book>
+      <book name_de="4.Mose" name_en="Numbers">NUM</book>
+      <book name_de="5.Mose" name_en="Deuteronomy">DTN</book>
+      <book name_de="Josua" name_en="Joshua">JOS</book>
+      <book name_de="Richter" name_en="Judges">RI</book>
+      <book name_de="Rut" name_en="Ruth">RT</book>
+      <book name_de="1.Samuel" name_en="1 Samuel">1SAM</book>
+      <book name_de="2.Samuel" name_en="2 Samuel">2SAM</book>
+      <book name_de="1.Könige" name_en="1 Kings">1KÖN</book>
+      <book name_de="2.Könige" name_en="2 Kings">2KÖN</book>
+      <book name_de="1.Chronik" name_en="1 Chronicles">1CHR</book>
+      <book name_de="2.Chronik" name_en="2 Chronicles">2CHR</book>
+      <book name_de="Esra" name_en="Ezra">ESR</book>
+      <book name_de="Nehemia" name_en="Nehemiah">NEH</book>
+      <book name_de="Esther" name_en="Esther">EST</book>
+      <book name_de="Hiob" name_en="Job">HI</book>
+      <book name_de="Psalm" name_en="Psalm">PS</book>
+      <book name_de="Sprüche" name_en="Proverbs">SPR</book>
+      <book name_de="Prediger" name_en="Ecclesiastes">PRD</book>
+      <book name_de="Hoheslied" name_en="Song of Solomon">HOH</book>
+      <book name_de="Jesaja" name_en="Isaiah">JES</book>
+      <book name_de="Jeremia" name_en="Jeremiah">JER</book>
+      <book name_de="Klagelieder" name_en="Lamentations">KLA</book>
+      <book name_de="Hesekiel" name_en="Ezekiel">HES</book>
+      <book name_de="Daniel" name_en="Daniel">DAN</book>
+      <book name_de="Hosea" name_en="Hosea">HOS</book>
+      <book name_de="Joel" name_en="Joel">JO</book>
+      <book name_de="Amos" name_en="Amos">AM</book>
+      <book name_de="Obadja" name_en="Obadiah">OB</book>
+      <book name_de="Jona" name_en="Jonah">JON</book>
+      <book name_de="Micha" name_en="Micah">MI</book>
+      <book name_de="Nahum" name_en="Nahum">NAH</book>
+      <book name_de="Habakuk" name_en="Habbakuk">HAB</book>
+      <book name_de="Zefanja" name_en="Zephaniah">ZEP</book>
+      <book name_de="Haggai" name_en="Haggai">HAG</book>
+      <book name_de="Sacharja" name_en="Zechariah">SACH</book>
+      <book name_de="Maleachi" name_en="Malachi">MAL</book>
+      <book name_de="Matthäus" name_en="Matthew">MT</book>
+      <book name_de="Markus" name_en="Mark">MK</book>
+      <book name_de="Lukas" name_en="Luke">LK</book>
+      <book name_de="Johannes" name_en="John">JOH</book>
+      <book name_de="Apostelgeschichte" name_en="Acts">APG</book>
+      <book name_de="Römer" name_en="Romans">RÖM</book>
+      <book name_de="1.Korinther" name_en="1 Corinthians">1KOR</book>
+      <book name_de="2.Korinther" name_en="2 Corinthians">2KOR</book>
+      <book name_de="Galater" name_en="Galatians">GAL</book>
+      <book name_de="Epheser" name_en="Ephesians">EPH</book>
+      <book name_de="Philipper" name_en="Philippians">PHIL</book>
+      <book name_de="Kolosser" name_en="Colossians">KOL</book>
+      <book name_de="1.Thessalonicher" name_en="1 Thessalonians">1THES</book>
+      <book name_de="2.Thessalonicher" name_en="2 Thessalonians">2THES</book>
+      <book name_de="1.Timotheus" name_en="1 Timothy">1TIM</book>
+      <book name_de="2.Timotheus" name_en="2 Timothy">2TIM</book>
+      <book name_de="Titus" name_en="Titus">TIT</book>
+      <book name_de="Philemon" name_en="Philemon">PHIM</book>
+      <book name_de="Hebräer" name_en="Hebrews">HEB</book>
+      <book name_de="Jakobus" name_en="James">JAK</book>
+      <book name_de="1.Petrus" name_en="1 Peter">1PET</book>
+      <book name_de="2.Petrus" name_en="2 Peter">2PET</book>
+      <book name_de="1.Johannes" name_en="1 John">1JOH</book>
+      <book name_de="2.Johannes" name_en="2 John">2JOH</book>
+      <book name_de="3.Johannes" name_en="3 John">3JOH</book>
+      <book name_de="Judas" name_en="Jude">JUD</book>
+      <book name_de="Offenbarung" name_en="Revelation">OFF</book>
+    </books>
+  </bibleserver>
+
+
+
+  <!-- ##############################################################
+       # Biblestudytools                                            #
+       ############################################################## -->
+  <bibleserver>
+    <name>Biblestudytools</name>
+    <url>https://www.biblestudytools.com/</url>
+    <chapterurl>{version}/{book}/{chapter}.html</chapterurl>
+    <books>
+      <book name_de="genesis" name_en="genesis">GEN</book>
+      <book name_de="exodus" name_en="exodus">EX</book>
+      <book name_de="levitikus" name_en="leviticus">LEV</book>
+      <book name_de="numeri" name_en="numbers">NUM</book>
+      <book name_de="deuternomium" name_en="deuteronomy">DTN</book>
+      <book name_de="josua" name_en="joshua">JOS</book>
+      <book name_de="richter" name_en="judges">RI</book>
+      <book name_de="rut" name_en="ruth">RT</book>
+      <book name_de="1-samuel" name_en="1-samuel">1SAM</book>
+      <book name_de="2-samuel" name_en="2-samuel">2SAM</book>
+      <book name_de="1-konige" name_en="1-kings">1KÖN</book>
+      <book name_de="2-konige" name_en="2-kings">2KÖN</book>
+      <book name_de="1-chronik" name_en="1-chronicles">1CHR</book>
+      <book name_de="2-chronik" name_en="2-chronicles">2CHR</book>
+      <book name_de="esra" name_en="ezra">ESR</book>
+      <book name_de="nehemia" name_en="nehemiah">NEH</book>
+      <book name_de="ester" name_en="esther">EST</book>
+      <book name_de="hiob" name_en="job">HI</book>
+      <book name_de="psalm" name_en="psalms">PS</book>
+      <book name_de="sprueche" name_en="proverbs">SPR</book>
+      <book name_de="prediger" name_en="ecclesiastes">PRD</book>
+      <book name_de="hohelied" name_en="song-of-solomon">HOH</book>
+      <book name_de="jesaja" name_en="isaiah">JES</book>
+      <book name_de="jeremia" name_en="jeremiah">JER</book>
+      <book name_de="klagelieder" name_en="lamentations">KLA</book>
+      <book name_de="hesekiel" name_en="ezekiel">HES</book>
+      <book name_de="daniel" name_en="daniel">DAN</book>
+      <book name_de="hosea" name_en="hosea">HOS</book>
+      <book name_de="joel" name_en="joel">JO</book>
+      <book name_de="amos" name_en="amos">AM</book>
+      <book name_de="obadja" name_en="obadiah">OB</book>
+      <book name_de="jona" name_en="jonah">JON</book>
+      <book name_de="mica" name_en="micah">MI</book>
+      <book name_de="nahum" name_en="nahum">NAH</book>
+      <book name_de="habakuk" name_en="habakkuk">HAB</book>
+      <book name_de="zephanja" name_en="zephaniah">ZEP</book>
+      <book name_de="haggai" name_en="haggai">HAG</book>
+      <book name_de="sacharja" name_en="zechariah">SACH</book>
+      <book name_de="maleachi" name_en="malachi">MAL</book>
+      <book name_de="matthaus" name_en="matthew">MT</book>
+      <book name_de="markus" name_en="mark">MK</book>
+      <book name_de="lukas" name_en="luke">LK</book>
+      <book name_de="johannes" name_en="john">JOH</book>
+      <book name_de="apostelgeschichte" name_en="acts">APG</book>
+      <book name_de="romer" name_en="romans">RÖM</book>
+      <book name_de="1-korinther" name_en="1-corinthians">1KOR</book>
+      <book name_de="2-korinther" name_en="2-corinthians">2KOR</book>
+      <book name_de="galater" name_en="galatians">GAL</book>
+      <book name_de="epheser" name_en="ephesians">EPH</book>
+      <book name_de="philipper" name_en="philippians">PHIL</book>
+      <book name_de="kolosser" name_en="colossians">KOL</book>
+      <book name_de="1-thessalonicher" name_en="1-thessalonians">1THES</book>
+      <book name_de="2-thessalonicher" name_en="2-thessalonians">2THES</book>
+      <book name_de="1-timotheus" name_en="1-timothy">1TIM</book>
+      <book name_de="2-timotheus" name_en="2-timothy">2TIM</book>
+      <book name_de="titus" name_en="titus">TIT</book>
+      <book name_de="philemon" name_en="philemon">PHIM</book>
+      <book name_de="hebraer" name_en="hebrews">HEB</book>
+      <book name_de="jakobus" name_en="james">JAK</book>
+      <book name_de="1-petrus" name_en="1-peter">1PET</book>
+      <book name_de="2-petrus" name_en="2-peter">2PET</book>
+      <book name_de="1-johannes" name_en="1-john">1JOH</book>
+      <book name_de="2-johannes" name_en="2-john">2JOH</book>
+      <book name_de="3-johannes" name_en="3-john">3JOH</book>
+      <book name_de="judas" name_en="jude">JUD</book>
+      <book name_de="offenbarung" name_en="revelation">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # CSV                                                        #
+       ############################################################## -->
+  <bibleserver>
+    <name>CSV</name>
+    <url>https://www.csv-bibel.de/</url>
+    <!-- There is no version in the chapter URL;  they only offer 1 version -->
+    <chapterurl>bibel/{book}-{chapter}</chapterurl>
+    <books>
+      <book name_de="1-mose">GEN</book>
+      <book name_de="2-mose">EX</book>
+      <book name_de="3-mose">LEV</book>
+      <book name_de="4-mose">NUM</book>
+      <book name_de="5-mose">DTN</book>
+      <book name_de="josua">JOS</book>
+      <book name_de="richter">RI</book>
+      <book name_de="ruth">RT</book>
+      <book name_de="1-samuel">1SAM</book>
+      <book name_de="2-samuel">2SAM</book>
+      <book name_de="1-koenige">1KÖN</book>
+      <book name_de="2-koenige">2KÖN</book>
+      <book name_de="1-chronika">1CHR</book>
+      <book name_de="2-chronika">2CHR</book>
+      <book name_de="esra">ESR</book>
+      <book name_de="nehemia">NEH</book>
+      <book name_de="esther">EST</book>
+      <book name_de="hiob">HI</book>
+      <book name_de="psalm">PS</book>
+      <book name_de="sprueche">SPR</book>
+      <book name_de="prediger">PRD</book>
+      <book name_de="hohelied">HOH</book>
+      <book name_de="jesaja">JES</book>
+      <book name_de="jeremia">JER</book>
+      <book name_de="klagelieder">KLA</book>
+      <book name_de="hesekiel">HES</book>
+      <book name_de="daniel">DAN</book>
+      <book name_de="hosea">HOS</book>
+      <book name_de="joel">JO</book>
+      <book name_de="amos">AM</book>
+      <book name_de="obadja">OB</book>
+      <book name_de="jona">JON</book>
+      <book name_de="micha">MI</book>
+      <book name_de="nahum">NAH</book>
+      <book name_de="habakuk">HAB</book>
+      <book name_de="zephanja">ZEP</book>
+      <book name_de="haggai">HAG</book>
+      <book name_de="sacharja">SACH</book>
+      <book name_de="maleachi">MAL</book>
+      <book name_de="matthaeus">MT</book>
+      <book name_de="markus">MK</book>
+      <book name_de="lukas">LK</book>
+      <book name_de="johannes">JOH</book>
+      <book name_de="apostelgeschichte">APG</book>
+      <book name_de="roemer">RÖM</book>
+      <book name_de="1-korinther">1KOR</book>
+      <book name_de="2-korinther">2KOR</book>
+      <book name_de="galater">GAL</book>
+      <book name_de="epheser">EPH</book>
+      <book name_de="philipper">PHIL</book>
+      <book name_de="kolosser">KOL</book>
+      <book name_de="1-thessalonicher">1THES</book>
+      <book name_de="2-thessalonicher">2THES</book>
+      <book name_de="1-timotheus">1TIM</book>
+      <book name_de="2-timotheus">2TIM</book>
+      <book name_de="titus">TIT</book>
+      <book name_de="philemon">PHIM</book>
+      <book name_de="hebraeer">HEB</book>
+      <book name_de="jakobus">JAK</book>
+      <book name_de="1-petrus">1PET</book>
+      <book name_de="2-petrus">2PET</book>
+      <book name_de="1-johannes">1JOH</book>
+      <book name_de="2-johannes">2JOH</book>
+      <book name_de="3-johannes">3JOH</book>
+      <book name_de="judas">JUD</book>
+      <book name_de="offenbarung">OFF</book>
+    </books>
+  </bibleserver>
+
+    <!-- ##############################################################
+         # DBG                                                        #
+         ############################################################## -->
+  <bibleserver>
+    <name>DBG</name>
+    <url>https://www.die-bibel.de/</url>
+    <chapterurl>bibel/{version}/{book}.{chapter}/</chapterurl>
+    <books>
+      <book name_de="GEN">GEN</book>
+      <book name_de="EXO">EX</book>
+      <book name_de="LEV">LEV</book>
+      <book name_de="NUM">NUM</book>
+      <book name_de="DEU">DTN</book>
+      <book name_de="JOS">JOS</book>
+      <book name_de="JDG">RI</book>
+      <book name_de="RUT">RT</book>
+      <book name_de="1SA">1SAM</book>
+      <book name_de="2SA">2SAM</book>
+      <book name_de="1KI">1KÖN</book>
+      <book name_de="2KI">2KÖN</book>
+      <book name_de="1CH">1CHR</book>
+      <book name_de="2CH">2CHR</book>
+      <book name_de="EZR">ESR</book>
+      <book name_de="NEH">NEH</book>
+      <book name_de="EST">EST</book>
+      <book name_de="JOB">HI</book>
+      <book name_de="PSA">PS</book>
+      <book name_de="PRO">SPR</book>
+      <book name_de="ECC">PRD</book>
+      <book name_de="SNG">HOH</book>
+      <book name_de="ISA">JES</book>
+      <book name_de="JER">JER</book>
+      <book name_de="LAM">KLA</book>
+      <book name_de="EZK">HES</book>
+      <book name_de="DAN">DAN</book>
+      <book name_de="HOS">HOS</book>
+      <book name_de="JOL">JO</book>
+      <book name_de="AMO">AM</book>
+      <book name_de="OBA">OB</book>
+      <book name_de="JON">JON</book>
+      <book name_de="MIC">MI</book>
+      <book name_de="NAM">NAH</book>
+      <book name_de="HAB">HAB</book>
+      <book name_de="ZEP">ZEP</book>
+      <book name_de="HAG">HAG</book>
+      <book name_de="ZEC">SACH</book>
+      <book name_de="MAL">MAL</book>
+      <book name_de="MAT">MT</book>
+      <book name_de="MRK">MK</book>
+      <book name_de="LUK">LK</book>
+      <book name_de="JHN">JOH</book>
+      <book name_de="ACT">APG</book>
+      <book name_de="ROM">RÖM</book>
+      <book name_de="1CO">1KOR</book>
+      <book name_de="2CO">2KOR</book>
+      <book name_de="GAL">GAL</book>
+      <book name_de="EPH">EPH</book>
+      <book name_de="PHP">PHIL</book>
+      <book name_de="COL">KOL</book>
+      <book name_de="1TH">1THES</book>
+      <book name_de="2TH">2THES</book>
+      <book name_de="1TI">1TIM</book>
+      <book name_de="2TI">2TIM</book>
+      <book name_de="TIT">TIT</book>
+      <book name_de="PHM">PHIM</book>
+      <book name_de="HEB">HEB</book>
+      <book name_de="JAS">JAK</book>
+      <book name_de="1PE">1PET</book>
+      <book name_de="2PE">2PET</book>
+      <book name_de="1JN">1JOH</book>
+      <book name_de="2JN">2JOH</book>
+      <book name_de="3JN">3JOH</book>
+      <book name_de="JUD">JUD</book>
+      <book name_de="REV">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Ebible                                                     #
+       ############################################################## -->
+
+  <!-- EBIBLE is not reliable. In BBE they sometimes use different tags ('q' instead of 'p'),
+  In TFT they use different tags than in "deuelo" AKA ELB1905! Even 'q' and 'q2'!
+  Use this server for ELB1905 only!
+  -->
+  <bibleserver>
+    <name>Ebible</name>
+    <url>https://ebible.org/</url>
+    <!-- Careful: They use leading zeros for the chapter. Usually 2 digits, but 3 in Psalms!-->
+    <chapterurl>{version}/{book}{chapter}.htm</chapterurl>
+    <books>
+      <book name_de="GEN">GEN</book>
+      <book name_de="EXO">EX</book>
+      <book name_de="LEV">LEV</book>
+      <book name_de="NUM">NUM</book>
+      <book name_de="DEU">DTN</book>
+      <book name_de="JOS">JOS</book>
+      <book name_de="JDG">RI</book>
+      <book name_de="RUT">RT</book>
+      <book name_de="1SA">1SAM</book>
+      <book name_de="2SA">2SAM</book>
+      <book name_de="1KI">1KÖN</book>
+      <book name_de="2KI">2KÖN</book>
+      <book name_de="1CH">1CHR</book>
+      <book name_de="2CH">2CHR</book>
+      <book name_de="EZR">ESR</book>
+      <book name_de="NEH">NEH</book>
+      <book name_de="EST">EST</book>
+      <book name_de="JOB">HI</book>
+      <book name_de="PSA">PS</book>
+      <book name_de="PRO">SPR</book>
+      <book name_de="ECC">PRD</book>
+      <book name_de="SNG">HOH</book>
+      <book name_de="ISA">JES</book>
+      <book name_de="JER">JER</book>
+      <book name_de="LAM">KLA</book>
+      <book name_de="EZK">HES</book>
+      <book name_de="DAN">DAN</book>
+      <book name_de="HOS">HOS</book>
+      <book name_de="JOL">JO</book>
+      <book name_de="AMO">AM</book>
+      <book name_de="OBA">OB</book>
+      <book name_de="JON">JON</book>
+      <book name_de="MIC">MI</book>
+      <book name_de="NAM">NAH</book>
+      <book name_de="HAB">HAB</book>
+      <book name_de="ZEP">ZEP</book>
+      <book name_de="HAG">HAG</book>
+      <book name_de="ZEC">SACH</book>
+      <book name_de="MAL">MAL</book>
+      <book name_de="MAT">MT</book>
+      <book name_de="MRK">MK</book>
+      <book name_de="LUK">LK</book>
+      <book name_de="JHN">JOH</book>
+      <book name_de="ACT">APG</book>
+      <book name_de="ROM">RÖM</book>
+      <book name_de="1CO">1KOR</book>
+      <book name_de="2CO">2KOR</book>
+      <book name_de="GAL">GAL</book>
+      <book name_de="EPH">EPH</book>
+      <book name_de="PHP">PHIL</book>
+      <book name_de="COL">KOL</book>
+      <book name_de="1TH">1THES</book>
+      <book name_de="2TH">2THES</book>
+      <book name_de="1TI">1TIM</book>
+      <book name_de="2TI">2TIM</book>
+      <book name_de="TIT">TIT</book>
+      <book name_de="PHM">PHIM</book>
+      <book name_de="HEB">HEB</book>
+      <book name_de="JAS">JAK</book>
+      <book name_de="1PE">1PET</book>
+      <book name_de="2PE">2PET</book>
+      <book name_de="1JN">1JOH</book>
+      <book name_de="2JN">2JOH</book>
+      <book name_de="3JN">3JOH</book>
+      <book name_de="JUD">JUD</book>
+      <book name_de="REV">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Github                                                     #
+       ############################################################## -->
+  <bibleserver>
+    <name>Github</name>
+    <url>https://bibel.github.io/</url>
+    <!-- Nonsensically, they include "ot" or "nt" -->
+    <chapterurl>{version}/{testament}/{book}_{chapter}.html</chapterurl>
+    <books>
+      <!--
+      The "English" names are not used for English versions, though - they use one set of (German) abbreviations
+      for JAN, and another set of (English) abbreviations for LEONA and LEORP. Even worse: For VBGR and VBSCH they
+      use still another set!!
+      Currently, only the VBs have the OT
+      -->
+      <book name_de="Gen">GEN</book>
+      <book name_de="Ex">EX</book>
+      <book name_de="Lev">LEV</book>
+      <book name_de="Num">NUM</book>
+      <book name_de="Dtn">DTN</book>
+      <book name_de="Jos">JOS</book>
+      <book name_de="Ri">RI</book>
+      <book name_de="Rut">RT</book>
+      <book name_de="1Sam">1SAM</book>
+      <book name_de="2Sam">2SAM</book>
+      <book name_de="1Kön">1KÖN</book>
+      <book name_de="2Kön">2KÖN</book>
+      <book name_de="1Chr">1CHR</book>
+      <book name_de="2Chr">2CHR</book>
+      <book name_de="Esra">ESR</book>
+      <book name_de="Neh">NEH</book>
+      <book name_de="Est">EST</book>
+      <book name_de="Ijob">HI</book>
+      <book name_de="Ps">PS</book>
+      <book name_de="Spr">SPR</book>
+      <book name_de="Koh">PRD</book>
+      <book name_de="Hld">HOH</book>
+      <book name_de="Jes">JES</book>
+      <book name_de="Jer">JER</book>
+      <book name_de="Klgl">KLA</book>
+      <book name_de="Ez">HES</book>
+      <book name_de="Dan">DAN</book>
+      <book name_de="Hos">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obd">OB</book>
+      <book name_de="Jona">JON</book>
+      <book name_de="Mi">MI</book>
+      <book name_de="Nah">NAH</book>
+      <book name_de="Hab">HAB</book>
+      <book name_de="Zef">ZEP</book>
+      <book name_de="Hag">HAG</book>
+      <book name_de="Sach">SACH</book>
+      <book name_de="Mal">MAL</book>
+      <!--
+      They all have the NT, with chaotic sets as described above!
+      Col. 1: internal
+      Col. 2: JAN
+      Col. 3: LEO
+      Col. 4: VB
+      -->
+      <book name_de="Mt" name_en="Matt" name_extra="Mt">MT</book>
+      <book name_de="Mk" name_en="Mark" name_extra="Mk">MK</book>
+      <book name_de="Lk" name_en="Luke" name_extra="Lk">LK</book>
+      <book name_de="Jh" name_en="John" name_extra="Joh">JOH</book>
+      <book name_de="Ag" name_en="Acts" name_extra="Apg">APG</book>
+      <book name_de="Rm" name_en="Rom" name_extra="Röm">RÖM</book>
+      <book name_de="1Kr" name_en="1Cor" name_extra="1Kor">1KOR</book>
+      <book name_de="2Kr" name_en="2Cor" name_extra="2Kor">2KOR</book>
+      <book name_de="Ga" name_en="Gal" name_extra="Gal">GAL</book>
+      <book name_de="Eph" name_en="Eph" name_extra="Eph">EPH</book>
+      <book name_de="Php" name_en="Phil" name_extra="Phil">PHIL</book>
+      <book name_de="Kol" name_en="Col" name_extra="Kol">KOL</book>
+      <book name_de="1Th" name_en="1Thess" name_extra="1Thess">1THES</book>
+      <book name_de="2Th" name_en="2Thess" name_extra="2Thess">2THES</book>
+      <book name_de="1Tm" name_en="1Tim" name_extra="1Tim">1TIM</book>
+      <book name_de="2Tm" name_en="2Tim" name_extra="2Tim">2TIM</book>
+      <book name_de="Tt" name_en="Titus" name_extra="Tit">TIT</book>
+      <book name_de="Phm" name_en="Phlm" name_extra="Phlm">PHIM</book>
+      <book name_de="Heb" name_en="Heb" name_extra="Hebr">HEB</book>
+      <book name_de="Jk" name_en="Jas" name_extra="Jak">JAK</book>
+      <book name_de="1P" name_en="1Pet" name_extra="1Petr">1PET</book>
+      <book name_de="2P" name_en="2Pet" name_extra="2Petr">2PET</book>
+      <book name_de="1Jh" name_en="1John" name_extra="1Joh">1JOH</book>
+      <book name_de="2Jh" name_en="2John" name_extra="2Joh">2JOH</book>
+      <book name_de="3Jh" name_en="3John" name_extra="3Joh">3JOH</book>
+      <book name_de="Jud" name_en="Jude" name_extra="Jud">JUD</book>
+      <book name_de="Off" name_en="Rev" name_extra="Offb">OFF</book>
+    </books>
+  </bibleserver>
+
+    <!-- ##############################################################
+         # Gratisbible                                                #
+         ############################################################## -->
+
+  <!-- CAUTION: All 1-chapter books are missing, so this server should only be used when the desired version
+  is not available on any other server -->
+
+  <bibleserver>
+    <name>Gratisbible</name>
+    <url>https://gratis.bible/</url>
+    <!-- https://gratis.bible/en/wycliffe/gen/1/ -->
+    <chapterurl>{la}/{version}/{book}/{chapter}/</chapterurl>
+    <books>
+      <book name_de="gen">GEN</book>
+      <book name_de="exod">EX</book>
+      <book name_de="lev">LEV</book>
+      <book name_de="num">NUM</book>
+      <book name_de="deut">DTN</book>
+      <book name_de="josh">JOS</book>
+      <book name_de="judg">RI</book>
+      <book name_de="ruth">RT</book>
+      <book name_de="1sam">1SAM</book>
+      <book name_de="2sam">2SAM</book>
+      <book name_de="1kgs">1KÖN</book>
+      <book name_de="2kgs">2KÖN</book>
+      <book name_de="1chr">1CHR</book>
+      <book name_de="2chr">2CHR</book>
+      <book name_de="ezra">ESR</book>
+      <book name_de="neh">NEH</book>
+      <book name_de="esth">EST</book>
+      <book name_de="job">HI</book>
+      <book name_de="ps">PS</book>
+      <book name_de="prov">SPR</book>
+      <book name_de="eccl">PRD</book>
+      <book name_de="song">HOH</book>
+      <book name_de="isa">JES</book>
+      <book name_de="jer">JER</book>
+      <book name_de="lam">KLA</book>
+      <book name_de="ezek">HES</book>
+      <book name_de="dan">DAN</book>
+      <book name_de="hos">HOS</book>
+      <book name_de="joel">JO</book>
+      <book name_de="amos">AM</book>
+      <book name_de="obad">OB</book>
+      <book name_de="jonah">JON</book>
+      <book name_de="mic">MI</book>
+      <book name_de="nah">NAH</book>
+      <book name_de="hab">HAB</book>
+      <book name_de="zeph">ZEP</book>
+      <book name_de="hag">HAG</book>
+      <book name_de="zech">SACH</book>
+      <book name_de="mal">MAL</book>
+      <book name_de="matt">MT</book>
+      <book name_de="mark">MK</book>
+      <book name_de="luke">LK</book>
+      <book name_de="john">JOH</book>
+      <book name_de="acts">APG</book>
+      <book name_de="rom">RÖM</book>
+      <book name_de="1cor">1KOR</book>
+      <book name_de="2cor">2KOR</book>
+      <book name_de="gal">GAL</book>
+      <book name_de="eph">EPH</book>
+      <book name_de="phil">PHIL</book>
+      <book name_de="col">KOL</book>
+      <book name_de="1thess">1THES</book>
+      <book name_de="2thess">2THES</book>
+      <book name_de="1tim">1TIM</book>
+      <book name_de="2tim">2TIM</book>
+      <book name_de="titus">TIT</book>
+      <book name_de="phlm">PHIM</book>
+      <book name_de="heb">HEB</book>
+      <book name_de="jas">JAK</book>
+      <book name_de="1pet">1PET</book>
+      <book name_de="2pet">2PET</book>
+      <book name_de="1john">1JOH</book>
+      <book name_de="2john">2JOH</book>
+      <book name_de="3john">3JOH</book>
+      <book name_de="jude">JUD</book>
+      <book name_de="rev">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # KnowingJesus                                               #
+       ############################################################## -->
+  <bibleserver>
+    <name>KnowingJesus</name>
+    <url>https://bible.knowing-jesus.com/</url>
+    <!-- Ephesians/2/type/anderson -->
+    <chapterurl>{book}/{chapter}/type/{version}</chapterurl>
+    <books>
+      <book name_de="Genesis">GEN</book>
+      <book name_de="Exodus">EX</book>
+      <book name_de="Leviticus">LEV</book>
+      <book name_de="Numbers">NUM</book>
+      <book name_de="Deuteronomy">DTN</book>
+      <book name_de="Joshua">JOS</book>
+      <book name_de="Judges">RI</book>
+      <book name_de="Ruth">RT</book>
+      <book name_de="1-Samuel">1SAM</book>
+      <book name_de="2-Samuel">2SAM</book>
+      <book name_de="1-Kings">1KÖN</book>
+      <book name_de="2-Kings">2KÖN</book>
+      <book name_de="1-Chronicles">1CHR</book>
+      <book name_de="2-Chronicles">2CHR</book>
+      <book name_de="Ezra">ESR</book>
+      <book name_de="Nehemiah">NEH</book>
+      <book name_de="Esther">EST</book>
+      <book name_de="Job">HI</book>
+      <book name_de="Psalms">PS</book>
+      <book name_de="Proverbs">SPR</book>
+      <book name_de="Ecclesiastes">PRD</book>
+      <book name_de="Song">HOH</book>
+      <book name_de="Isaiah">JES</book>
+      <book name_de="Jeremiah">JER</book>
+      <book name_de="Lamentations">KLA</book>
+      <book name_de="Ezekiel">HES</book>
+      <book name_de="Daniel">DAN</book>
+      <book name_de="Hosea">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obadiah">OB</book>
+      <book name_de="Jonah">JON</book>
+      <book name_de="Micah">MI</book>
+      <book name_de="Nahum">NAH</book>
+      <book name_de="Habakkuk">HAB</book>
+      <book name_de="Zephaniah">ZEP</book>
+      <book name_de="Haggai">HAG</book>
+      <book name_de="Zechariah">SACH</book>
+      <book name_de="Malachi">MAL</book>
+      <book name_de="Matthew">MT</book>
+      <book name_de="Mark">MK</book>
+      <book name_de="Luke">LK</book>
+      <book name_de="John">JOH</book>
+      <book name_de="Acts">APG</book>
+      <book name_de="Romans">RÖM</book>
+      <book name_de="1-Corinthians">1KOR</book>
+      <book name_de="2-Corinthians">2KOR</book>
+      <book name_de="Galatians">GAL</book>
+      <book name_de="Ephesians">EPH</book>
+      <book name_de="Philippians">PHIL</book>
+      <book name_de="Colossians">KOL</book>
+      <book name_de="1-Thessalonians">1THES</book>
+      <book name_de="2-Thessalonians">2THES</book>
+      <book name_de="1-Timothy">1TIM</book>
+      <book name_de="2-Timothy">2TIM</book>
+      <book name_de="Titus">TIT</book>
+      <book name_de="Philemon">PHIM</book>
+      <book name_de="Hebrews">HEB</book>
+      <book name_de="James">JAK</book>
+      <book name_de="1-Peter">1PET</book>
+      <book name_de="2-Peter">2PET</book>
+      <book name_de="1-John">1JOH</book>
+      <book name_de="2-John">2JOH</book>
+      <book name_de="3-John">3JOH</book>
+      <book name_de="Jude">JUD</book>
+      <book name_de="Revelation">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # NOCR                                                       #
+       # Novum Organum Christianum Reformandum                      #
+       ############################################################## -->
+  <!-- They reject scrapers, but they can be fooled by headers -->
+  <bibleserver>
+    <name>NOCR</name>
+    <url>https://nocr.net/</url>
+    <!-- hbm/english/engbib/index.php/Ge/1 -->
+    <chapterurl>hbm/{language}/{version}/index.php/{book}/{chapter}</chapterurl>
+    <books>
+      <book name_de="Ge">GEN</book>
+      <book name_de="Ex">EX</book>
+      <book name_de="Le">LEV</book>
+      <book name_de="Nu">NUM</book>
+      <book name_de="De">DTN</book>
+      <book name_de="Jos">JOS</book>
+      <book name_de="Jud">RI</book>
+      <book name_de="Ru">RT</book>
+      <book name_de="1Sa">1SAM</book>
+      <book name_de="2Sa">2SAM</book>
+      <book name_de="1Ki">1KÖN</book>
+      <book name_de="2Ki">2KÖN</book>
+      <book name_de="1Ch">1CHR</book>
+      <book name_de="2Ch">2CHR</book>
+      <book name_de="Ezr">ESR</book>
+      <book name_de="Ne">NEH</book>
+      <book name_de="Es">EST</book>
+      <book name_de="Job">HI</book>
+      <book name_de="Ps">PS</book>
+      <book name_de="Pr">SPR</book>
+      <book name_de="Ec">PRD</book>
+      <book name_de="So">HOH</book>
+      <book name_de="Isa">JES</book>
+      <book name_de="Jer">JER</book>
+      <book name_de="La">KLA</book>
+      <book name_de="Eze">HES</book>
+      <book name_de="Da">DAN</book>
+      <book name_de="Ho">HOS</book>
+      <book name_de="Joe">JO</book>
+      <book name_de="Am">AM</book>
+      <book name_de="Ob">OB</book>
+      <book name_de="Jon">JON</book>
+      <book name_de="Mic">MI</book>
+      <book name_de="Na">NAH</book>
+      <book name_de="Hab">HAB</book>
+      <book name_de="Zep">ZEP</book>
+      <book name_de="Hag">HAG</book>
+      <book name_de="Zec">SACH</book>
+      <book name_de="Mal">MAL</book>
+      <book name_de="Mt">MT</book>
+      <book name_de="Mr">MK</book>
+      <book name_de="Lu">LK</book>
+      <book name_de="Joh">JOH</book>
+      <book name_de="Ac">APG</book>
+      <book name_de="Ro">RÖM</book>
+      <book name_de="1Co">1KOR</book>
+      <book name_de="2Co">2KOR</book>
+      <book name_de="Ga">GAL</book>
+      <book name_de="Eph">EPH</book>
+      <book name_de="Php">PHIL</book>
+      <book name_de="Col">KOL</book>
+      <book name_de="1Th">1THES</book>
+      <book name_de="2Th">2THES</book>
+      <book name_de="1Ti">1TIM</book>
+      <book name_de="2Ti">2TIM</book>
+      <book name_de="Tit">TIT</book>
+      <book name_de="Phm">PHIM</book>
+      <book name_de="Heb">HEB</book>
+      <book name_de="Jas">JAK</book>
+      <book name_de="1Pe">1PET</book>
+      <book name_de="2Pe">2PET</book>
+      <book name_de="1Jo">1JOH</book>
+      <book name_de="2Jo">2JOH</book>
+      <book name_de="3Jo">3JOH</book>
+      <book name_de="Jude">JUD</book>
+      <book name_de="Re">OFF</book>
+    </books>
+  </bibleserver>
+
+    <!-- ##############################################################
+         # Obohu                                                      #
+         # Czech "O Bohu" = "About God"                               #
+         ############################################################## -->
+  <bibleserver>
+    <name>Obohu</name>
+    <url>https://www.obohu.cz/</url>
+    <!-- bible/index.php?k=Mt&kap=1&styl=ELBU-->
+    <chapterurl>bible/index.php?k={book}&amp;kap={chapter}&amp;styl={version}</chapterurl>
+    <books>
+      <book name_de="Gn">GEN</book>
+      <book name_de="Ex">EX</book>
+      <book name_de="Lv">LEV</book>
+      <book name_de="Nu">NUM</book>
+      <book name_de="Dt">DTN</book>
+      <book name_de="Joz">JOS</book>
+      <book name_de="Sd">RI</book>
+      <book name_de="Rt">RT</book>
+      <book name_de="1S">1SAM</book>
+      <book name_de="2S">2SAM</book>
+      <book name_de="1Kr">1KÖN</book>
+      <book name_de="2Kr">2KÖN</book>
+      <book name_de="1Pa">1CHR</book>
+      <book name_de="2Pa">2CHR</book>
+      <book name_de="Ezd">ESR</book>
+      <book name_de="Neh">NEH</book>
+      <book name_de="Est">EST</book>
+      <book name_de="Jb">HI</book>
+      <book name_de="Z">PS</book>
+      <book name_de="Pr">SPR</book>
+      <book name_de="Ka">PRD</book>
+      <book name_de="Pis">HOH</book>
+      <book name_de="Iz">JES</book>
+      <book name_de="Jr">JER</book>
+      <book name_de="Pl">KLA</book>
+      <book name_de="Ez">HES</book>
+      <book name_de="Da">DAN</book>
+      <book name_de="Oz">HOS</book>
+      <book name_de="Jl">JO</book>
+      <book name_de="Am">AM</book>
+      <book name_de="Abd">OB</book>
+      <book name_de="Jon">JON</book>
+      <book name_de="Mi">MI</book>
+      <book name_de="Na">NAH</book>
+      <book name_de="Ab">HAB</book>
+      <book name_de="Sf">ZEP</book>
+      <book name_de="Ag">HAG</book>
+      <book name_de="Za">SACH</book>
+      <book name_de="Mal">MAL</book>
+      <book name_de="Mt">MT</book>
+      <book name_de="Mk">MK</book>
+      <book name_de="L">LK</book>
+      <book name_de="J">JOH</book>
+      <book name_de="Sk">APG</book>
+      <book name_de="R">RÖM</book>
+      <book name_de="1K">1KOR</book>
+      <book name_de="2K">2KOR</book>
+      <book name_de="Ga">GAL</book>
+      <book name_de="Ef">EPH</book>
+      <book name_de="Fp">PHIL</book>
+      <book name_de="Ko">KOL</book>
+      <book name_de="1Te">1THES</book>
+      <book name_de="2Te">2THES</book>
+      <book name_de="1Tm">1TIM</book>
+      <book name_de="2Tm">2TIM</book>
+      <book name_de="Tit">TIT</book>
+      <book name_de="Fm">PHIM</book>
+      <book name_de="Zd">HEB</book>
+      <book name_de="Jk">JAK</book>
+      <book name_de="1P">1PET</book>
+      <book name_de="2P">2PET</book>
+      <book name_de="1J">1JOH</book>
+      <book name_de="2J">2JOH</book>
+      <book name_de="3J">3JOH</book>
+      <book name_de="Ju">JUD</book>
+      <book name_de="Zj">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Studybible                                                 #
+       #                                                            #
+       # This server is quite slow - only use if the versions are   #
+       # not available elsewhere                                    #
+       ############################################################## -->
+
+  <bibleserver>
+    <name>Studybible</name>
+    <url>https://studybible.info/</url>
+    <!-- ECB/Isaiah%2061 -->
+    <chapterurl>{version}/{book}%20{chapter}</chapterurl>
+    <books>
+      <book name_de="Genesis">GEN</book>
+      <book name_de="Exodus">EX</book>
+      <book name_de="Leviticus">LEV</book>
+      <book name_de="Numbers">NUM</book>
+      <book name_de="Deuteronomy">DTN</book>
+      <book name_de="Joshua">JOS</book>
+      <book name_de="Judges">RI</book>
+      <book name_de="Ruth">RT</book>
+      <book name_de="1 Samuel">1SAM</book>
+      <book name_de="2 Samuel">2SAM</book>
+      <book name_de="1 Kings">1KÖN</book>
+      <book name_de="2 Kings">2KÖN</book>
+      <book name_de="1 Chronicles">1CHR</book>
+      <book name_de="2 Chronicles">2CHR</book>
+      <book name_de="Ezra">ESR</book>
+      <book name_de="Nehemiah">NEH</book>
+      <book name_de="Esther">EST</book>
+      <book name_de="Job">HI</book>
+      <book name_de="Psalms">PS</book>
+      <book name_de="Proverbs">SPR</book>
+      <book name_de="Ecclesiastes">PRD</book>
+      <book name_de="Song of Songs">HOH</book>
+      <book name_de="Isaiah">JES</book>
+      <book name_de="Jeremiah">JER</book>
+      <book name_de="Lamentations">KLA</book>
+      <book name_de="Ezekiel">HES</book>
+      <book name_de="Daniel">DAN</book>
+      <book name_de="Hosea">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obadiah">OB</book>
+      <book name_de="Jonah">JON</book>
+      <book name_de="Micah">MI</book>
+      <book name_de="Nahum">NAH</book>
+      <book name_de="Habakkuk">HAB</book>
+      <book name_de="Zephaniah">ZEP</book>
+      <book name_de="Haggai">HAG</book>
+      <book name_de="Zechariah">SACH</book>
+      <book name_de="Malachi">MAL</book>
+      <book name_de="mt">MT</book>
+      <book name_de="mk">MK</book>
+      <book name_de="lk">LK</book>
+      <book name_de="jn">JOH</book>
+      <book name_de="Acts">APG</book>
+      <book name_de="Romans">RÖM</book>
+      <book name_de="1 Corinthians">1KOR</book>
+      <book name_de="2 Corinthians">2KOR</book>
+      <book name_de="Galatians">GAL</book>
+      <book name_de="Ephesians">EPH</book>
+      <book name_de="Philippians">PHIL</book>
+      <book name_de="Colossians">KOL</book>
+      <book name_de="1 Thessalonians">1THES</book>
+      <book name_de="2 Thessalonians">2THES</book>
+      <book name_de="1 Timothy">1TIM</book>
+      <book name_de="2 Timothy">2TIM</book>
+      <book name_de="Titus">TIT</book>
+      <book name_de="Philemon">PHIM</book>
+      <book name_de="Hebrews">HEB</book>
+      <book name_de="James">JAK</book>
+      <book name_de="1 Peter">1PET</book>
+      <book name_de="2 Peter">2PET</book>
+      <book name_de="1 John">1JOH</book>
+      <book name_de="2 John">2JOH</book>
+      <book name_de="3 John">3JOH</book>
+      <book name_de="Jude">JUD</book>
+      <book name_de="Revelation">OFF</book>
+    </books>
+  </bibleserver>
+
+    <!-- ##############################################################
+         # UMich                                                      #
+         ##############################################################
+  The only interesting version they offer is L1984, which can be obtained elsewhere;
+  not necessary to implement for the moment
+  <bibleserver>
+    <name>UMich</name>
+    The URL contains an '&'; this must be represented by '&amp;'
+    <url>https://quod.lib.umich.edu/cgi/l/luther/luther-idx?type=DIV2&amp;byte=</url>
+    <books>
+      These jokers use a byte count to identify the books - one change and everything is in ruins!!
+      Should they in future offer other interesting versions, it would be necessary to define a server for each of
+      them due to the idiotic bytecount for the books
+      <book name_de="2160">GEN</book>
+      <book name_de="235385">EX</book>
+      <book name_de="425041">LEV</book>
+      <book name_de="565595">NUM</book>
+      <book name_de="754023">DTN</book>
+      <book name_de="923183">JOS</book>
+      <book name_de="1033359">RI</book>
+      <book name_de="1145708">RT</book>
+      <book name_de="1161097">1SAM</book>
+      <book name_de="1311648">2SAM</book>
+      <book name_de="1436583">1KÖN</book>
+      <book name_de="1581099">2KÖN</book>
+      <book name_de="1720981">1CHR</book>
+      <book name_de="1851041">2CHR</book>
+      <book name_de="2009816">ESR</book>
+      <book name_de="2054864">NEH</book>
+      <book name_de="2119905">EST</book>
+      <book name_de="2154591">HI</book>
+      <book name_de="2278658">PS</book>
+      <book name_de="2573137">SPR</book>
+      <book name_de="2675958">PRD</book>
+      <book name_de="2710893">HOH</book>
+      <book name_de="2728266">JES</book>
+      <book name_de="2959208">JER</book>
+      <book name_de="3218599">KLA</book>
+      <book name_de="3241010">HES</book>
+      <book name_de="3477456">DAN</book>
+      <book name_de="3548540">HOS</book>
+      <book name_de="3582215">JO</book>
+      <book name_de="3594742">AM</book>
+      <book name_de="3621449">OB</book>
+      <book name_de="3625541">JON</book>
+      <book name_de="3633780">MI</book>
+      <book name_de="3653076">NAH</book>
+      <book name_de="3661334">HAB</book>
+      <book name_de="3670902">ZEP</book>
+      <book name_de="3680721">HAG</book>
+      <book name_de="3687785">SACH</book>
+      <book name_de="3726699">MAL</book>
+      <book name_de="3738047">MT</book>
+      <book name_de="3899067">MK</book>
+      <book name_de="4000331">LK</book>
+      <book name_de="4172255">JOH</book>
+      <book name_de="4296982">APG</book>
+      <book name_de="4456364">RÖM</book>
+      <book name_de="4524300">1KOR</book>
+      <book name_de="4589434">2KOR</book>
+      <book name_de="4631681">GAL</book>
+      <book name_de="4653731">EPH</book>
+      <book name_de="4674909">PHIL</book>
+      <book name_de="4690194">KOL</book>
+      <book name_de="4703889">1THES</book>
+      <book name_de="4717169">2THES</book>
+      <book name_de="4724504">1TIM</book>
+      <book name_de="4741335">2TIM</book>
+      <book name_de="4753286">TIT</book>
+      <book name_de="4760260">PHIM</book>
+      <book name_de="4763412">HEB</book>
+      <book name_de="4812018">JAK</book>
+      <book name_de="4828106">1PET</book>
+      <book name_de="4845206">2PET</book>
+      <book name_de="4856128">1JOH</book>
+      <book name_de="4872609">2JOH</book>
+      <book name_de="4874714">3JOH</book>
+      <book name_de="4876917">JUD</book>
+      <book name_de="4881348">OFF</book>
+    </books>
+  </bibleserver>
+-->
+</bibleservers>

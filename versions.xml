@@ -1,0 +1,2749 @@
+<!--
+
+Tags:
+
+  name            internal abbreviation (according to Bibles.odt)
+  servername      name of this version on the server
+  language        HE, GR, DE, EN
+  content         FB (full bible), NT, OT
+                  provide only a few books)
+  extracontent    for NTs that also have psalms etc.; internal book names
+  server          server that hosts this version; must be defined in servers.xml
+
+  Make sure that the versions are grouped by language!
+
+-->
+
+<versions>
+
+    <!-- ##############################################################
+         # Original texts                                             #
+         ############################################################## -->
+  <!-- -->
+
+  <!-- Interesting, but not necessary for normal use
+  <version>
+    <name>AL</name>
+    <servername>hebalp</servername>
+    <language>HE</language>
+    <content>OT</content>
+    <server>NOCR</server>
+    <fullname>Codex Aleppo</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>BHS</name>
+    <servername>BHS</servername>
+    <language>HE</language>
+    <content>OT</content>
+    <server>DBG</server>
+    <fullname>Biblia Hebraica Stuttgartensia</fullname>
+  </version>
+
+  <!-- Interesting, but not necessary for normal use
+  <version>
+    <name>LXXR</name>
+    <servername>grklxt</servername>
+    <language>GR</language>
+    <content>OT</content>
+    <server>NOCR</server>
+    <fullname>Septuaginta Alfred Rahlfs</fullname>
+  </version>
+  -->
+
+  <!--
+  <version>
+    <name>LXXRH</name>
+    <servername>LXX</servername>
+    <language>GR</language>
+    <content>OT</content>
+    <server>DBG</server>
+    <fullname>Septuaginta Alfred Rahlfs, Robert Hanhart</fullname>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>LXXRH</name>
+    <servername>grklxxrh</servername>
+    <language>GR</language>
+    <content>OT</content>
+    <server>NOCR</server>
+    <fullname>Septuaginta Alfred Rahlfs, Robert Hanhart</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>LXX</name>
+    <servername>LXX</servername>
+    <language>GR</language>
+    <content>OT</content>
+    <server>DBG</server>
+    <fullname>Septuaginta</fullname>
+  </version>
+
+  <!-- Greek New Testament
+  The editions are ordered by year
+  -->
+
+  <!-- Interesting, but not necessary for normal use
+  <version>
+    <name>SIN</name>
+    <servername>SIN</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Codex Sinaiticus</fullname>
+    <year>400</year>
+  </version>
+
+  <version>
+    <name>VAT</name>
+    <servername>VAT</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Codex Vaticanus</fullname>
+    <year>401</year>
+  </version>
+
+  <version>
+    <name>STE</name>
+    <servername>TR1550</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Stephanus TR</fullname>
+    <year>1550</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>BEZ</name>
+    <servername>BEZA</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Beza TR</fullname>
+    <year>1598</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>ELZ</name>
+    <servername>grkelzevir</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Elzevir TR</fullname>
+    <year>1624</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>TISCH</name>
+    <servername>grktisa</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Tischendorf</fullname>
+    <year>1872</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>TRE</name>
+    <servername>Tregelles</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Samuel Prideaux Tregelles Greek New Testament</fullname>
+    <year>1879</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>WH</name>
+    <servername>WHNU</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Westcott-Hort</fullname>
+    <year>1881</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>SCR</name>
+    <servername>TR1894</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Scrivener</fullname>
+    <year>1894</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>BYZ</name>
+    <servername>grkbyza</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Byzantine/Majority Text</fullname>
+    <year>2000</year>
+  </version>
+  -->
+
+  <version>
+    <name>SBL</name>
+    <servername>SBLGNT</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Society of Biblical Literature Greek NT</fullname>
+    <year>2010</year>
+  </version>
+
+  <!-- Interesting, but not necessary for normal use
+  <version>
+    <name>TH</name>
+    <servername>THGNT</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Tyndale House Greek NT</fullname>
+    <year>2017</year>
+  </version>
+
+  <version>
+    <name>UBS3</name>
+    <servername>UBS3</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Greek New Testament 3</fullname>
+  </version>
+
+  <version>
+    <name>UBS4</name>
+    <servername>grkgnt</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Greek New Testament 4</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>UBS5</name>
+    <servername>UBS5</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>DBG</server>
+    <fullname>Greek New Testament 5</fullname>
+  </version>
+
+  <!-- Interesting, but not necessary for normal use
+  <version>
+    <name>NA26</name>
+    <servername>grkna26</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Nestle-Aland 26</fullname>
+  </version>
+
+  <version>
+    <name>NA27</name>
+    <servername>grkna27u4</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Nestle-Aland 27 / UBS 4</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>NA28</name>
+    <servername>NA28</servername>
+    <language>GR</language>
+    <content>NT</content>
+    <server>DBG</server>
+    <fullname>Nestle-Aland 28</fullname>
+  </version>
+
+
+  <version>
+    <name>ALB</name>
+    <servername>ALBR</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>PS</extracontent>
+    <server>Obohu</server>
+    <fullname>Albrecht NT</fullname>
+    <year>1926</year>
+  </version>
+
+  <version>
+    <name>B</name>
+    <servername>JAB</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Bengel NT</fullname>
+    <year>1742</year>
+  </version>
+
+  <version>
+    <name>BAS</name>
+    <servername>BB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>BasisBibel</fullname>
+    <year>2021</year>
+  </version>
+
+  <version>
+    <name>BR</name>
+    <servername>BRU</servername>
+    <language>DE</language>
+    <content>OT</content>
+    <server>Obohu</server>
+    <fullname>Buber / Rosenzweig</fullname>
+    <year>1929</year>
+  </version>
+
+  <version>
+    <name>CSV</name>
+    <servername>CSV</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>CSV</server>
+    <fullname>Elberfelder Übersetzung Edition CSV</fullname>
+    <year>2003</year>
+    <family>ELB</family>
+  </version>
+
+  <version>
+    <name>DBU</name>
+    <servername>DBU</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>PS, SPR</extracontent>
+    <server>Bibleserver</server>
+    <fullname>Das Buch NT</fullname>
+    <year>2022</year>
+  </version>
+
+  <version>
+    <name>EEF</name>
+    <servername>FB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Elberfelder Ecclesia FreeBible</fullname>
+    <year>2004</year>
+    <family>ELB</family>
+  </version>
+
+  <version>
+    <name>EINH1980</name>
+    <servername>EIN</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Einheitsübersetzung 1980</fullname>
+    <year>1980</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>EINH2016</name>
+    <servername>EU</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Einheitsübersetzung</fullname>
+    <year>2016</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>ELB1871</name>
+    <servername>ELB</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Elberfelder NT</fullname>
+    <year>1871</year>
+  </version>
+
+  <version>
+    <name>ELB1905</name>
+    <servername>deuelo</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Ebible</server>
+    <fullname>Elberfelder</fullname>
+    <year>1905</year>
+  </version>
+  <!-- Alternative (with Strong's)
+    <version>
+    <name>ELB1905</name>
+    <servername>ELBS</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Elberfelder 1905</fullname>
+  </version>
+  -->
+  <version>
+    <name>ELB2006</name>
+    <servername>ELB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Elberfelder 2006</fullname>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>GNB2018</name>
+    <servername>GNB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Gute Nachricht Bibel</fullname>
+    <year>2018</year>
+  </version>
+  <!--
+  ("GNB", BIBLE_FULL, DBG, "GNB", GERMAN)
+    <version>
+    <name>GNB</name>
+    <servername>GNB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DGB</server>
+    <year>2018</year>
+    <fullname>Gute Nachricht Bibel</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>GRE</name>
+    <servername>GREB</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Greber NT</fullname>
+    <year>1936</year>
+  </version>
+
+  <version>
+    <name>GRÜ</name>
+    <servername>GB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Grünewald (Riessler-Storr-Bibel) </fullname>
+    <year>1924</year>
+  </version>
+
+  <version>
+    <name>HER2005</name>
+    <servername>HRD</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Herder</fullname>
+    <year>2005</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>HERNT</name>
+    <servername>gerhrd</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Herder NT</fullname>
+  </version>
+
+  <version>
+    <name>HFA2002</name>
+    <servername>HOF</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Hoffnung für alle</fullname>
+    <year>2002</year>
+  </version>
+
+  <version>
+    <name>HFA2015</name>
+    <servername>HFA</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Hoffnung für alle</fullname>
+    <year>2015</year>
+  </version>
+  <!--
+    <version>
+    <name>HFA2015</name>
+    <servername>HfA</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Hoffnung für alle 2015</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>HR</name>
+    <servername>HRB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Henne-Rösch Bibel (Paderborner Bibel)</fullname>
+    <year>1934</year>
+  </version>
+
+  <version>
+    <name>JAN</name>
+    <servername>Jantzen</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>PS</extracontent>
+    <server>Github</server>
+    <fullname>Herbert Jantzen NT</fullname>
+    <year>2011</year>
+  </version>
+
+  <version>
+    <name>KNO</name>
+    <servername>AEK</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Knoch NT</fullname>
+    <year>1939</year>
+  </version>
+
+  <version>
+    <name>L1545</name>
+    <servername>LUTH1545</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Luther</fullname>
+    <year>1545</year>
+    <family>L</family>
+  </version>
+
+  <version>
+    <name>L1545LH</name>
+    <servername>lut</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Gratisbible</server>
+    <fullname>Luther (Letzte Hand)</fullname>
+    <year>1545</year>
+    <family>L</family>
+  </version>
+
+  <version>
+    <name>L1912</name>
+    <servername>LUTA</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Luther</fullname>
+    <year>1912</year>
+    <family>L</family>
+  </version>
+  <!--
+    <version>
+    <name>L1912</name>
+    <servername>LU12</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Luther 1912</fullname>
+  </version>
+  -->
+  <version>
+    <name>L1984</name>
+    <servername>LU84</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Luther</fullname>
+    <year>1984</year>
+    <family>L</family>
+  </version>
+
+  <!--
+  UMich offers only this version, no abbreviation in the URL!
+    <version>
+    <name>L1984</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>UMich</server>
+    <fullname>Luther 1984</fullname>
+  </version>
+  -->
+
+  <!-- Linguistic revision of 1912 Lutherbibel -->
+  <version>
+    <name>L2009</name>
+    <servername>gernlb</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Neue Luther Bibel</fullname>
+    <year>2009</year>
+    <family>L</family>
+  </version>
+
+  <version>
+    <name>L2017</name>
+    <servername>LUT</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Luther</fullname>
+    <year>2017</year>
+    <family>L</family>
+  </version>
+  <!--
+  <version>
+    <name>L2017</name>
+    <servername>LU17</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Luther 2017</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>LEONA</name>
+    <servername>leo-na28</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Github</server>
+    <fullname>Leonberger Bibel (NA) NT</fullname>
+    <year>2015</year>
+  </version>
+
+  <version>
+    <name>LEORP</name>
+    <servername>leo-rp05</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Github</server>
+    <fullname>Leonberger Bibel (Robinson-Pierpoint 05)</fullname>
+    <year>2015</year>
+    <textbase>Byzantine</textbase>
+  </version>
+
+  <version>
+    <name>LVE</name>
+    <servername>LVE</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Leander van Ess</fullname>
+    <year>1859</year>
+    <textbase>Vulgate</textbase>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>LVER</name>
+    <servername>vaness</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Gratisbible</server>
+    <denomination>Catholic</denomination>
+    <fullname>Leander van Ess revidiert</fullname>
+    <year>1950</year>
+    <textbase>Vulgate</textbase>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>M1939</name>
+    <servername>MENG</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Menge</fullname>
+    <year>1939</year>
+  </version>
+
+  <!-- Maybe coming soon
+  <version>
+    <name>M2020</name>
+    <servername>MEB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Menge</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>MEI</name>
+    <servername>MEI</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Abraham Meister NT</fullname>
+    <year>1989</year>
+  </version>
+
+  <version>
+    <name>MNT</name>
+    <servername>MNT</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Münchner NT</fullname>
+    <year>1998</year>
+  </version>
+
+  <!-- Apparently they continually add OT books - check once in a while! -->
+  <version>
+    <name>NGÜ</name>
+    <servername>NGUE</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, RT, 1SAM, 2SAM, PS, SPR</extracontent>
+    <server>DBG</server>
+    <fullname>Neue Genfer Übersetzung NT</fullname>
+    <year>2011</year>
+  </version>
+  <!--
+  ("NGÜ", NTPLUS, BIBLESERVER, "NGÜ", GERMAN)
+  <version>
+    <name>NGÜ</name>
+    <servername>NGÜ</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>PS</extracontent>
+    <server>Bibleserver</server>
+    <fullname>Neue Genfer Übersetzung</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>NL2024</name>
+    <servername>NLB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Neues Leben. Die Bibel</fullname>
+    <year>2024</year>
+  </version>
+
+  <!--
+  Not on Obohu!
+  <version>
+    <name>NMÜ</name>
+    <servername>NMU</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Neue Mehrheitstext Übersetzung</fullname>
+  </version>
+  -->
+
+  <!-- AKA Hampp-Stenzel-Kürzinger -->
+  <version>
+    <name>PAT</name>
+    <servername>PAT</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Pattloch Bibel </fullname>
+    <year>1979</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>RELB1993</name>
+    <servername>gerelb</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Revidierte Elberfelder 1993</fullname>
+    <year>1993</year>
+    <family>ELB</family>
+  </version>
+
+  <version>
+    <name>RELB2006</name>
+    <servername>ELB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Revidierte Elberfelder 2006</fullname>
+    <year>2006</year>
+    <family>ELB</family>
+  </version>
+
+  <version>
+    <name>SCH1951</name>
+    <servername>SCH1951</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Schlachter</fullname>
+    <year>1951</year>
+  </version>
+
+  <version>
+    <name>SCH2000</name>
+    <servername>SCH2000</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Schlachter</fullname>
+    <year>2000</year>
+  </version>
+
+  <!--
+  They do not want to be a new version, and they do not mention on which version it is based, probably a literal one
+  (cf. https://www.obohu.cz/bible/files/gknt_predmluva_2020.htm). So there is no gain
+  <version>
+    <name>STU</name>
+    <servername>GKNT</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>Gerhard Kautz Studienübersetzung NT</fullname>
+    <year>2020</year>
+  </version>
+  -->
+
+  <!--
+  Apparently TAF was published in 2 volumes, only vol. 1 has been digitized.
+  Missing: Hagiographa (Hiob, Sprichwörter, Hohelied, Prediger, Ruth, Chronika, Esra,
+  Nehemia, Esther und die Apokryphen)
+  -->
+  <version>
+    <name>TAF</name>
+    <servername>TAF</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, 1SAM, 2SAM, 1KÖN, 2KÖN, PS, JES, JER, KLA, HES, DAN, HOS, JO, AM, OB, JON, Mi, NAH, HAG, ZEP, HAG, SACH, MAL</extracontent>
+    <server>Obohu</server>
+    <fullname>Tafel-Bibel</fullname>
+    <year>1911</year>
+  </version>
+
+  <!--
+  Deutsche Bibelübersetzung unter Berücksichtigung vieler anderer Übersetzungen ; das Alte Testament nach der alten
+  Elberfelder 1905, mit sprachlicher Anpassung und Korrekturarbeit; das Neue Testament nach dem F35-Grundtext
+  (Familie 35/kr von Wilbur Pickering).
+  Diese Bibelübersetzung ist ein privates Projekt, das von Einzelpersonen oder einer kleinen Gruppe durchgeführt wird
+  und daher nicht notwendigerweise vollständig sein muss. 𝗘𝘀 𝗴𝗶𝗯𝘁 𝗸𝗲𝗶𝗻𝗲 𝗚𝗲𝘄ä𝗵𝗿 𝗱𝗮𝗳ü𝗿, 𝗱𝗮𝘀𝘀 𝗮𝗹𝗹𝗲 𝗕ü𝗰𝗵𝗲𝗿 𝗱𝗲𝗿 𝗕𝗶𝗯𝗲𝗹 𝗶𝗻
+  𝗱𝗶𝗲𝘀𝗲𝗿 Ü𝗯𝗲𝗿𝘀𝗲𝘁𝘇𝘂𝗻𝗴 𝗲𝗻𝘁𝗵𝗮𝗹𝘁𝗲𝗻 𝘀𝗶𝗻𝗱 𝗼𝗱𝗲𝗿 𝗱𝗮𝘀𝘀 𝘀𝗶𝗲 𝘀𝗼𝗿𝗴𝗳ä𝗹𝘁𝗶𝗴 ü𝗯𝗲𝗿𝗮𝗿𝗯𝗲𝗶𝘁𝗲𝘁 𝘄𝘂𝗿𝗱𝗲, 𝘂𝗺 𝘀𝗶𝗰𝗵𝗲𝗿𝘇𝘂𝘀𝘁𝗲𝗹𝗹𝗲𝗻, 𝗱𝗮𝘀𝘀 𝘀𝗶𝗲 𝗸𝗼𝗿𝗿𝗲𝗸𝘁
+  𝘂𝗻𝗱 𝘃𝗼𝗹𝗹𝘀𝘁ä𝗻𝗱𝗶𝗴 ü𝗯𝗲𝗿𝘀𝗲𝘁𝘇𝘁 𝘄𝘂𝗿𝗱𝗲.
+  Wenn Fehler gefunden werden, besteht die Möglichkeit, sie zu melden (gerne in den
+  Kommentarbereich), aber es gibt keine Garantie, dass alle gemeldeten Fehler behoben werden.
+  
+  <version>
+    <name>THEO</name>
+    <servername>THB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Theophilus Bibel</fullname>
+    <year>2022</year>
+  </version>
+  -->
+
+  <version>
+    <name>TSAT</name>
+    <servername>NHTS</servername>
+    <language>DE</language>
+    <content>OT</content>
+    <server>Obohu</server>
+    <fullname>Naftali Herz Tur-Sinai AT</fullname>
+    <year>1954</year>
+  </version>
+
+  <version>
+    <name>TXT</name>
+    <servername>TB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Textbibel</fullname>
+    <year>1906</year>
+  </version>
+
+  <version>
+    <name>VBGR</name>
+    <servername>Gruenewald</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Github</server>
+    <fullname>Volksbibel (Grünewald)</fullname>
+    <year>2000</year>
+  </version>
+
+  <version>
+    <name>VBSCH</name>
+    <servername>Schoeningh</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Github</server>
+    <fullname>Volksbibel (Schönigh)</fullname>
+    <year>2000</year>
+  </version>
+
+  <version>
+    <name>Z1931</name>
+    <servername>ZUR</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Zürcher</fullname>
+    <year>1931</year>
+  </version>
+
+  <version>
+    <name>Z2007</name>
+    <servername>ZB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibleserver</server>
+    <fullname>Zürcher</fullname>
+    <year>2007</year>
+  </version>
+  <!-- The Copyright says 2019, but this is most certainly just a reprint of the 2017 version
+  <version>
+    <name>Z2007</name>
+    <servername>ZB</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>Zürcher 2019</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>ABU</name>
+    <servername>ABU</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>American Bible Union New Testament</fullname>
+    <year>1865</year>
+  </version>
+
+  <!-- KnowingJesus would be faster, but there is no content!
+  <version>
+    <name>ABU</name>
+    <servername>abu</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>KnowingJesus</server>
+    <fullname>American Bible Union New Testament</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>AKJV</name>
+    <servername>AKJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>American King James Version</fullname>
+    <year>1999</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>ALT</name>
+    <servername>engalt</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Analytical-Literal Translation</fullname>
+    <year>2001</year>
+  </version>
+
+  <version>
+    <name>AMP1965</name>
+    <servername>engamp</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Amplified Bible</fullname>
+    <year>1965</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>AMP2015</name>
+    <servername>AMP</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Amplified Bible</fullname>
+    <year>2015</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>AMPC</name>
+    <servername>AMPC</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Amplified Bible Classic Edition</fullname>
+    <year>1987</year>
+    <family>ASV</family>
+  </version>
+
+  <!-- Sudybible is slow
+  <version>
+    <name>AND</name>
+    <servername>Anderson</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Anderson NT</fullname>
+  </version>
+  -->
+  <version>
+    <name>AND</name>
+    <servername>anderson</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>KnowingJesus</server>
+    <fullname>Anderson NT</fullname>
+    <year>1864</year>
+  </version>
+
+  <version>
+    <name>ASV</name>
+    <servername>ASV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>American Standard Version</fullname>
+    <year>1901</year>
+  </version>
+
+  <!-- "AV" is also known as KJV -->
+
+  <version>
+    <name>BB</name>
+    <servername>Bishops</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Bishops Bible</fullname>
+    <year>1568</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>BBE</name>
+    <servername>BBE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Bible in Basic English</fullname>
+    <year>1964</year>
+  </version>
+
+  <version>
+    <name>BLB</name>
+    <servername>BLB</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Berean Literal Bible NT</fullname>
+    <year>2016</year>
+  </version>
+
+  <version>
+    <name>BNT</name>
+    <servername>engpnt</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Bishop's New Testament</fullname>
+    <year>1595</year>
+  </version>
+
+  <version>
+    <name>BSB</name>
+    <servername>BSB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Berean Study Bible</fullname>
+    <year>2016</year>
+  </version>
+
+  <version>
+    <name>BST</name>
+    <servername>BES</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Obohu</server>
+    <fullname>Brenton Septuagint Translation</fullname>
+    <year>1870</year>
+  </version>
+
+  <version>
+    <name>CAB</name>
+    <servername>CAB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>The Complete Apostles' Bible</fullname>
+    <year>2004</year>
+  </version>
+
+  <version>
+    <name>CEB1865</name>
+    <servername>engcent</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Common Edition New Testament</fullname>
+    <year>1865</year>
+  </version>
+
+
+  <version>
+    <name>CEB1999</name>
+    <servername>Common</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Common Edition New Testament</fullname>
+    <year>1999</year>
+  </version>
+
+  <version>
+    <name>CEB2002</name>
+    <servername>engcom</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Common Edition New Testament 2002</fullname>
+    <year>2002</year>
+  </version>
+
+  <version>
+    <name>CEB2011</name>
+    <servername>CEB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Common English Bible</fullname>
+    <year>2011</year>
+  </version>
+
+  <version>
+    <name>CEV1995</name>
+    <servername>CEV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Contemporary English Version</fullname>
+    <year>1995</year>
+  </version>
+
+  <!-- CAUTION: This is the only version that works on Biblehub!
+  For other versions they use other patterns  -->
+  <version>
+    <name>CEV2006</name>
+    <servername>cev</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblehub</server>
+    <fullname>Contemporary English Version (2nd edition)</fullname>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>CJB</name>
+    <servername>CJB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Stern Complete Jewish Bible</fullname>
+    <year>1998</year>
+    <denomination>Jewish</denomination>
+  </version>
+
+  <version>
+    <name>CMB</name>
+    <servername>Coverdale</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Coverdale Miles Bible</fullname>
+    <year>1535</year>
+  </version>
+
+  <!-- Previous version: HCSB-->
+  <version>
+    <name>CSB</name>
+    <servername>CSB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Christian Standard Bible</fullname>
+    <year>2017</year>
+    <family>HCSB</family>
+  </version>
+
+  <version>
+    <name>CV</name>
+    <servername>ACV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>A Conservative Version</fullname>
+    <year>2005</year>
+  </version>
+
+  <version>
+    <name>DBY</name>
+    <servername>DB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Darby Bible Translation</fullname>
+    <year>1890</year>
+  </version>
+
+  <version>
+    <name>DLNT</name>
+    <servername>DLNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Disciples' Literal New Testament</fullname>
+    <year>2011</year>
+  </version>
+
+  <version>
+    <name>DR</name>
+    <servername>engdrb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Douay-Rheims</fullname>
+    <year>1610</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>DRA</name>
+    <servername>DRA</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Douay-Rheims American Edition</fullname>
+    <year>1899</year>
+    <denomination>Catholic</denomination>
+    <textbase>Vulgata</textbase>
+  </version>
+
+  <version>
+    <name>DRC</name>
+    <servername>engdrc</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Douay-Rheims Challoner Revision</fullname>
+    <year>1752</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>E2R</name>
+    <servername>ERV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Easy-to-Read Version</fullname>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>ECB</name>
+    <servername>ECB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>ExeGeses Companion Bible</fullname>
+    <year>1993</year>
+  </version>
+
+  <version>
+    <name>EEB</name>
+    <servername>EASY</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>EasyEnglish Bible </fullname>
+    <year>2019</year>
+  </version>
+
+  <version>
+    <name>EHV</name>
+    <servername>EHV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Evangelical Heritage Version</fullname>
+    <year>2019</year>
+  </version>
+
+  <version>
+    <name>ELG</name>
+    <servername>engelg</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>The Everlasting Gospel NT</fullname>
+    <year>1984</year>
+  </version>
+
+  <!--
+  Translated from Spanish
+  -->
+  <version>
+    <name>EJ</name>
+    <servername>EJ2000</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>English Jubilee</fullname>
+    <year>2000</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>EMTV</name>
+    <servername>engemtv</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Ebible</server>
+    <fullname>English Majority Text Version</fullname>
+    <year>2002</year>
+  </version>
+
+
+  <version>
+    <name>ERV</name>
+    <servername>ERV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>English Revised Version</fullname>
+    <year>1885</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+
+  <!--
+  Editions: 2001, 2002 (minor changes), 2007 (minor changes), 2011, 2016
+  -->
+  <version>
+    <name>ESV2001</name>
+    <servername>ESV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>English Standard Version</fullname>
+    <family>RSV</family>
+    <year>2001</year>
+  </version>
+
+  <version>
+    <name>ESV2007</name>
+    <servername>ESV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>English Standard Version</fullname>
+    <year>2007</year>
+    <family>RSV</family>
+  </version>
+
+  <version>
+    <name>ESV2016</name>
+    <servername>ESV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>English Standard Version</fullname>
+    <year>2016</year>
+    <family>RSV</family>
+  </version>
+
+  <version>
+    <name>ESVUK</name>
+    <servername>ESVUK</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>English Standard Version Anglicised</fullname>
+    <year>2001</year>
+    <family>RSV</family>
+  </version>
+
+  <version>
+    <name>ETHE</name>
+    <servername>ETHE</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>John Wesley Etheridge - Übersetzung der westlichen Peshitta</fullname>
+    <year>1846</year>
+    <textbase>Peshitta</textbase>
+  </version>
+
+  <version>
+    <name>EXB</name>
+    <servername>EXB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Expanded Bible</fullname>
+    <year>2011</year>
+  </version>
+
+  <version>
+    <name>GB</name>
+    <servername>Great</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Great Bible</fullname>
+    <year>1539</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>GBNT</name>
+    <servername>Godbey</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Godbey New Testament</fullname>
+    <year>1902</year>
+  </version>
+
+  <version>
+    <name>GLT</name>
+    <servername>LITV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Green's Literal Translation</fullname>
+    <year>1985</year>
+  </version>
+
+  <version>
+    <name>GMKJV</name>
+    <servername>engmkj</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Green's Modern King James Version</fullname>
+    <year>1962</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>GNT</name>
+    <servername>GNT</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Good News Translation</fullname>
+    <year>1992</year>
+    <family>TEV</family>
+  </version>
+
+  <version>
+    <name>GNV</name>
+    <servername>GNV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Geneva Bible</fullname>
+    <year>1599</year>
+    <family>GNV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>GSNT</name>
+    <servername>Goodspeed</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Goodspeed New Testament</fullname>
+    <year>1923</year>
+  </version>
+
+  <version>
+    <name>GW</name>
+    <servername>GW</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>God's Word Translation</fullname>
+    <year>1995</year>
+    <denomination>Lutheran</denomination>
+  </version>
+
+  <version>
+    <name>HAW</name>
+    <servername>Haweis</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Thomas Haweis New Testament</fullname>
+    <year>1795</year>
+  </version>
+
+  <version>
+    <name>HBRV</name>
+    <servername>enghbr</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Holy Bible Revised Version</fullname>
+    <year>1882</year>
+  </version>
+
+  <!-- New version: CSB-->
+  <version>
+    <name>HCSB1999</name>
+    <servername>csb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblestudytools</server>
+    <fullname>Holman Christian Standard Bible</fullname>
+    <year>1999</year>
+    <family>HCSB</family>
+  </version>
+
+  <version>
+    <name>HCSB2004</name>
+    <servername>engcsb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Holman Christian Standard Bible</fullname>
+    <year>2004</year>
+    <family>HCSB</family>
+  </version>
+
+  <version>
+    <name>HCSB2009</name>
+    <servername>HCSB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Holman Christian Standard Bible</fullname>
+    <year>2009</year>
+    <family>HCSB</family>
+  </version>
+
+  <version>
+    <name>IAV</name>
+    <servername>IAV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Israeli Authorized Version</fullname>
+    <year>2001</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>ICB</name>
+    <servername>ICB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>International Children’s Bible</fullname>
+    <year>2015</year>
+  </version>
+
+
+  <version>
+    <name>ILT</name>
+    <servername>englee</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Ebible</server>
+    <fullname>Isaac Leeser Tanakh</fullname>
+    <year>1853</year>
+  </version>
+
+
+  <version>
+    <name>ISV</name>
+    <servername>ISV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>International Standard Version</fullname>
+    <year>2014</year>
+  </version>
+
+  <version>
+    <name>JESP</name>
+    <servername>JESP</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Julia Evelina Smith Parker</fullname>
+    <year>1876</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>JMNT</name>
+    <servername>JMNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Jonathan Mitchell New Testament</fullname>
+    <year>2014</year>
+  </version>
+
+  <version>
+    <name>JPS</name>
+    <servername>JPS_ASV_Byz</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Studybible</server>
+    <fullname>Jewish Publication Society OT Translation with ASV modified to reflect the Byzantine text</fullname>
+    <denomination>Jewish</denomination>
+    <year>1917</year>
+  </version>
+
+  <version>
+    <name>JPST</name>
+    <servername>engtnk</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>NOCR</server>
+    <fullname>JPS Tanakh</fullname>
+    <year>1985</year>
+  </version>
+
+  <!--
+  Translated from the Original Texts in Hebrew and Greek into Spanish by Casiodoro de Reina (1569) and compared with
+  the revision of Cipriano de Valera (1602). Based on the New Testament of Francisco de Enzinas (1543) and on the New
+  Testament (1556) with the Psalms (1557) of Juan Perez de Pineda.\par This material was translated from Spanish into
+  English by Russell M. Stendal and compared with the Old English Translation of William Tyndale (Pentateuch of 1530,
+  Ploughboy Edition New Testament of 1534, Joshua to 2 Chronicles of 1537, and Jonah). It was also compared word for
+  word with the Authorized Version (by King James) of 1611.
+  -->
+  <version>
+    <name>JUB</name>
+    <servername>JUB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Jubilee Bible 2000</fullname>
+    <year>1537</year>
+  </version>
+
+  <version>
+    <name>KJ3</name>
+    <servername>KJ3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>King James 3 - The Literal Translation</fullname>
+    <family>KJV</family>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>KJC</name>
+    <servername>KJC</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>King James Clarified NT</fullname>
+    <family>KJV</family>
+    <year>1998</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>KJPCE</name>
+    <servername>KJPCE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>King James Bible - Pure Cambridge Edition</fullname>
+    <family>KJV</family>
+    <year>1900</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <!-- Also known as Authorized Version-->
+  <version>
+    <name>KJV</name>
+    <servername>KJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>King James Version</fullname>
+    <family>KJV</family>
+    <year>1611</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+  <!--
+  <version>
+    <name>KJV</name>
+    <servername>KJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>DBG</server>
+    <fullname>King James Version</fullname>
+  </version>
+  -->
+
+  <version>
+    <name>KJV2000</name>
+    <servername>KJ2000</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>King James Version 2000</fullname>
+    <year>1999</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>KJV21</name>
+    <servername>KJ21</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>21st Century King James Version</fullname>
+    <year>1994</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>KNOX</name>
+    <servername>engknox</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>John Knox NT</fullname>
+    <year>1945</year>
+    <textbase>Vulgata</textbase>
+  </version>
+
+  <version>
+    <name>LAMSA</name>
+    <servername>LAMSA</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>George Lamsa Bible - Eastern Peshitta Translation</fullname>
+    <year>1933</year>
+    <textbase>Peshitta</textbase>
+  </version>
+
+  <version>
+    <name>LB</name>
+    <servername>TLB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Living Bible</fullname>
+    <year>1971</year>
+  </version>
+
+  <version>
+    <name>LEB</name>
+    <servername>LEB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Lexham English Bible</fullname>
+    <year>2012</year>
+  </version>
+
+  <version>
+    <name>LEE</name>
+    <servername>Leeser</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Studybible</server>
+    <fullname>Leeser Old Testament</fullname>
+    <year>1853</year>
+  </version>
+
+  <version>
+    <name>LONT</name>
+    <servername>Living_Oracles</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Living Oracles New Testament</fullname>
+    <year>1835</year>
+  </version>
+
+  <version>
+    <name>LSB</name>
+    <servername>LSB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Legacy Standard Bible</fullname>
+    <year>2021</year>
+  </version>
+
+  <version>
+    <name>LTHB</name>
+    <servername>englit</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Literal Translation Of The Holy Bible</fullname>
+    <year>2000</year>
+  </version>
+
+  <version>
+    <name>MACE</name>
+    <servername>Mace</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Daniel Mace New Testament</fullname>
+    <year>1729</year>
+  </version>
+
+  <version>
+    <name>MATTHEW</name>
+    <servername>Matthew</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Matthew Bible</fullname>
+    <year>1549</year>
+    <family>MATTHEW</family>
+  </version>
+
+  <version>
+    <name>MEV</name>
+    <servername>MEV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Modern English Version</fullname>
+    <year>2014</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>MIT</name>
+    <servername>MIT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>William Graham MacDonald's Idiomatic Translation</fullname>
+    <year>2006</year>
+  </version>
+
+  <version>
+    <name>MKJV</name>
+    <servername>MKJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Modern King James Version</fullname>
+    <year>1962</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>MLV</name>
+    <servername>MLV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Modern Literal Version</fullname>
+    <year>2021</year>
+  </version>
+
+  <version>
+    <name>MOF</name>
+    <servername>MOF</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>James Moffatt New Testament</fullname>
+    <year>1913</year>
+  </version>
+
+  <version>
+    <name>MONT</name>
+    <servername>MNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Helen Barrett Montgomery New Testament</fullname>
+    <year>1924</year>
+  </version>
+
+  <!-- Not sure if the following are different revisions-->
+  <version>
+    <name>MSG2002</name>
+    <servername>msg</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblestudytools</server>
+    <fullname>The Message</fullname>
+    <year>2002</year>
+  </version>
+
+  <version>
+    <name>MSG2018</name>
+    <servername>MSG</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>The Message</fullname>
+    <year>2018</year>
+  </version>
+
+  <version>
+    <name>MURD</name>
+    <servername>MURD</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Obohu</server>
+    <fullname>James Murdock Western Peshitto</fullname>
+    <year>1852</year>
+    <textbase>Peshitta</textbase>
+  </version>
+
+  <version>
+    <name>NABRE</name>
+    <servername>NABRE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New American Bible (Revised Edition)</fullname>
+    <year>2010</year>
+    <family>NAB</family>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>NASB1977</name>
+    <servername>engnas</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>New American Standard Bible</fullname>
+    <year>1977</year>
+    <!-- according to NOcr and ChatGPT-->
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NASB1995</name>
+    <servername>NASB1995</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New American Standard Bible</fullname>
+    <year>1995</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NASB2020</name>
+    <servername>NASB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New American Standard Bible</fullname>
+    <year>2020</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NCB</name>
+    <servername>NCB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Catholic Bible</fullname>
+    <year>2019</year>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>NCV</name>
+    <servername>NCV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Century Version</fullname>
+    <year>2005</year>
+  </version>
+
+  <version>
+    <name>NET</name>
+    <servername>NET</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New English Translation</fullname>
+    <year>2017</year>
+  </version>
+
+  <version>
+    <name>NHEB</name>
+    <servername>nheb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Gratisbible</server>
+    <fullname>New Heart English Bible</fullname>
+    <year>2009</year>
+  </version>
+
+  <version>
+    <name>NIRV</name>
+    <servername>NIRV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New International Reader's Version</fullname>
+    <year>2014</year>
+    <family>NIV</family>
+  </version>
+
+  <version>
+    <name>NIV</name>
+    <servername>NIV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New International Version</fullname>
+    <year>2011</year>
+    <family>NIV</family>
+  </version>
+
+  <version>
+    <name>NIVUK</name>
+    <servername>NIVUK</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New International Version Anglicized</fullname>
+    <year>2011</year>
+    <family>NIV</family>
+  </version>
+
+  <version>
+    <name>NJB</name>
+    <servername>engnjb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <year>1985</year>
+    <fullname>New Jerusalem Bible</fullname>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>NKJV</name>
+    <servername>NKJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New King James Version</fullname>
+    <year>1982</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+
+  <version>
+    <name>NLT2004</name>
+    <servername>engnltse</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>New Living Translation Second Edition</fullname>
+    <year>2004</year>
+  </version>
+
+  <version>
+    <name>NLT2015</name>
+    <servername>NLT</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Living Translation</fullname>
+    <year>2015</year>
+  </version>
+
+  <version>
+    <name>NLV1969</name>
+    <servername>engnlv</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>New Life Version</fullname>
+    <year>1969</year>
+  </version>
+
+  <version>
+    <name>NLV2003</name>
+    <servername>NLV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Life Version</fullname>
+    <year>2003</year>
+  </version>
+
+  <version>
+    <name>NMB</name>
+    <servername>NMB</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>New Matthew Bible NT</fullname>
+    <year>2016</year>
+    <family>MATTHEW</family>
+  </version>
+
+  <version>
+    <name>NOY</name>
+    <servername>Noyes</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Noyes New Testament</fullname>
+    <year>1869</year>
+  </version>
+
+  <version>
+    <name>NRSV1989</name>
+    <servername>engnrs</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>New Revised Standard Version</fullname>
+    <year>1989</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NRSVA</name>
+    <servername>NRSVA</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Revised Standard Version Anglicised</fullname>
+    <year>1995</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NRSVACE</name>
+    <servername>NRSVACE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Revised Standard Version Anglicesd, Catholic Edition</fullname>
+    <year>1995</year>
+    <family>ASV</family>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>NRSVCE</name>
+    <servername>NRSVCE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Revised Standard Version Catholic Edition</fullname>
+    <year>1993</year>
+    <denomination>Catholic</denomination>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>NRSVUE</name>
+    <servername>NRSVUE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>New Revised Standard Version Updated Edition</fullname>
+    <year>2021</year>
+    <family>ASV</family>
+  </version>
+
+  <!--
+  Too close to Jehovah's Witnesses; called "Jehovah's Witnesses Light"
+  <version>
+    <name>NSB</name>
+    <servername>NSB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>New Simplified Bible</fullname>
+    <year>2006</year>
+  </version>
+  -->
+
+  <version>
+    <name>NTE</name>
+    <servername>NTE</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>New Testament for Everyone</fullname>
+    <year>2019</year>
+  </version>
+
+  <version>
+    <name>OJB</name>
+    <servername>OJB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Orthodox Jewish Bible</fullname>
+    <year>2011</year>
+    <denomination>Jewish</denomination>
+  </version>
+
+  <version>
+    <name>OJBC</name>
+    <servername>engojb</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Orthodox Jewish Brit Chadasha</fullname>
+    <year>1996</year>
+    <denomination>Jewish</denomination>
+  </version>
+
+  <version>
+    <name>PHIL</name>
+    <servername>PHILLIPS</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>J.B. Phillips NT</fullname>
+    <year>1972</year>
+    <denomination>Anglican</denomination>
+  </version>
+
+  <version>
+    <name>PICK</name>
+    <servername>WPNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Wilbur Pickering's New Testament</fullname>
+    <year>2015</year>
+  </version>
+
+  <version>
+    <name>RGT</name>
+    <servername>RGT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Revised Geneva Translation NT</fullname>
+    <year>2019</year>
+    <family>GNV</family>
+  </version>
+
+  <version>
+    <name>RIV</name>
+    <servername>Riverside</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Riverside New Testament</fullname>
+    <year>1923</year>
+  </version>
+
+  <version>
+    <name>RKJNT</name>
+    <servername>RKJNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Revised King James NT</fullname>
+    <year>2000</year>
+    <family>KJV</family>
+  </version>
+
+  <version>
+    <name>REB</name>
+    <servername>ROT</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Rotherham's Emphasized Bible</fullname>
+    <year>1902</year>
+  </version>
+
+  <version>
+    <name>RSV1952</name>
+    <servername>rsv</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblestudytools</server>
+    <fullname>Revised Standard Version</fullname>
+    <year>1952</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>RSV1971</name>
+    <servername>RSV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Revised Standard Version</fullname>
+    <year>1971</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>RSVCE</name>
+    <servername>RSVCE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Revised Standard Version Catholic Edition</fullname>
+    <year>1966</year>
+    <family>ASV</family>
+    <denomination>Catholic</denomination>
+  </version>
+
+  <version>
+    <name>RV1991</name>
+    <servername>engrec</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Recovery Version NT</fullname>
+    <year>1991</year>
+  </version>
+
+  <version>
+    <name>RYLT</name>
+    <servername>RYLT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Revised Youngs Literal Translation NT</fullname>
+    <family>YLT</family>
+    <year>2000</year>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>SAE</name>
+    <servername>LXX2012</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Studybible</server>
+    <fullname>LXX2012: Septuagint in American English</fullname>
+    <year>2012</year>
+    <textbase>LXX</textbase>
+  </version>
+
+  <version>
+    <name>SAW</name>
+    <servername>Sawyer</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Leicester Ambrose Sawyer NT</fullname>
+    <year>1858</year>
+  </version>
+
+  <version>
+    <name>T2001</name>
+    <servername>T2001</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>2001 Translation</fullname>
+    <textbase>LXX</textbase>
+  </version>
+
+  <version>
+    <name>TCNT</name>
+    <servername>Twentieth_Century</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Twentieth Century New Testament</fullname>
+    <year>1902</year>
+  </version>
+
+  <version>
+    <name>TEV</name>
+    <servername>engtev</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Today's English Version (Good News Bible 1990)</fullname>
+    <year>1990</year>
+    <family>TEV</family>
+  </version>
+
+  <version>
+    <name>THO</name>
+    <servername>THO</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Thomson</fullname>
+    <year>1808</year>
+    <textbase>LXX</textbase>
+  </version>
+
+  <version>
+    <name>TLV</name>
+    <servername>TLV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Tree of Life Version</fullname>
+    <year>2015</year>
+    <denomination>Jewish</denomination>
+  </version>
+
+  <version>
+    <name>TMB</name>
+    <servername>tmb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblestudytools</server>
+    <fullname>Third Millennium Bible</fullname>
+    <year>1998</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>TRCC</name>
+    <servername>engtrc</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Tyndale-Rogers-Coverdale-Crammer NT (1537)</fullname>
+    <year>1537</year>
+    <family>TYN</family>
+  </version>
+
+  <version>
+    <name>TS</name>
+    <servername>TS98</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>The Scriptures</fullname>
+    <year>1998</year>
+    <denomination>Jewish</denomination>
+  </version>
+
+  <version>
+    <name>TNIV</name>
+    <servername>engtnv</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Today's New International Version (2005)</fullname>
+    <year>2005</year>
+    <family>NIV</family>
+  </version>
+
+  <version>
+    <name>TYN1526</name>
+    <servername>engtyo</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>William Tyndale Original NT</fullname>
+    <family>TYN</family>
+    <year>1526</year>
+  </version>
+
+  <version>
+    <name>TYN1534</name>
+    <servername>tyndale</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <extracontent>GEN, EX, LEV, NUM, DTN, JON</extracontent>
+    <server>Gratisbible</server>
+    <fullname>Tyndale</fullname>
+    <family>TYN</family>
+    <year>1534</year>
+  </version>
+
+  <version>
+    <name>UBV2004</name>
+    <servername>updv</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Gratisbible</server>
+    <fullname>Updated Bible Version 2.05</fullname>
+    <year>2004</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>UBV2006</name>
+    <servername>engupd</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Updated Bible Version</fullname>
+    <year>2006</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>UKJV</name>
+    <servername>UKJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Updated King James Version</fullname>
+    <year>2005</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>UV</name>
+    <servername>AUV</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>An Understandable Version</fullname>
+    <year>1994</year>
+  </version>
+
+  <version>
+    <name>VCE</name>
+    <servername>VOICE</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>The Voice</fullname>
+    <year>2012</year>
+  </version>
+
+  <!--
+    Original: Korean
+  -->
+  <version>
+    <name>VIN</name>
+    <servername>VIN</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>Venerably Illuminating Narrative</fullname>
+    <year>1599</year>
+  </version>
+
+  <version>
+    <name>VW</name>
+    <servername>VW</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>A Voice In The Wilderness</fullname>
+    <textbase>Textus Receptus</textbase>
+    <year>2010</year>
+  </version>
+
+  <!-- AKA "Webster's Revision" -->
+  <version>
+    <name>WBT1833</name>
+    <servername>WEBS</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Webster Bible Translation</fullname>
+    <year>1833</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <version>
+    <name>WBT1995</name>
+    <servername>engrwb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>NOCR</server>
+    <fullname>Revised Webster Update (1995)</fullname>
+    <year>1995</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+  <!-- CAUTION: this is also available on Biblehub, but they use different patterns for different versions.
+   The versions they offer are not interesting enough.-->
+  <version>
+    <name>WEB</name>
+    <servername>WEB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>World English Bible</fullname>
+    <year>2022</year>
+    <family>ASV</family>
+  </version>
+
+  <version>
+    <name>WES1750</name>
+    <servername>engwley</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Nocr</server>
+    <fullname>Wesley's NT</fullname>
+    <year>1750</year>
+  </version>
+
+  <version>
+    <name>WES1755</name>
+    <servername>wesley</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Gratisbible</server>
+    <fullname>Wesley's NT</fullname>
+    <year>1755</year>
+  </version>
+
+  <version>
+    <name>WILL</name>
+    <servername>Williams</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Williams NT</fullname>
+    <year>1937</year>
+  </version>
+
+  <version>
+    <name>WNT</name>
+    <servername>wmth</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Gratisbible</server>
+    <fullname>Weymouth New Testament</fullname>
+    <year>1929</year>
+  </version>
+
+  <version>
+    <name>WONT</name>
+    <servername>Worsley</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Worsley New Testament</fullname>
+    <year>1770</year>
+  </version>
+
+  <version>
+    <name>WOR</name>
+    <servername>Worrell</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Worrell NT</fullname>
+    <year>1904</year>
+  </version>
+
+  <version>
+    <name>WPNT</name>
+    <servername>Whiston</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Whiston's Primitive NT</fullname>
+    <year>1745</year>
+  </version>
+
+  <version>
+    <name>WWE</name>
+    <servername>WE</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Biblegateway</server>
+    <fullname>Worldwide English NT</fullname>
+    <year>1969</year>
+  </version>
+
+  <version>
+    <name>WYC</name>
+    <servername>WYC</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>Wycliffe's Bible</fullname>
+    <textbase>Vulgata</textbase>
+    <year>1388</year>
+  </version>
+
+  <version>
+    <name>YLT</name>
+    <servername>YLT</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Obohu</server>
+    <fullname>Young's Literal Translation</fullname>
+    <year>1898</year>
+    <family>YLT</family>
+    <textbase>Textus Receptus</textbase>
+  </version>
+
+</versions>

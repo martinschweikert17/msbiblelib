@@ -1,0 +1,1389 @@
+<books>
+    <book abbrev="GEN" maxchapter="50" testament="OT" latex_abbrev="Gn">
+        <chapter number="1" verses="31"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="24"/>
+        <chapter number="4" verses="26"/>
+        <chapter number="5" verses="32"/>
+        <chapter number="6" verses="22"/>
+        <chapter number="7" verses="24"/>
+        <chapter number="8" verses="22"/>
+        <chapter number="9" verses="29"/>
+        <chapter number="10" verses="32"/>
+        <chapter number="11" verses="32"/>
+        <chapter number="12" verses="20"/>
+        <chapter number="13" verses="18"/>
+        <chapter number="14" verses="24"/>
+        <chapter number="15" verses="21"/>
+        <chapter number="16" verses="16"/>
+        <chapter number="17" verses="27"/>
+        <chapter number="18" verses="33"/>
+        <chapter number="19" verses="38"/>
+        <chapter number="20" verses="18"/>
+        <chapter number="21" verses="34"/>
+        <chapter number="22" verses="24"/>
+        <chapter number="23" verses="20"/>
+        <chapter number="24" verses="67"/>
+        <chapter number="25" verses="34"/>
+        <chapter number="26" verses="35"/>
+        <chapter number="27" verses="46"/>
+        <chapter number="28" verses="22"/>
+        <chapter number="29" verses="35"/>
+        <chapter number="30" verses="43"/>
+        <chapter number="31" verses="54"/>
+        <chapter number="32" verses="33"/>
+        <chapter number="33" verses="20"/>
+        <chapter number="34" verses="31"/>
+        <chapter number="35" verses="29"/>
+        <chapter number="36" verses="43"/>
+        <chapter number="37" verses="36"/>
+        <chapter number="38" verses="30"/>
+        <chapter number="39" verses="23"/>
+        <chapter number="40" verses="23"/>
+        <chapter number="41" verses="57"/>
+        <chapter number="42" verses="38"/>
+        <chapter number="43" verses="34"/>
+        <chapter number="44" verses="34"/>
+        <chapter number="45" verses="28"/>
+        <chapter number="46" verses="34"/>
+        <chapter number="47" verses="31"/>
+        <chapter number="48" verses="22"/>
+        <chapter number="49" verses="33"/>
+        <chapter number="50" verses="26"/>
+    </book>
+
+    <book abbrev="EX" maxchapter="40" testament="OT" latex_abbrev="Ex">
+        <chapter number="1" verses="22"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="22"/>
+        <chapter number="4" verses="31"/>
+        <chapter number="5" verses="23"/>
+        <chapter number="6" verses="30"/>
+        <chapter number="7" verses="29"/>
+        <chapter number="8" verses="28"/>
+        <chapter number="9" verses="35"/>
+        <chapter number="10" verses="29"/>
+        <chapter number="11" verses="10"/>
+        <chapter number="12" verses="51"/>
+        <chapter number="13" verses="22"/>
+        <chapter number="14" verses="31"/>
+        <chapter number="15" verses="27"/>
+        <chapter number="16" verses="36"/>
+        <chapter number="17" verses="16"/>
+        <chapter number="18" verses="27"/>
+        <chapter number="19" verses="25"/>
+        <chapter number="20" verses="26"/>
+        <chapter number="21" verses="37"/>
+        <chapter number="22" verses="30"/>
+        <chapter number="23" verses="33"/>
+        <chapter number="24" verses="18"/>
+        <chapter number="25" verses="40"/>
+        <chapter number="26" verses="37"/>
+        <chapter number="27" verses="21"/>
+        <chapter number="28" verses="43"/>
+        <chapter number="29" verses="46"/>
+        <chapter number="30" verses="38"/>
+        <chapter number="31" verses="18"/>
+        <chapter number="32" verses="35"/>
+        <chapter number="33" verses="23"/>
+        <chapter number="34" verses="35"/>
+        <chapter number="35" verses="35"/>
+        <chapter number="36" verses="38"/>
+        <chapter number="37" verses="29"/>
+        <chapter number="38" verses="31"/>
+        <chapter number="39" verses="43"/>
+        <chapter number="40" verses="38"/>
+    </book>
+
+    <book abbrev="LEV" maxchapter="27" testament="OT" latex_abbrev="Lv">
+        <chapter number="1" verses="17"/>
+        <chapter number="2" verses="16"/>
+        <chapter number="3" verses="17"/>
+        <chapter number="4" verses="35"/>
+        <chapter number="5" verses="26"/>
+        <chapter number="6" verses="23"/>
+        <chapter number="7" verses="38"/>
+        <chapter number="8" verses="36"/>
+        <chapter number="9" verses="24"/>
+        <chapter number="10" verses="20"/>
+        <chapter number="11" verses="47"/>
+        <chapter number="12" verses="8"/>
+        <chapter number="13" verses="59"/>
+        <chapter number="14" verses="57"/>
+        <chapter number="15" verses="33"/>
+        <chapter number="16" verses="34"/>
+        <chapter number="17" verses="16"/>
+        <chapter number="18" verses="30"/>
+        <chapter number="19" verses="37"/>
+        <chapter number="20" verses="27"/>
+        <chapter number="21" verses="24"/>
+        <chapter number="22" verses="33"/>
+        <chapter number="23" verses="44"/>
+        <chapter number="24" verses="23"/>
+        <chapter number="25" verses="55"/>
+        <chapter number="26" verses="46"/>
+        <chapter number="27" verses="34"/>
+    </book>
+
+    <book abbrev="NUM" maxchapter="36" testament="OT" latex_abbrev="Nb">
+        <chapter number="1" verses="54"/>
+        <chapter number="2" verses="34"/>
+        <chapter number="3" verses="51"/>
+        <chapter number="4" verses="49"/>
+        <chapter number="5" verses="31"/>
+        <chapter number="6" verses="27"/>
+        <chapter number="7" verses="89"/>
+        <chapter number="8" verses="26"/>
+        <chapter number="9" verses="23"/>
+        <chapter number="10" verses="36"/>
+        <chapter number="11" verses="35"/>
+        <chapter number="12" verses="16"/>
+        <chapter number="13" verses="33"/>
+        <chapter number="14" verses="45"/>
+        <chapter number="15" verses="41"/>
+        <chapter number="16" verses="35"/>
+        <chapter number="17" verses="28"/>
+        <chapter number="18" verses="32"/>
+        <chapter number="19" verses="22"/>
+        <chapter number="20" verses="29"/>
+        <chapter number="21" verses="35"/>
+        <chapter number="22" verses="41"/>
+        <chapter number="23" verses="30"/>
+        <chapter number="24" verses="25"/>
+        <chapter number="25" verses="18"/>
+        <chapter number="26" verses="65"/>
+        <chapter number="27" verses="23"/>
+        <chapter number="28" verses="31"/>
+        <chapter number="29" verses="39"/>
+        <chapter number="30" verses="17"/>
+        <chapter number="31" verses="54"/>
+        <chapter number="32" verses="42"/>
+        <chapter number="33" verses="56"/>
+        <chapter number="34" verses="29"/>
+        <chapter number="35" verses="34"/>
+        <chapter number="36" verses="13"/>
+    </book>
+
+    <book abbrev="DTN" maxchapter="34" testament="OT" latex_abbrev="Dt">
+        <chapter number="1" verses="46"/>
+        <chapter number="2" verses="37"/>
+        <chapter number="3" verses="29"/>
+        <chapter number="4" verses="49"/>
+        <chapter number="5" verses="33"/>
+        <chapter number="6" verses="25"/>
+        <chapter number="7" verses="26"/>
+        <chapter number="8" verses="20"/>
+        <chapter number="9" verses="29"/>
+        <chapter number="10" verses="22"/>
+        <chapter number="11" verses="32"/>
+        <chapter number="12" verses="31"/>
+        <chapter number="13" verses="19"/>
+        <chapter number="14" verses="29"/>
+        <chapter number="15" verses="23"/>
+        <chapter number="16" verses="22"/>
+        <chapter number="17" verses="20"/>
+        <chapter number="18" verses="22"/>
+        <chapter number="19" verses="21"/>
+        <chapter number="20" verses="20"/>
+        <chapter number="21" verses="23"/>
+        <chapter number="22" verses="29"/>
+        <chapter number="23" verses="26"/>
+        <chapter number="24" verses="22"/>
+        <chapter number="25" verses="19"/>
+        <chapter number="26" verses="19"/>
+        <chapter number="27" verses="26"/>
+        <chapter number="28" verses="69"/>
+        <chapter number="29" verses="28"/>
+        <chapter number="30" verses="20"/>
+        <chapter number="31" verses="30"/>
+        <chapter number="32" verses="52"/>
+        <chapter number="33" verses="29"/>
+        <chapter number="34" verses="12"/>
+    </book>
+
+    <book abbrev="JOS" maxchapter="24" testament="OT" latex_abbrev="Jos">
+        <chapter number="1" verses="18"/>
+        <chapter number="2" verses="24"/>
+        <chapter number="3" verses="17"/>
+        <chapter number="4" verses="24"/>
+        <chapter number="5" verses="15"/>
+        <chapter number="6" verses="27"/>
+        <chapter number="7" verses="26"/>
+        <chapter number="8" verses="35"/>
+        <chapter number="9" verses="27"/>
+        <chapter number="10" verses="43"/>
+        <chapter number="11" verses="23"/>
+        <chapter number="12" verses="24"/>
+        <chapter number="13" verses="33"/>
+        <chapter number="14" verses="15"/>
+        <chapter number="15" verses="63"/>
+        <chapter number="16" verses="10"/>
+        <chapter number="17" verses="18"/>
+        <chapter number="18" verses="28"/>
+        <chapter number="19" verses="51"/>
+        <chapter number="20" verses="9"/>
+        <chapter number="21" verses="45"/>
+        <chapter number="22" verses="34"/>
+        <chapter number="23" verses="16"/>
+        <chapter number="24" verses="33"/>
+    </book>
+
+    <book abbrev="RI" maxchapter="21" testament="OT" latex_abbrev="Jg">
+        <chapter number="1" verses="36"/>
+        <chapter number="2" verses="23"/>
+        <chapter number="3" verses="31"/>
+        <chapter number="4" verses="24"/>
+        <chapter number="5" verses="31"/>
+        <chapter number="6" verses="40"/>
+        <chapter number="7" verses="25"/>
+        <chapter number="8" verses="35"/>
+        <chapter number="9" verses="57"/>
+        <chapter number="10" verses="18"/>
+        <chapter number="11" verses="40"/>
+        <chapter number="12" verses="15"/>
+        <chapter number="13" verses="25"/>
+        <chapter number="14" verses="20"/>
+        <chapter number="15" verses="20"/>
+        <chapter number="16" verses="31"/>
+        <chapter number="17" verses="13"/>
+        <chapter number="18" verses="31"/>
+        <chapter number="19" verses="30"/>
+        <chapter number="20" verses="48"/>
+        <chapter number="21" verses="25"/>
+    </book>
+
+    <book abbrev="RT" maxchapter="4" testament="OT" latex_abbrev="Rt">
+        <chapter number="1" verses="22"/>
+        <chapter number="2" verses="23"/>
+        <chapter number="3" verses="18"/>
+        <chapter number="4" verses="22"/>
+    </book>
+
+    <book abbrev="1SAM" maxchapter="31" testament="OT" latex_abbrev="IS">
+        <chapter number="1" verses="28"/>
+        <chapter number="2" verses="36"/>
+        <chapter number="3" verses="21"/>
+        <chapter number="4" verses="22"/>
+        <chapter number="5" verses="12"/>
+        <chapter number="6" verses="21"/>
+        <chapter number="7" verses="17"/>
+        <chapter number="8" verses="22"/>
+        <chapter number="9" verses="27"/>
+        <chapter number="10" verses="27"/>
+        <chapter number="11" verses="15"/>
+        <chapter number="12" verses="25"/>
+        <chapter number="13" verses="23"/>
+        <chapter number="14" verses="52"/>
+        <chapter number="15" verses="35"/>
+        <chapter number="16" verses="23"/>
+        <chapter number="17" verses="58"/>
+        <chapter number="18" verses="30"/>
+        <chapter number="19" verses="24"/>
+        <chapter number="20" verses="42"/>
+        <chapter number="21" verses="16"/>
+        <chapter number="22" verses="23"/>
+        <chapter number="23" verses="28"/>
+        <chapter number="24" verses="23"/>
+        <chapter number="25" verses="44"/>
+        <chapter number="26" verses="25"/>
+        <chapter number="27" verses="12"/>
+        <chapter number="28" verses="25"/>
+        <chapter number="29" verses="11"/>
+        <chapter number="30" verses="31"/>
+        <chapter number="31" verses="13"/>
+    </book>
+
+    <book abbrev="2SAM" maxchapter="24" testament="OT" latex_abbrev="IIS">
+        <chapter number="1" verses="27"/>
+        <chapter number="2" verses="32"/>
+        <chapter number="3" verses="39"/>
+        <chapter number="4" verses="12"/>
+        <chapter number="5" verses="25"/>
+        <chapter number="6" verses="23"/>
+        <chapter number="7" verses="29"/>
+        <chapter number="8" verses="18"/>
+        <chapter number="9" verses="13"/>
+        <chapter number="10" verses="19"/>
+        <chapter number="11" verses="27"/>
+        <chapter number="12" verses="31"/>
+        <chapter number="13" verses="39"/>
+        <chapter number="14" verses="33"/>
+        <chapter number="15" verses="37"/>
+        <chapter number="16" verses="23"/>
+        <chapter number="17" verses="29"/>
+        <chapter number="18" verses="32"/>
+        <chapter number="19" verses="44"/>
+        <chapter number="20" verses="26"/>
+        <chapter number="21" verses="22"/>
+        <chapter number="22" verses="51"/>
+        <chapter number="23" verses="39"/>
+        <chapter number="24" verses="25"/>
+    </book>
+
+    <book abbrev="1KÖN" maxchapter="22" testament="OT" latex_abbrev="IK">
+        <chapter number="1" verses="53"/>
+        <chapter number="2" verses="46"/>
+        <chapter number="3" verses="28"/>
+        <chapter number="4" verses="20"/>
+        <chapter number="5" verses="32"/>
+        <chapter number="6" verses="38"/>
+        <chapter number="7" verses="51"/>
+        <chapter number="8" verses="66"/>
+        <chapter number="9" verses="28"/>
+        <chapter number="10" verses="29"/>
+        <chapter number="11" verses="43"/>
+        <chapter number="12" verses="33"/>
+        <chapter number="13" verses="34"/>
+        <chapter number="14" verses="31"/>
+        <chapter number="15" verses="34"/>
+        <chapter number="16" verses="34"/>
+        <chapter number="17" verses="24"/>
+        <chapter number="18" verses="46"/>
+        <chapter number="19" verses="21"/>
+        <chapter number="20" verses="43"/>
+        <chapter number="21" verses="29"/>
+        <chapter number="22" verses="54"/>
+    </book>
+
+    <book abbrev="2KÖN" maxchapter="25" testament="OT" latex_abbrev="IIK">
+        <chapter number="1" verses="18"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="27"/>
+        <chapter number="4" verses="44"/>
+        <chapter number="5" verses="27"/>
+        <chapter number="6" verses="33"/>
+        <chapter number="7" verses="20"/>
+        <chapter number="8" verses="29"/>
+        <chapter number="9" verses="37"/>
+        <chapter number="10" verses="36"/>
+        <chapter number="11" verses="20"/>
+        <chapter number="12" verses="22"/>
+        <chapter number="13" verses="25"/>
+        <chapter number="14" verses="29"/>
+        <chapter number="15" verses="38"/>
+        <chapter number="16" verses="20"/>
+        <chapter number="17" verses="41"/>
+        <chapter number="18" verses="37"/>
+        <chapter number="19" verses="37"/>
+        <chapter number="20" verses="21"/>
+        <chapter number="21" verses="26"/>
+        <chapter number="22" verses="20"/>
+        <chapter number="23" verses="37"/>
+        <chapter number="24" verses="20"/>
+        <chapter number="25" verses="30"/>
+    </book>
+
+    <book abbrev="1CHR" maxchapter="29" testament="OT" latex_abbrev="ICh">
+        <chapter number="1" verses="54"/>
+        <chapter number="2" verses="55"/>
+        <chapter number="3" verses="24"/>
+        <chapter number="4" verses="43"/>
+        <chapter number="5" verses="41"/>
+        <chapter number="6" verses="66"/>
+        <chapter number="7" verses="40"/>
+        <chapter number="8" verses="40"/>
+        <chapter number="9" verses="44"/>
+        <chapter number="10" verses="14"/>
+        <chapter number="11" verses="47"/>
+        <chapter number="12" verses="41"/>
+        <chapter number="13" verses="14"/>
+        <chapter number="14" verses="17"/>
+        <chapter number="15" verses="29"/>
+        <chapter number="16" verses="43"/>
+        <chapter number="17" verses="27"/>
+        <chapter number="18" verses="17"/>
+        <chapter number="19" verses="19"/>
+        <chapter number="20" verses="8"/>
+        <chapter number="21" verses="30"/>
+        <chapter number="22" verses="19"/>
+        <chapter number="23" verses="32"/>
+        <chapter number="24" verses="31"/>
+        <chapter number="25" verses="31"/>
+        <chapter number="26" verses="32"/>
+        <chapter number="27" verses="34"/>
+        <chapter number="28" verses="21"/>
+        <chapter number="29" verses="30"/>
+    </book>
+
+    <book abbrev="2CHR" maxchapter="36" testament="OT" latex_abbrev="IICh">
+        <chapter number="1" verses="17"/>
+        <chapter number="2" verses="18"/>
+        <chapter number="3" verses="17"/>
+        <chapter number="4" verses="22"/>
+        <chapter number="5" verses="14"/>
+        <chapter number="6" verses="42"/>
+        <chapter number="7" verses="22"/>
+        <chapter number="8" verses="18"/>
+        <chapter number="9" verses="31"/>
+        <chapter number="10" verses="19"/>
+        <chapter number="11" verses="23"/>
+        <chapter number="12" verses="16"/>
+        <chapter number="13" verses="23"/>
+        <chapter number="14" verses="14"/>
+        <chapter number="15" verses="19"/>
+        <chapter number="16" verses="14"/>
+        <chapter number="17" verses="19"/>
+        <chapter number="18" verses="34"/>
+        <chapter number="19" verses="11"/>
+        <chapter number="20" verses="37"/>
+        <chapter number="21" verses="20"/>
+        <chapter number="22" verses="12"/>
+        <chapter number="23" verses="21"/>
+        <chapter number="24" verses="27"/>
+        <chapter number="25" verses="28"/>
+        <chapter number="26" verses="23"/>
+        <chapter number="27" verses="9"/>
+        <chapter number="28" verses="27"/>
+        <chapter number="29" verses="36"/>
+        <chapter number="30" verses="27"/>
+        <chapter number="31" verses="21"/>
+        <chapter number="32" verses="33"/>
+        <chapter number="33" verses="25"/>
+        <chapter number="34" verses="33"/>
+        <chapter number="35" verses="27"/>
+        <chapter number="36" verses="23"/>
+    </book>
+
+    <book abbrev="ESR" maxchapter="10" testament="OT" latex_abbrev="Ezr">
+        <chapter number="1" verses="11"/>
+        <chapter number="2" verses="70"/>
+        <chapter number="3" verses="13"/>
+        <chapter number="4" verses="24"/>
+        <chapter number="5" verses="17"/>
+        <chapter number="6" verses="22"/>
+        <chapter number="7" verses="28"/>
+        <chapter number="8" verses="36"/>
+        <chapter number="9" verses="15"/>
+        <chapter number="10" verses="44"/>
+    </book>
+
+    <book abbrev="NEH" maxchapter="13" testament="OT" latex_abbrev="Ne">
+        <chapter number="1" verses="11"/>
+        <chapter number="2" verses="20"/>
+        <chapter number="3" verses="38"/>
+        <chapter number="4" verses="17"/>
+        <chapter number="5" verses="19"/>
+        <chapter number="6" verses="19"/>
+        <chapter number="7" verses="73"/>
+        <chapter number="8" verses="18"/>
+        <chapter number="9" verses="37"/>
+        <chapter number="10" verses="40"/>
+        <chapter number="11" verses="36"/>
+        <chapter number="12" verses="47"/>
+        <chapter number="13" verses="31"/>
+    </book>
+
+    <book abbrev="EST" maxchapter="10" testament="OT" latex_abbrev="Est">
+        <chapter number="1" verses="22"/>
+        <chapter number="2" verses="23"/>
+        <chapter number="3" verses="15"/>
+        <chapter number="4" verses="17"/>
+        <chapter number="5" verses="14"/>
+        <chapter number="6" verses="14"/>
+        <chapter number="7" verses="10"/>
+        <chapter number="8" verses="17"/>
+        <chapter number="9" verses="32"/>
+        <chapter number="10" verses="3"/>
+    </book>
+
+    <book abbrev="HI" maxchapter="42" testament="OT" latex_abbrev="Jb">
+        <chapter number="1" verses="22"/>
+        <chapter number="2" verses="13"/>
+        <chapter number="3" verses="26"/>
+        <chapter number="4" verses="21"/>
+        <chapter number="5" verses="27"/>
+        <chapter number="6" verses="30"/>
+        <chapter number="7" verses="21"/>
+        <chapter number="8" verses="22"/>
+        <chapter number="9" verses="35"/>
+        <chapter number="10" verses="22"/>
+        <chapter number="11" verses="20"/>
+        <chapter number="12" verses="25"/>
+        <chapter number="13" verses="28"/>
+        <chapter number="14" verses="22"/>
+        <chapter number="15" verses="35"/>
+        <chapter number="16" verses="22"/>
+        <chapter number="17" verses="16"/>
+        <chapter number="18" verses="21"/>
+        <chapter number="19" verses="29"/>
+        <chapter number="20" verses="29"/>
+        <chapter number="21" verses="34"/>
+        <chapter number="22" verses="30"/>
+        <chapter number="23" verses="17"/>
+        <chapter number="24" verses="25"/>
+        <chapter number="25" verses="6"/>
+        <chapter number="26" verses="14"/>
+        <chapter number="27" verses="23"/>
+        <chapter number="28" verses="28"/>
+        <chapter number="29" verses="25"/>
+        <chapter number="30" verses="31"/>
+        <chapter number="31" verses="40"/>
+        <chapter number="32" verses="22"/>
+        <chapter number="33" verses="33"/>
+        <chapter number="34" verses="37"/>
+        <chapter number="35" verses="16"/>
+        <chapter number="36" verses="33"/>
+        <chapter number="37" verses="24"/>
+        <chapter number="38" verses="41"/>
+        <chapter number="39" verses="30"/>
+        <chapter number="40" verses="32"/>
+        <chapter number="41" verses="26"/>
+        <chapter number="42" verses="17"/>
+    </book>
+
+    <book abbrev="PS" maxchapter="150" testament="OT" latex_abbrev="Ps">
+        <chapter number="1" verses="6"/>
+        <chapter number="2" verses="12"/>
+        <chapter number="3" verses="9"/>
+        <chapter number="4" verses="9"/>
+        <chapter number="5" verses="13"/>
+        <chapter number="6" verses="11"/>
+        <chapter number="7" verses="18"/>
+        <chapter number="8" verses="10"/>
+        <chapter number="9" verses="21"/>
+        <chapter number="10" verses="18"/>
+        <chapter number="11" verses="7"/>
+        <chapter number="12" verses="9"/>
+        <chapter number="13" verses="6"/>
+        <chapter number="14" verses="7"/>
+        <chapter number="15" verses="5"/>
+        <chapter number="16" verses="11"/>
+        <chapter number="17" verses="15"/>
+        <chapter number="18" verses="51"/>
+        <chapter number="19" verses="15"/>
+        <chapter number="20" verses="10"/>
+        <chapter number="21" verses="14"/>
+        <chapter number="22" verses="32"/>
+        <chapter number="23" verses="6"/>
+        <chapter number="24" verses="10"/>
+        <chapter number="25" verses="22"/>
+        <chapter number="26" verses="12"/>
+        <chapter number="27" verses="14"/>
+        <chapter number="28" verses="9"/>
+        <chapter number="29" verses="11"/>
+        <chapter number="30" verses="13"/>
+        <chapter number="31" verses="25"/>
+        <chapter number="32" verses="11"/>
+        <chapter number="33" verses="22"/>
+        <chapter number="34" verses="23"/>
+        <chapter number="35" verses="28"/>
+        <chapter number="36" verses="13"/>
+        <chapter number="37" verses="40"/>
+        <chapter number="38" verses="23"/>
+        <chapter number="39" verses="14"/>
+        <chapter number="40" verses="18"/>
+        <chapter number="41" verses="14"/>
+        <chapter number="42" verses="12"/>
+        <chapter number="43" verses="5"/>
+        <chapter number="44" verses="27"/>
+        <chapter number="45" verses="18"/>
+        <chapter number="46" verses="12"/>
+        <chapter number="47" verses="10"/>
+        <chapter number="48" verses="15"/>
+        <chapter number="49" verses="21"/>
+        <chapter number="50" verses="23"/>
+        <chapter number="51" verses="21"/>
+        <chapter number="52" verses="11"/>
+        <chapter number="53" verses="7"/>
+        <chapter number="54" verses="9"/>
+        <chapter number="55" verses="24"/>
+        <chapter number="56" verses="14"/>
+        <chapter number="57" verses="12"/>
+        <chapter number="58" verses="12"/>
+        <chapter number="59" verses="18"/>
+        <chapter number="60" verses="14"/>
+        <chapter number="61" verses="9"/>
+        <chapter number="62" verses="13"/>
+        <chapter number="63" verses="12"/>
+        <chapter number="64" verses="11"/>
+        <chapter number="65" verses="14"/>
+        <chapter number="66" verses="20"/>
+        <chapter number="67" verses="8"/>
+        <chapter number="68" verses="36"/>
+        <chapter number="69" verses="37"/>
+        <chapter number="70" verses="6"/>
+        <chapter number="71" verses="24"/>
+        <chapter number="72" verses="20"/>
+        <chapter number="73" verses="28"/>
+        <chapter number="74" verses="23"/>
+        <chapter number="75" verses="11"/>
+        <chapter number="76" verses="13"/>
+        <chapter number="77" verses="21"/>
+        <chapter number="78" verses="72"/>
+        <chapter number="79" verses="13"/>
+        <chapter number="80" verses="20"/>
+        <chapter number="81" verses="17"/>
+        <chapter number="82" verses="8"/>
+        <chapter number="83" verses="19"/>
+        <chapter number="84" verses="13"/>
+        <chapter number="85" verses="14"/>
+        <chapter number="86" verses="17"/>
+        <chapter number="87" verses="7"/>
+        <chapter number="88" verses="19"/>
+        <chapter number="89" verses="53"/>
+        <chapter number="90" verses="17"/>
+        <chapter number="91" verses="16"/>
+        <chapter number="92" verses="16"/>
+        <chapter number="93" verses="5"/>
+        <chapter number="94" verses="23"/>
+        <chapter number="95" verses="11"/>
+        <chapter number="96" verses="13"/>
+        <chapter number="97" verses="12"/>
+        <chapter number="98" verses="9"/>
+        <chapter number="99" verses="9"/>
+        <chapter number="100" verses="5"/>
+        <chapter number="101" verses="8"/>
+        <chapter number="102" verses="29"/>
+        <chapter number="103" verses="22"/>
+        <chapter number="104" verses="35"/>
+        <chapter number="105" verses="45"/>
+        <chapter number="106" verses="48"/>
+        <chapter number="107" verses="43"/>
+        <chapter number="108" verses="14"/>
+        <chapter number="109" verses="31"/>
+        <chapter number="110" verses="7"/>
+        <chapter number="111" verses="10"/>
+        <chapter number="112" verses="10"/>
+        <chapter number="113" verses="9"/>
+        <chapter number="114" verses="8"/>
+        <chapter number="115" verses="18"/>
+        <chapter number="116" verses="19"/>
+        <chapter number="117" verses="2"/>
+        <chapter number="118" verses="29"/>
+        <chapter number="119" verses="176"/>
+        <chapter number="120" verses="7"/>
+        <chapter number="121" verses="8"/>
+        <chapter number="122" verses="7"/>
+        <chapter number="123" verses="4"/>
+        <chapter number="124" verses="8"/>
+        <chapter number="125" verses="5"/>
+        <chapter number="126" verses="6"/>
+        <chapter number="127" verses="5"/>
+        <chapter number="128" verses="6"/>
+        <chapter number="129" verses="8"/>
+        <chapter number="130" verses="8"/>
+        <chapter number="131" verses="3"/>
+        <chapter number="132" verses="18"/>
+        <chapter number="133" verses="3"/>
+        <chapter number="134" verses="3"/>
+        <chapter number="135" verses="21"/>
+        <chapter number="136" verses="26"/>
+        <chapter number="137" verses="9"/>
+        <chapter number="138" verses="8"/>
+        <chapter number="139" verses="24"/>
+        <chapter number="140" verses="14"/>
+        <chapter number="141" verses="10"/>
+        <chapter number="142" verses="8"/>
+        <chapter number="143" verses="12"/>
+        <chapter number="144" verses="15"/>
+        <chapter number="145" verses="21"/>
+        <chapter number="146" verses="10"/>
+        <chapter number="147" verses="20"/>
+        <chapter number="148" verses="14"/>
+        <chapter number="149" verses="9"/>
+        <chapter number="150" verses="6"/>
+    </book>
+
+    <book abbrev="SPR" maxchapter="31" testament="OT" latex_abbrev="Pr">
+        <chapter number="1" verses="33"/>
+        <chapter number="2" verses="22"/>
+        <chapter number="3" verses="35"/>
+        <chapter number="4" verses="27"/>
+        <chapter number="5" verses="23"/>
+        <chapter number="6" verses="35"/>
+        <chapter number="7" verses="27"/>
+        <chapter number="8" verses="36"/>
+        <chapter number="9" verses="18"/>
+        <chapter number="10" verses="32"/>
+        <chapter number="11" verses="31"/>
+        <chapter number="12" verses="28"/>
+        <chapter number="13" verses="25"/>
+        <chapter number="14" verses="35"/>
+        <chapter number="15" verses="33"/>
+        <chapter number="16" verses="33"/>
+        <chapter number="17" verses="28"/>
+        <chapter number="18" verses="24"/>
+        <chapter number="19" verses="29"/>
+        <chapter number="20" verses="30"/>
+        <chapter number="21" verses="31"/>
+        <chapter number="22" verses="29"/>
+        <chapter number="23" verses="35"/>
+        <chapter number="24" verses="34"/>
+        <chapter number="25" verses="28"/>
+        <chapter number="26" verses="28"/>
+        <chapter number="27" verses="27"/>
+        <chapter number="28" verses="28"/>
+        <chapter number="29" verses="27"/>
+        <chapter number="30" verses="33"/>
+        <chapter number="31" verses="31"/>
+    </book>
+
+    <book abbrev="PRD" maxchapter="12" testament="OT" latex_abbrev="Qo">
+        <chapter number="1" verses="18"/>
+        <chapter number="2" verses="26"/>
+        <chapter number="3" verses="22"/>
+        <chapter number="4" verses="16"/>
+        <chapter number="5" verses="19"/>
+        <chapter number="6" verses="12"/>
+        <chapter number="7" verses="29"/>
+        <chapter number="8" verses="17"/>
+        <chapter number="9" verses="18"/>
+        <chapter number="10" verses="20"/>
+        <chapter number="11" verses="10"/>
+        <chapter number="12" verses="14"/>
+    </book>
+
+    <book abbrev="HOH" maxchapter="8" testament="OT" latex_abbrev="Sg">
+        <chapter number="1" verses="17"/>
+        <chapter number="2" verses="17"/>
+        <chapter number="3" verses="11"/>
+        <chapter number="4" verses="16"/>
+        <chapter number="5" verses="16"/>
+        <chapter number="6" verses="12"/>
+        <chapter number="7" verses="14"/>
+        <chapter number="8" verses="14"/>
+    </book>
+
+    <book abbrev="JES" maxchapter="66" testament="OT" latex_abbrev="Is">
+        <chapter number="1" verses="31"/>
+        <chapter number="2" verses="22"/>
+        <chapter number="3" verses="26"/>
+        <chapter number="4" verses="6"/>
+        <chapter number="5" verses="30"/>
+        <chapter number="6" verses="13"/>
+        <chapter number="7" verses="25"/>
+        <chapter number="8" verses="22"/>
+        <chapter number="9" verses="20"/>
+        <chapter number="10" verses="34"/>
+        <chapter number="11" verses="16"/>
+        <chapter number="12" verses="6"/>
+        <chapter number="13" verses="22"/>
+        <chapter number="14" verses="32"/>
+        <chapter number="15" verses="9"/>
+        <chapter number="16" verses="14"/>
+        <chapter number="17" verses="14"/>
+        <chapter number="18" verses="7"/>
+        <chapter number="19" verses="25"/>
+        <chapter number="20" verses="6"/>
+        <chapter number="21" verses="17"/>
+        <chapter number="22" verses="25"/>
+        <chapter number="23" verses="18"/>
+        <chapter number="24" verses="23"/>
+        <chapter number="25" verses="12"/>
+        <chapter number="26" verses="21"/>
+        <chapter number="27" verses="13"/>
+        <chapter number="28" verses="29"/>
+        <chapter number="29" verses="24"/>
+        <chapter number="30" verses="33"/>
+        <chapter number="31" verses="9"/>
+        <chapter number="32" verses="20"/>
+        <chapter number="33" verses="24"/>
+        <chapter number="34" verses="17"/>
+        <chapter number="35" verses="10"/>
+        <chapter number="36" verses="22"/>
+        <chapter number="37" verses="38"/>
+        <chapter number="38" verses="22"/>
+        <chapter number="39" verses="8"/>
+        <chapter number="40" verses="31"/>
+        <chapter number="41" verses="29"/>
+        <chapter number="42" verses="25"/>
+        <chapter number="43" verses="28"/>
+        <chapter number="44" verses="28"/>
+        <chapter number="45" verses="25"/>
+        <chapter number="46" verses="13"/>
+        <chapter number="47" verses="15"/>
+        <chapter number="48" verses="22"/>
+        <chapter number="49" verses="26"/>
+        <chapter number="50" verses="11"/>
+        <chapter number="51" verses="23"/>
+        <chapter number="52" verses="15"/>
+        <chapter number="53" verses="12"/>
+        <chapter number="54" verses="17"/>
+        <chapter number="55" verses="13"/>
+        <chapter number="56" verses="12"/>
+        <chapter number="57" verses="21"/>
+        <chapter number="58" verses="14"/>
+        <chapter number="59" verses="21"/>
+        <chapter number="60" verses="22"/>
+        <chapter number="61" verses="11"/>
+        <chapter number="62" verses="12"/>
+        <chapter number="63" verses="19"/>
+        <chapter number="64" verses="11"/>
+        <chapter number="65" verses="25"/>
+        <chapter number="66" verses="24"/>
+    </book>
+
+    <book abbrev="JER" maxchapter="52" testament="OT" latex_abbrev="Jr">
+        <chapter number="1" verses="19"/>
+        <chapter number="2" verses="37"/>
+        <chapter number="3" verses="25"/>
+        <chapter number="4" verses="31"/>
+        <chapter number="5" verses="31"/>
+        <chapter number="6" verses="30"/>
+        <chapter number="7" verses="34"/>
+        <chapter number="8" verses="23"/>
+        <chapter number="9" verses="25"/>
+        <chapter number="10" verses="25"/>
+        <chapter number="11" verses="23"/>
+        <chapter number="12" verses="17"/>
+        <chapter number="13" verses="27"/>
+        <chapter number="14" verses="22"/>
+        <chapter number="15" verses="21"/>
+        <chapter number="16" verses="21"/>
+        <chapter number="17" verses="27"/>
+        <chapter number="18" verses="23"/>
+        <chapter number="19" verses="15"/>
+        <chapter number="20" verses="18"/>
+        <chapter number="21" verses="14"/>
+        <chapter number="22" verses="30"/>
+        <chapter number="23" verses="40"/>
+        <chapter number="24" verses="10"/>
+        <chapter number="25" verses="38"/>
+        <chapter number="26" verses="24"/>
+        <chapter number="27" verses="22"/>
+        <chapter number="28" verses="17"/>
+        <chapter number="29" verses="32"/>
+        <chapter number="30" verses="24"/>
+        <chapter number="31" verses="40"/>
+        <chapter number="32" verses="44"/>
+        <chapter number="33" verses="26"/>
+        <chapter number="34" verses="22"/>
+        <chapter number="35" verses="19"/>
+        <chapter number="36" verses="32"/>
+        <chapter number="37" verses="21"/>
+        <chapter number="38" verses="28"/>
+        <chapter number="39" verses="18"/>
+        <chapter number="40" verses="16"/>
+        <chapter number="41" verses="18"/>
+        <chapter number="42" verses="22"/>
+        <chapter number="43" verses="13"/>
+        <chapter number="44" verses="30"/>
+        <chapter number="45" verses="5"/>
+        <chapter number="46" verses="28"/>
+        <chapter number="47" verses="7"/>
+        <chapter number="48" verses="47"/>
+        <chapter number="49" verses="39"/>
+        <chapter number="50" verses="46"/>
+        <chapter number="51" verses="64"/>
+        <chapter number="52" verses="34"/>
+    </book>
+
+    <book abbrev="KLA" maxchapter="5" testament="OT" latex_abbrev="Lm">
+        <chapter number="1" verses="22"/>
+        <chapter number="2" verses="22"/>
+        <chapter number="3" verses="66"/>
+        <chapter number="4" verses="22"/>
+        <chapter number="5" verses="22"/>
+    </book>
+
+    <book abbrev="HES" maxchapter="48" testament="OT" latex_abbrev="Ezk">
+        <chapter number="1" verses="28"/>
+        <chapter number="2" verses="10"/>
+        <chapter number="3" verses="27"/>
+        <chapter number="4" verses="17"/>
+        <chapter number="5" verses="17"/>
+        <chapter number="6" verses="14"/>
+        <chapter number="7" verses="27"/>
+        <chapter number="8" verses="18"/>
+        <chapter number="9" verses="11"/>
+        <chapter number="10" verses="22"/>
+        <chapter number="11" verses="25"/>
+        <chapter number="12" verses="28"/>
+        <chapter number="13" verses="23"/>
+        <chapter number="14" verses="23"/>
+        <chapter number="15" verses="8"/>
+        <chapter number="16" verses="63"/>
+        <chapter number="17" verses="24"/>
+        <chapter number="18" verses="32"/>
+        <chapter number="19" verses="14"/>
+        <chapter number="20" verses="44"/>
+        <chapter number="21" verses="37"/>
+        <chapter number="22" verses="31"/>
+        <chapter number="23" verses="49"/>
+        <chapter number="24" verses="27"/>
+        <chapter number="25" verses="17"/>
+        <chapter number="26" verses="21"/>
+        <chapter number="27" verses="36"/>
+        <chapter number="28" verses="26"/>
+        <chapter number="29" verses="21"/>
+        <chapter number="30" verses="26"/>
+        <chapter number="31" verses="18"/>
+        <chapter number="32" verses="32"/>
+        <chapter number="33" verses="33"/>
+        <chapter number="34" verses="31"/>
+        <chapter number="35" verses="15"/>
+        <chapter number="36" verses="38"/>
+        <chapter number="37" verses="28"/>
+        <chapter number="38" verses="23"/>
+        <chapter number="39" verses="29"/>
+        <chapter number="40" verses="49"/>
+        <chapter number="41" verses="26"/>
+        <chapter number="42" verses="20"/>
+        <chapter number="43" verses="27"/>
+        <chapter number="44" verses="31"/>
+        <chapter number="45" verses="25"/>
+        <chapter number="46" verses="24"/>
+        <chapter number="47" verses="23"/>
+        <chapter number="48" verses="35"/>
+    </book>
+
+    <book abbrev="DAN" maxchapter="12" testament="OT" latex_abbrev="Dn">
+        <chapter number="1" verses="21"/>
+        <chapter number="2" verses="49"/>
+        <chapter number="3" verses="30"/>
+        <chapter number="4" verses="34"/>
+        <chapter number="5" verses="30"/>
+        <chapter number="6" verses="29"/>
+        <chapter number="7" verses="28"/>
+        <chapter number="8" verses="27"/>
+        <chapter number="9" verses="27"/>
+        <chapter number="10" verses="21"/>
+        <chapter number="11" verses="45"/>
+        <chapter number="12" verses="13"/>
+    </book>
+
+    <book abbrev="HOS" maxchapter="14" testament="OT" latex_abbrev="Ho">
+        <chapter number="1" verses="9"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="5"/>
+        <chapter number="4" verses="19"/>
+        <chapter number="5" verses="15"/>
+        <chapter number="6" verses="11"/>
+        <chapter number="7" verses="16"/>
+        <chapter number="8" verses="14"/>
+        <chapter number="9" verses="17"/>
+        <chapter number="10" verses="15"/>
+        <chapter number="11" verses="11"/>
+        <chapter number="12" verses="15"/>
+        <chapter number="13" verses="15"/>
+        <chapter number="14" verses="10"/>
+    </book>
+
+    <book abbrev="JO" maxchapter="4" testament="OT" latex_abbrev="Jl">
+        <chapter number="1" verses="20"/>
+        <chapter number="2" verses="27"/>
+        <chapter number="3" verses="5"/>
+        <chapter number="4" verses="21"/>
+    </book>
+
+    <book abbrev="AM" maxchapter="9" testament="OT" latex_abbrev="Am">
+        <chapter number="1" verses="15"/>
+        <chapter number="2" verses="16"/>
+        <chapter number="3" verses="15"/>
+        <chapter number="4" verses="13"/>
+        <chapter number="5" verses="27"/>
+        <chapter number="6" verses="14"/>
+        <chapter number="7" verses="17"/>
+        <chapter number="8" verses="14"/>
+        <chapter number="9" verses="15"/>
+    </book>
+
+    <book abbrev="OB" maxchapter="1" testament="OT" latex_abbrev="Ob">
+        <chapter number="1" verses="21"/>
+    </book>
+
+    <book abbrev="JON" maxchapter="4" testament="OT" latex_abbrev="Jon">
+        <chapter number="1" verses="16"/>
+        <chapter number="2" verses="11"/>
+        <chapter number="3" verses="10"/>
+        <chapter number="4" verses="11"/>
+    </book>
+
+    <book abbrev="MI" maxchapter="7" testament="OT" latex_abbrev="Mi">
+        <chapter number="1" verses="16"/>
+        <chapter number="2" verses="13"/>
+        <chapter number="3" verses="12"/>
+        <chapter number="4" verses="14"/>
+        <chapter number="5" verses="14"/>
+        <chapter number="6" verses="16"/>
+        <chapter number="7" verses="20"/>
+    </book>
+
+    <book abbrev="NAH" maxchapter="3" testament="OT" latex_abbrev="Na">
+        <chapter number="1" verses="14"/>
+        <chapter number="2" verses="14"/>
+        <chapter number="3" verses="19"/>
+    </book>
+
+    <book abbrev="HAB" maxchapter="3" testament="OT" latex_abbrev="Hab">
+        <chapter number="1" verses="17"/>
+        <chapter number="2" verses="20"/>
+        <chapter number="3" verses="19"/>
+    </book>
+
+    <book abbrev="ZEP" maxchapter="3" testament="OT" latex_abbrev="Zp">
+        <chapter number="1" verses="18"/>
+        <chapter number="2" verses="15"/>
+        <chapter number="3" verses="20"/>
+    </book>
+
+    <book abbrev="HAG" maxchapter="2" testament="OT" latex_abbrev="Hg">
+        <chapter number="1" verses="15"/>
+        <chapter number="2" verses="23"/>
+    </book>
+
+    <book abbrev="SACH" maxchapter="14" testament="OT" latex_abbrev="Zc">
+        <chapter number="1" verses="17"/>
+        <chapter number="2" verses="17"/>
+        <chapter number="3" verses="10"/>
+        <chapter number="4" verses="14"/>
+        <chapter number="5" verses="11"/>
+        <chapter number="6" verses="15"/>
+        <chapter number="7" verses="14"/>
+        <chapter number="8" verses="23"/>
+        <chapter number="9" verses="17"/>
+        <chapter number="10" verses="12"/>
+        <chapter number="11" verses="17"/>
+        <chapter number="12" verses="14"/>
+        <chapter number="13" verses="9"/>
+        <chapter number="14" verses="21"/>
+    </book>
+
+    <book abbrev="MAL" maxchapter="3" testament="OT" latex_abbrev="Ml">
+        <chapter number="1" verses="14"/>
+        <chapter number="2" verses="17"/>
+        <chapter number="3" verses="24"/>
+    </book>
+
+    <book abbrev="MT" maxchapter="28" testament="NT" latex_abbrev="Mt">
+        <chapter number="1" verses="25"/>
+        <chapter number="2" verses="23"/>
+        <chapter number="3" verses="17"/>
+        <chapter number="4" verses="25"/>
+        <chapter number="5" verses="48"/>
+        <chapter number="6" verses="34"/>
+        <chapter number="7" verses="29"/>
+        <chapter number="8" verses="34"/>
+        <chapter number="9" verses="38"/>
+        <chapter number="10" verses="42"/>
+        <chapter number="11" verses="30"/>
+        <chapter number="12" verses="50"/>
+        <chapter number="13" verses="58"/>
+        <chapter number="14" verses="36"/>
+        <chapter number="15" verses="39"/>
+        <chapter number="16" verses="28"/>
+        <chapter number="17" verses="27"/>
+        <chapter number="18" verses="35"/>
+        <chapter number="19" verses="30"/>
+        <chapter number="20" verses="34"/>
+        <chapter number="21" verses="46"/>
+        <chapter number="22" verses="46"/>
+        <chapter number="23" verses="39"/>
+        <chapter number="24" verses="51"/>
+        <chapter number="25" verses="46"/>
+        <chapter number="26" verses="75"/>
+        <chapter number="27" verses="66"/>
+        <chapter number="28" verses="20"/>
+    </book>
+
+    <book abbrev="MK" maxchapter="16" testament="NT" latex_abbrev="Mk">
+        <chapter number="1" verses="45"/>
+        <chapter number="2" verses="28"/>
+        <chapter number="3" verses="35"/>
+        <chapter number="4" verses="41"/>
+        <chapter number="5" verses="43"/>
+        <chapter number="6" verses="56"/>
+        <chapter number="7" verses="37"/>
+        <chapter number="8" verses="38"/>
+        <chapter number="9" verses="50"/>
+        <chapter number="10" verses="52"/>
+        <chapter number="11" verses="33"/>
+        <chapter number="12" verses="44"/>
+        <chapter number="13" verses="37"/>
+        <chapter number="14" verses="72"/>
+        <chapter number="15" verses="47"/>
+        <chapter number="16" verses="20"/>
+    </book>
+
+    <book abbrev="LK" maxchapter="24" testament="NT" latex_abbrev="Lk">
+        <chapter number="1" verses="80"/>
+        <chapter number="2" verses="52"/>
+        <chapter number="3" verses="38"/>
+        <chapter number="4" verses="44"/>
+        <chapter number="5" verses="39"/>
+        <chapter number="6" verses="49"/>
+        <chapter number="7" verses="50"/>
+        <chapter number="8" verses="56"/>
+        <chapter number="9" verses="62"/>
+        <chapter number="10" verses="42"/>
+        <chapter number="11" verses="54"/>
+        <chapter number="12" verses="59"/>
+        <chapter number="13" verses="35"/>
+        <chapter number="14" verses="35"/>
+        <chapter number="15" verses="32"/>
+        <chapter number="16" verses="31"/>
+        <chapter number="17" verses="37"/>
+        <chapter number="18" verses="43"/>
+        <chapter number="19" verses="48"/>
+        <chapter number="20" verses="47"/>
+        <chapter number="21" verses="38"/>
+        <chapter number="22" verses="71"/>
+        <chapter number="23" verses="56"/>
+        <chapter number="24" verses="53"/>
+    </book>
+
+    <book abbrev="JOH" maxchapter="21" testament="NT" latex_abbrev="Jn">
+        <chapter number="1" verses="51"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="36"/>
+        <chapter number="4" verses="54"/>
+        <chapter number="5" verses="47"/>
+        <chapter number="6" verses="71"/>
+        <chapter number="7" verses="53"/>
+        <chapter number="8" verses="59"/>
+        <chapter number="9" verses="41"/>
+        <chapter number="10" verses="42"/>
+        <chapter number="11" verses="57"/>
+        <chapter number="12" verses="50"/>
+        <chapter number="13" verses="38"/>
+        <chapter number="14" verses="31"/>
+        <chapter number="15" verses="27"/>
+        <chapter number="16" verses="33"/>
+        <chapter number="17" verses="26"/>
+        <chapter number="18" verses="40"/>
+        <chapter number="19" verses="42"/>
+        <chapter number="20" verses="31"/>
+        <chapter number="21" verses="25"/>
+    </book>
+
+    <book abbrev="APG" maxchapter="28" testament="NT" latex_abbrev="Acts">
+        <chapter number="1" verses="26"/>
+        <chapter number="2" verses="47"/>
+        <chapter number="3" verses="26"/>
+        <chapter number="4" verses="37"/>
+        <chapter number="5" verses="42"/>
+        <chapter number="6" verses="15"/>
+        <chapter number="7" verses="60"/>
+        <chapter number="8" verses="40"/>
+        <chapter number="9" verses="43"/>
+        <chapter number="10" verses="48"/>
+        <chapter number="11" verses="30"/>
+        <chapter number="12" verses="25"/>
+        <chapter number="13" verses="52"/>
+        <chapter number="14" verses="28"/>
+        <chapter number="15" verses="41"/>
+        <chapter number="16" verses="40"/>
+        <chapter number="17" verses="34"/>
+        <chapter number="18" verses="28"/>
+        <chapter number="19" verses="41"/>
+        <chapter number="20" verses="38"/>
+        <chapter number="21" verses="40"/>
+        <chapter number="22" verses="30"/>
+        <chapter number="23" verses="35"/>
+        <chapter number="24" verses="27"/>
+        <chapter number="25" verses="27"/>
+        <chapter number="26" verses="32"/>
+        <chapter number="27" verses="44"/>
+        <chapter number="28" verses="31"/>
+    </book>
+
+    <book abbrev="RÖM" maxchapter="16" testament="NT" latex_abbrev="Rm">
+        <chapter number="1" verses="32"/>
+        <chapter number="2" verses="29"/>
+        <chapter number="3" verses="31"/>
+        <chapter number="4" verses="25"/>
+        <chapter number="5" verses="21"/>
+        <chapter number="6" verses="23"/>
+        <chapter number="7" verses="25"/>
+        <chapter number="8" verses="39"/>
+        <chapter number="9" verses="33"/>
+        <chapter number="10" verses="21"/>
+        <chapter number="11" verses="36"/>
+        <chapter number="12" verses="21"/>
+        <chapter number="13" verses="14"/>
+        <chapter number="14" verses="23"/>
+        <chapter number="15" verses="33"/>
+        <chapter number="16" verses="27"/>
+    </book>
+
+    <book abbrev="1KOR" maxchapter="16" testament="NT" latex_abbrev="ICo">
+        <chapter number="1" verses="31"/>
+        <chapter number="2" verses="16"/>
+        <chapter number="3" verses="23"/>
+        <chapter number="4" verses="21"/>
+        <chapter number="5" verses="13"/>
+        <chapter number="6" verses="20"/>
+        <chapter number="7" verses="40"/>
+        <chapter number="8" verses="13"/>
+        <chapter number="9" verses="27"/>
+        <chapter number="10" verses="33"/>
+        <chapter number="11" verses="34"/>
+        <chapter number="12" verses="31"/>
+        <chapter number="13" verses="13"/>
+        <chapter number="14" verses="40"/>
+        <chapter number="15" verses="58"/>
+        <chapter number="16" verses="24"/>
+    </book>
+
+    <book abbrev="2KOR" maxchapter="13" testament="NT" latex_abbrev="IICo">
+        <chapter number="1" verses="24"/>
+        <chapter number="2" verses="17"/>
+        <chapter number="3" verses="18"/>
+        <chapter number="4" verses="18"/>
+        <chapter number="5" verses="21"/>
+        <chapter number="6" verses="18"/>
+        <chapter number="7" verses="16"/>
+        <chapter number="8" verses="24"/>
+        <chapter number="9" verses="15"/>
+        <chapter number="10" verses="18"/>
+        <chapter number="11" verses="33"/>
+        <chapter number="12" verses="21"/>
+        <chapter number="13" verses="13"/>
+    </book>
+
+    <book abbrev="GAL" maxchapter="6" testament="NT" latex_abbrev="Ga">
+        <chapter number="1" verses="24"/>
+        <chapter number="2" verses="21"/>
+        <chapter number="3" verses="29"/>
+        <chapter number="4" verses="31"/>
+        <chapter number="5" verses="26"/>
+        <chapter number="6" verses="18"/>
+    </book>
+
+    <book abbrev="EPH" maxchapter="6" testament="NT" latex_abbrev="Ep">
+        <chapter number="1" verses="23"/>
+        <chapter number="2" verses="22"/>
+        <chapter number="3" verses="21"/>
+        <chapter number="4" verses="32"/>
+        <chapter number="5" verses="33"/>
+        <chapter number="6" verses="24"/>
+    </book>
+
+    <book abbrev="PHIL" maxchapter="4" testament="NT" latex_abbrev="Ph">
+        <chapter number="1" verses="30"/>
+        <chapter number="2" verses="30"/>
+        <chapter number="3" verses="21"/>
+        <chapter number="4" verses="23"/>
+    </book>
+
+    <book abbrev="KOL" maxchapter="4" testament="NT" latex_abbrev="Col">
+        <chapter number="1" verses="29"/>
+        <chapter number="2" verses="23"/>
+        <chapter number="3" verses="25"/>
+        <chapter number="4" verses="18"/>
+    </book>
+
+    <book abbrev="1THES" maxchapter="5" testament="NT" latex_abbrev="ITh">
+        <chapter number="1" verses="10"/>
+        <chapter number="2" verses="20"/>
+        <chapter number="3" verses="13"/>
+        <chapter number="4" verses="18"/>
+        <chapter number="5" verses="28"/>
+    </book>
+
+    <book abbrev="2THES" maxchapter="3" testament="NT" latex_abbrev="IITh">
+        <chapter number="1" verses="12"/>
+        <chapter number="2" verses="17"/>
+        <chapter number="3" verses="18"/>
+    </book>
+
+    <book abbrev="1TIM" maxchapter="6" testament="NT" latex_abbrev="ITm">
+        <chapter number="1" verses="20"/>
+        <chapter number="2" verses="15"/>
+        <chapter number="3" verses="16"/>
+        <chapter number="4" verses="16"/>
+        <chapter number="5" verses="25"/>
+        <chapter number="6" verses="21"/>
+    </book>
+
+    <book abbrev="2TIM" maxchapter="4" testament="NT" latex_abbrev="IITm">
+        <chapter number="1" verses="18"/>
+        <chapter number="2" verses="26"/>
+        <chapter number="3" verses="17"/>
+        <chapter number="4" verses="22"/>
+    </book>
+
+    <book abbrev="TIT" maxchapter="3" testament="NT" latex_abbrev="Tt">
+        <chapter number="1" verses="16"/>
+        <chapter number="2" verses="15"/>
+        <chapter number="3" verses="15"/>
+    </book>
+
+    <book abbrev="PHIM" maxchapter="1" testament="NT" latex_abbrev="Phm">
+        <chapter number="1" verses="25"/>
+    </book>
+
+    <book abbrev="HEB" maxchapter="13" testament="NT" latex_abbrev="Heb">
+        <chapter number="1" verses="14"/>
+        <chapter number="2" verses="18"/>
+        <chapter number="3" verses="19"/>
+        <chapter number="4" verses="16"/>
+        <chapter number="5" verses="14"/>
+        <chapter number="6" verses="20"/>
+        <chapter number="7" verses="28"/>
+        <chapter number="8" verses="13"/>
+        <chapter number="9" verses="28"/>
+        <chapter number="10" verses="39"/>
+        <chapter number="11" verses="40"/>
+        <chapter number="12" verses="29"/>
+        <chapter number="13" verses="25"/>
+    </book>
+
+    <book abbrev="JAK" maxchapter="5" testament="NT" latex_abbrev="Jm">
+        <chapter number="1" verses="27"/>
+        <chapter number="2" verses="26"/>
+        <chapter number="3" verses="18"/>
+        <chapter number="4" verses="17"/>
+        <chapter number="5" verses="20"/>
+    </book>
+
+    <book abbrev="1PET" maxchapter="5" testament="NT" latex_abbrev="IP">
+        <chapter number="1" verses="25"/>
+        <chapter number="2" verses="25"/>
+        <chapter number="3" verses="22"/>
+        <chapter number="4" verses="19"/>
+        <chapter number="5" verses="14"/>
+    </book>
+
+    <book abbrev="2PET" maxchapter="3" testament="NT" latex_abbrev="IIP">
+        <chapter number="1" verses="21"/>
+        <chapter number="2" verses="22"/>
+        <chapter number="3" verses="18"/>
+    </book>
+
+    <book abbrev="1JOH" maxchapter="5" testament="NT" latex_abbrev="IJn">
+        <chapter number="1" verses="10"/>
+        <chapter number="2" verses="29"/>
+        <chapter number="3" verses="24"/>
+        <chapter number="4" verses="21"/>
+        <chapter number="5" verses="21"/>
+    </book>
+
+    <book abbrev="2JOH" maxchapter="1" testament="NT" latex_abbrev="IIJn">
+        <chapter number="1" verses="13"/>
+    </book>
+
+    <book abbrev="3JOH" maxchapter="1" testament="NT" latex_abbrev="IIIJohn">
+        <chapter number="1" verses="15"/>
+    </book>
+
+    <book abbrev="JUD" maxchapter="1" testament="NT" latex_abbrev="Jude">
+        <chapter number="1" verses="25"/>
+    </book>
+
+    <book abbrev="OFF" maxchapter="22" testament="NT" latex_abbrev="Rv">
+        <chapter number="1" verses="20"/>
+        <chapter number="2" verses="29"/>
+        <chapter number="3" verses="22"/>
+        <chapter number="4" verses="11"/>
+        <chapter number="5" verses="14"/>
+        <chapter number="6" verses="17"/>
+        <chapter number="7" verses="17"/>
+        <chapter number="8" verses="13"/>
+        <chapter number="9" verses="21"/>
+        <chapter number="10" verses="11"/>
+        <chapter number="11" verses="19"/>
+        <chapter number="12" verses="18"/>
+        <chapter number="13" verses="18"/>
+        <chapter number="14" verses="20"/>
+        <chapter number="15" verses="8"/>
+        <chapter number="16" verses="21"/>
+        <chapter number="17" verses="18"/>
+        <chapter number="18" verses="24"/>
+        <chapter number="19" verses="21"/>
+        <chapter number="20" verses="15"/>
+        <chapter number="21" verses="27"/>
+        <chapter number="22" verses="21"/>
+    </book>
+
+</books>
