@@ -1392,13 +1392,13 @@ Tags:
   </version>
 
   <version>
-    <name>ESV2016</name>
+    <name>ESV2025</name>
     <servername>ESV</servername>
     <language>EN</language>
     <content>FB</content>
     <server>Biblegateway</server>
     <fullname>English Standard Version</fullname>
-    <year>2016</year>
+    <year>2025</year>
     <family>RSV</family>
   </version>
 
