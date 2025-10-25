@@ -1193,12 +1193,12 @@ Tags:
   </version>
 
   <version>
-    <name>CMB</name>
+    <name>COV</name>
     <servername>Coverdale</servername>
     <language>EN</language>
     <content>FB</content>
     <server>Studybible</server>
-    <fullname>Coverdale Miles Bible</fullname>
+    <fullname>Coverdale Bible</fullname>
     <year>1535</year>
   </version>
 
