@@ -1036,7 +1036,7 @@ Tags:
   </version>
 
   <version>
-    <name>ASV</name>
+    <name>ASV1901</name>
     <servername>ASV</servername>
     <language>EN</language>
     <content>FB</content>
@@ -1094,7 +1094,7 @@ Tags:
     <language>EN</language>
     <content>FB</content>
     <server>Studybible</server>
-    <fullname>Berean Study Bible</fullname>
+    <fullname>Berean Standard Bible</fullname>
     <year>2016</year>
   </version>
 
@@ -1352,20 +1352,6 @@ Tags:
     <year>2002</year>
   </version>
 
-
-  <version>
-    <name>ERV</name>
-    <servername>ERV</servername>
-    <language>EN</language>
-    <content>FB</content>
-    <server>Studybible</server>
-    <fullname>English Revised Version</fullname>
-    <year>1885</year>
-    <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
-  </version>
-
-
   <!--
   Editions: 2001, 2002 (minor changes), 2007 (minor changes), 2011, 2016
   -->
@@ -1446,6 +1432,16 @@ Tags:
   </version>
 
   <version>
+    <name>FBV</name>
+    <servername>engfbv</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Ebible</server>
+    <fullname>Free Bible Version</fullname>
+    <year>2018</year>
+  </version>
+
+  <version>
     <name>GB</name>
     <servername>Great</servername>
     <language>EN</language>
@@ -1489,7 +1485,7 @@ Tags:
   </version>
 
   <version>
-    <name>GNT</name>
+    <name>GNT1992</name>
     <servername>GNT</servername>
     <language>EN</language>
     <content>FB</content>
@@ -1725,26 +1721,46 @@ Tags:
     <textbase>Textus Receptus</textbase>
   </version>
 
+
+    <!--
+    There are different editions of the KJV which differ in some words. This is how you can identify them:
+
+    Hebrews 10:23	„Let us hold fast the confession/profession of our faith“
+    „profession“ = 1769; „confession“ = 1611
+
+    Romans 6:13	„yield yourselves unto God, as those that are alive unto/from the dead“
+    „alive from“ = 1769; „alive unto“ = 1611
+
+    Jeremiah 31:34	„for I will forgive their iniquity“ / „pardon their sin“
+    „forgive“ = 1769; „pardon“ = 1611
+
+    Reference editions:
+    1611 https://www.kingjamesbibleonline.org/1611-Bible/
+    1769 https://www.kingjamesbibleonline.org/
+    1873 https://archive.org/details/cambridgeparagraphbible1873
+    -->
+
   <!-- Also known as Authorized Version-->
   <version>
-    <name>KJV</name>
+    <name>KJV1769</name>
     <servername>KJV</servername>
     <language>EN</language>
     <content>FB</content>
     <server>Biblegateway</server>
     <fullname>King James Version</fullname>
     <family>KJV</family>
-    <year>1611</year>
+    <year>1769</year>
     <textbase>Textus Receptus</textbase>
   </version>
   <!--
   <version>
-    <name>KJV</name>
+    <name>KJV1769</name>
     <servername>KJV</servername>
     <language>EN</language>
     <content>FB</content>
     <server>DBG</server>
     <fullname>King James Version</fullname>
+    <year>1769</year>
   </version>
   -->
 
@@ -1865,7 +1881,7 @@ Tags:
   </version>
 
   <version>
-    <name>MATTHEW</name>
+    <name>MAT</name>
     <servername>Matthew</servername>
     <language>EN</language>
     <content>FB</content>
@@ -2069,7 +2085,7 @@ Tags:
   </version>
 
   <version>
-    <name>NIV</name>
+    <name>NIV2011</name>
     <servername>NIV</servername>
     <language>EN</language>
     <content>FB</content>
@@ -2256,7 +2272,7 @@ Tags:
   </version>
 
   <version>
-    <name>OJB</name>
+    <name>OJB2011</name>
     <servername>OJB</servername>
     <language>EN</language>
     <content>FB</content>
@@ -2341,6 +2357,16 @@ Tags:
   </version>
 
   <version>
+    <name>RECV</name>
+    <servername>engrec</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>Recovery Version NT</fullname>
+    <year>1991</year>
+  </version>
+
+  <version>
     <name>RSV1952</name>
     <servername>rsv</servername>
     <language>EN</language>
@@ -2374,14 +2400,17 @@ Tags:
     <denomination>Catholic</denomination>
   </version>
 
+
   <version>
-    <name>RV1991</name>
-    <servername>engrec</servername>
+    <name>RV</name>
+    <servername>ERV</servername>
     <language>EN</language>
-    <content>NT</content>
-    <server>NOCR</server>
-    <fullname>Recovery Version NT</fullname>
-    <year>1991</year>
+    <content>FB</content>
+    <server>Studybible</server>
+    <fullname>English Revised Version</fullname>
+    <year>1885</year>
+    <family>KJV</family>
+    <textbase>Textus Receptus</textbase>
   </version>
 
   <version>
@@ -2494,7 +2523,7 @@ Tags:
   </version>
 
   <version>
-    <name>TS</name>
+    <name>TS1998</name>
     <servername>TS98</servername>
     <language>EN</language>
     <content>FB</content>
