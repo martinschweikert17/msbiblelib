@@ -110,6 +110,37 @@ class Versions:
     def get_versions(self):
         return self._versions
 
+    def get_version_record(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version
+        return None
+
+
+    def get_version_language(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version.get('language')
+        return None
+
+    def get_version_content(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version.get('content')
+        return None
+
+    def get_version_extracontent(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version.get('extracontent')
+        return None
+
+    def get_version_server(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version.get('server')
+        return None
+
 
     def get_hosting_server(self, ver):
         """

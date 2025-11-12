@@ -59,6 +59,38 @@ class Books:
     def get_valid_abbreviations(self):
         return self._a_valid_abbrevs
 
+
+    # python
+    def get_valid_abbreviations_readable(self):
+        """Return readable abbreviations: first alphabetic char uppercase, all other letters lowercase.
+        If an abbreviation starts with a digit, keep the digit and capitalize the first following letter.
+        Non-letter characters before the first letter are preserved.
+        """
+        readable = []
+        for abbr in self._a_valid_abbrevs:
+            if not isinstance(abbr, str) or abbr == "":
+                readable.append(abbr)
+                continue
+
+            # find index of first alphabetic character
+            first_alpha_idx = None
+            for i, ch in enumerate(abbr):
+                if ch.isalpha():
+                    first_alpha_idx = i
+                    break
+
+            if first_alpha_idx is None:
+                # no letters at all -> keep as is
+                readable.append(abbr)
+                continue
+
+            prefix = abbr[:first_alpha_idx]  # keep any leading digits/symbols
+            first_char = abbr[first_alpha_idx].upper()  # capitalize first letter
+            rest = abbr[first_alpha_idx + 1:].lower()  # lowercase remaining chars
+            readable.append(prefix + first_char + rest)
+
+        return readable
+
     def is_valid_abbreviation(self, abbrev):
         return abbrev.upper() in self._a_valid_abbrevs
 
