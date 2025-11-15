@@ -10,26 +10,39 @@ class Versions:
         cwd = os.path.dirname(os.path.abspath(__file__))
         self._versions = self.parse_xml(os.path.join(cwd, 'versions.xml'))
 
-
     def parse_xml(self, xml_file):
         versions = []
         tree = ET.parse(xml_file)
         root = tree.getroot()
+
         for version in root.findall('version'):
-            version_dict = {}
-            version_dict['name'] = version.find('name').text
-            version_dict['servername'] = version.find('servername').text
-            version_dict['language'] = version.find('language').text
-            version_dict['content'] = version.find('content').text
-            version_dict['server'] = version.find('server').text
-            version_dict['fullname'] = version.find('fullname').text
-            extracontent_elem = version.find('extracontent')
-            if extracontent_elem is not None:
-                # PyCharm complains about the next line. Just ignore - it works
-                version_dict['extracontent'] = extracontent_elem.text.split(',')
-            else:
-                version_dict['extracontent'] = None
+            # helper: safely get text (returns default when missing or None)
+            def t(tag, default=''):
+                val = version.findtext(tag, default)
+                return val if val is not None else default
+
+            extracontent_text = t('extracontent', '')
+            extracontent = (
+                [s.strip() for s in extracontent_text.split(',') if s.strip()]
+                if extracontent_text
+                else None
+            )
+
+            version_dict = {
+                'name': t('name'),
+                'servername': t('servername'),
+                'language': t('language'),
+                'content': t('content'),
+                'server': t('server'),
+                'fullname': t('fullname'),
+                'year': t('year'),
+                'denomination': t('denomination'),
+                'extracontent': extracontent,
+                'comment': t('comment'),
+                'family': t('family'),
+            }
             versions.append(version_dict)
+
         return versions
 
 

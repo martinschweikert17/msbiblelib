@@ -283,6 +283,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Albrecht NT</fullname>
     <year>1926</year>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -313,6 +314,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Buber / Rosenzweig</fullname>
     <year>1929</year>
+    <denomination>jüdisch</denomination>
   </version>
 
   <version>
@@ -334,7 +336,7 @@ Tags:
     <extracontent>PS, SPR</extracontent>
     <server>Bibleserver</server>
     <fullname>Das Buch NT</fullname>
-    <year>2022</year>
+    <year>2009</year>
   </version>
 
   <version>
@@ -356,7 +358,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Einheitsübersetzung 1980</fullname>
     <year>1980</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -367,7 +369,7 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Einheitsübersetzung</fullname>
     <year>2016</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -449,6 +451,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Grünewald (Riessler-Storr-Bibel) </fullname>
     <year>1924</year>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -459,7 +462,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Herder</fullname>
     <year>2005</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -607,6 +610,7 @@ Tags:
     <fullname>Neue Luther Bibel</fullname>
     <year>2009</year>
     <family>L</family>
+    <comment>Linguistische Revision der Lutherbibel 1912</comment>
   </version>
 
   <version>
@@ -659,8 +663,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Leander van Ess</fullname>
     <year>1859</year>
-    <textbase>Vulgate</textbase>
-    <denomination>Catholic</denomination>
+    <textbase>Vulgata</textbase>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -669,11 +673,11 @@ Tags:
     <language>DE</language>
     <content>FB</content>
     <server>Gratisbible</server>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
     <fullname>Leander van Ess revidiert</fullname>
     <year>1950</year>
     <textbase>Vulgate</textbase>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -772,7 +776,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Pattloch Bibel </fullname>
     <year>1979</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
+    <comment>Alias Hampp-Stenzel-Kürzinger</comment>
   </version>
 
   <version>
@@ -877,6 +882,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Naftali Herz Tur-Sinai AT</fullname>
     <year>1954</year>
+    <denomination>jüdisch</denomination>
   </version>
 
   <version>
@@ -1189,7 +1195,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Stern Complete Jewish Bible</fullname>
     <year>1998</year>
-    <denomination>Jewish</denomination>
+    <denomination>Jüdisch</denomination>
   </version>
 
   <version>
@@ -1252,7 +1258,7 @@ Tags:
     <server>NOCR</server>
     <fullname>Douay-Rheims</fullname>
     <year>1610</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -1263,7 +1269,7 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Douay-Rheims American Edition</fullname>
     <year>1899</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
     <textbase>Vulgata</textbase>
   </version>
 
@@ -1275,7 +1281,7 @@ Tags:
     <server>NOCR</server>
     <fullname>Douay-Rheims Challoner Revision</fullname>
     <year>1752</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -1592,6 +1598,7 @@ Tags:
     <year>2001</year>
     <family>KJV</family>
     <textbase>Textus Receptus</textbase>
+    <denomination>Jüdisch</denomination>
   </version>
 
   <version>
@@ -1613,6 +1620,7 @@ Tags:
     <server>Ebible</server>
     <fullname>Isaac Leeser Tanakh</fullname>
     <year>1853</year>
+    <denomination>Jüdisch</denomination>
   </version>
 
 
@@ -1666,6 +1674,7 @@ Tags:
     <server>NOCR</server>
     <fullname>JPS Tanakh</fullname>
     <year>1985</year>
+    <denomination>Jüdisch</denomination>
   </version>
 
   <!--
@@ -1684,6 +1693,7 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Jubilee Bible 2000</fullname>
     <year>1537</year>
+    <comment>Aus dem Spanischen übersetzt</comment>
   </version>
 
   <version>
@@ -1797,6 +1807,7 @@ Tags:
     <fullname>John Knox NT</fullname>
     <year>1945</year>
     <textbase>Vulgata</textbase>
+    <denomination>Katholisch</denomination>
   </version>
 
   <version>
@@ -1808,16 +1819,6 @@ Tags:
     <fullname>George Lamsa Bible - Eastern Peshitta Translation</fullname>
     <year>1933</year>
     <textbase>Peshitta</textbase>
-  </version>
-
-  <version>
-    <name>LB</name>
-    <servername>TLB</servername>
-    <language>EN</language>
-    <content>FB</content>
-    <server>Biblegateway</server>
-    <fullname>Living Bible</fullname>
-    <year>1971</year>
   </version>
 
   <version>
@@ -1837,6 +1838,7 @@ Tags:
     <content>OT</content>
     <server>Studybible</server>
     <fullname>Leeser Old Testament</fullname>
+    <denomination>Jüdisch</denomination>
     <year>1853</year>
   </version>
 
@@ -1888,7 +1890,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Matthew Bible</fullname>
     <year>1549</year>
-    <family>MATTHEW</family>
+    <family>MAT</family>
   </version>
 
   <version>
@@ -1995,7 +1997,7 @@ Tags:
     <fullname>New American Bible (Revised Edition)</fullname>
     <year>2010</year>
     <family>NAB</family>
-    <denomination>Catholic</denomination>
+    <denomination>Katholisch</denomination>
   </version>
 
   <version>
@@ -2038,9 +2040,9 @@ Tags:
     <language>EN</language>
     <content>FB</content>
     <server>Biblegateway</server>
-    <fullname>New Catholic Bible</fullname>
+    <fullname>New katholisch Bible</fullname>
     <year>2019</year>
-    <denomination>Catholic</denomination>
+    <denomination>Katholisch</denomination>
   </version>
 
   <version>
@@ -2114,7 +2116,7 @@ Tags:
     <server>NOCR</server>
     <year>1985</year>
     <fullname>New Jerusalem Bible</fullname>
-    <denomination>Catholic</denomination>
+    <denomination>Katholisch</denomination>
   </version>
 
   <version>
@@ -2222,7 +2224,7 @@ Tags:
     <fullname>New Revised Standard Version Anglicesd, Catholic Edition</fullname>
     <year>1995</year>
     <family>ASV</family>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
   <version>
@@ -2233,7 +2235,7 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Revised Standard Version Catholic Edition</fullname>
     <year>1993</year>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
     <family>ASV</family>
   </version>
 
@@ -2397,7 +2399,7 @@ Tags:
     <fullname>Revised Standard Version Catholic Edition</fullname>
     <year>1966</year>
     <family>ASV</family>
-    <denomination>Catholic</denomination>
+    <denomination>katholisch</denomination>
   </version>
 
 
@@ -2453,6 +2455,7 @@ Tags:
     <content>FB</content>
     <server>Obohu</server>
     <fullname>2001 Translation</fullname>
+    <year>2001</year>
     <textbase>LXX</textbase>
   </version>
 
@@ -2486,6 +2489,16 @@ Tags:
     <fullname>Thomson</fullname>
     <year>1808</year>
     <textbase>LXX</textbase>
+  </version>
+
+  <version>
+    <name>TLB</name>
+    <servername>TLB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>The Living Bible</fullname>
+    <year>1971</year>
   </version>
 
   <version>
