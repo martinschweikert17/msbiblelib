@@ -28,18 +28,41 @@ class Versions:
                 else None
             )
 
+            # Information about a version
             version_dict = {
+                # version name (abbreviation)
                 'name': t('name'),
+                # The name the server uses for this version
                 'servername': t('servername'),
+                # Language of this version
                 'language': t('language'),
+                # Content: FB (full bible), OT (old testament), NT (new testament)
                 'content': t('content'),
+                # The server hosting this version (symbolic name, e.g. 'Biblegateway')
+                # This can be empty for versions that are not available online, or online but cannot be
+                # processed automatically. In this case, the 'generic_url' field may contain a link to the version,
+                # e.g. on archive.org
                 'server': t('server'),
+                # Full name of the version
                 'fullname': t('fullname'),
+                # Year of publication
                 'year': t('year'),
+                # Denominational context, e.g. 'catholic', 'jewish'
                 'denomination': t('denomination'),
+                # Sometimes NTs have a limited number of OT books (e.g. Psalms only). These books can be listed here
                 'extracontent': extracontent,
+                # Additional information
                 'comment': t('comment'),
+                # Family of the version, e.g. 'KJV
                 'family': t('family'),
+                # Textbase identifiers - MT, LXX, Vulgate, TR, NA28, etc. for OT and NT
+                'textbase_ot': t('textbase_ot'),
+                'textbase_nt': t('textbase_nt'),
+                # Generic URL for this version (if no server is specified). This is useful for versions that are
+                # available online but cannot be processed automatically; or for printed versions in the library.
+                # In the former case, give a link to the online location; in the latter case, leave this empty - the
+                # caller needs to interpret this accordingly.
+                'generic_url': t('generic_url'),
             }
             versions.append(version_dict)
 
@@ -154,6 +177,12 @@ class Versions:
                 return version.get('server')
         return None
 
+
+    def get_generic_url(self, name):
+        for version in self._versions:
+            if version.get('name', '').lower() == name.lower():
+                return version.get('generic_url')
+        return None
 
     def get_hosting_server(self, ver):
         """

@@ -19,7 +19,6 @@ Tags:
     <!-- ##############################################################
          # Original texts                                             #
          ############################################################## -->
-  <!-- -->
 
   <!-- Interesting, but not necessary for normal use
   <version>
@@ -274,6 +273,10 @@ Tags:
   </version>
 
 
+    <!-- ##############################################################
+         # German Versions                                            #
+         ############################################################## -->
+
   <version>
     <name>ALB</name>
     <servername>ALBR</servername>
@@ -283,7 +286,51 @@ Tags:
     <server>Obohu</server>
     <fullname>Albrecht NT</fullname>
     <year>1926</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>ALL1839</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Allioli-Bibel</fullname>
+    <year>1839</year>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://k-bibel.de/ALL.1839</generic_url>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
+  </version>
+
+  <version>
+    <name>ALL1860</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Allioli-Bibel</fullname>
+    <year>1860</year>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://k-bibel.de/ALL.1860</generic_url>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
+  </version>
+
+  <version>
+    <name>ALLA</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Allioli-Arndt Bibel</fullname>
+    <year>1914</year>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://k-bibel.de/ALL.1860</generic_url>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
+    <comment>Revision der Allioli-Bibel mit sprachlicher Modernisierung</comment>
   </version>
 
   <version>
@@ -294,6 +341,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Bengel NT</fullname>
     <year>1742</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -304,6 +352,8 @@ Tags:
     <server>DBG</server>
     <fullname>BasisBibel</fullname>
     <year>2021</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -314,18 +364,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Buber / Rosenzweig</fullname>
     <year>1929</year>
-    <denomination>jüdisch</denomination>
-  </version>
-
-  <version>
-    <name>CSV</name>
-    <servername>CSV</servername>
-    <language>DE</language>
-    <content>FB</content>
-    <server>CSV</server>
-    <fullname>Elberfelder Übersetzung Edition CSV</fullname>
-    <year>2003</year>
-    <family>ELB</family>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
@@ -337,6 +377,34 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Das Buch NT</fullname>
     <year>2009</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>DUERR</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>AT</content>
+    <server></server>
+    <fullname>Das Alte Testament</fullname>
+    <year>1929</year>
+    <generic_url></generic_url>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+  </version>
+
+  <version>
+    <name>ECSV</name>
+    <servername>CSV</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>CSV</server>
+    <fullname>Elberfelder Übersetzung Edition CSV</fullname>
+    <year>2003</year>
+    <family>ELB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -348,6 +416,9 @@ Tags:
     <fullname>Elberfelder Ecclesia FreeBible</fullname>
     <year>2004</year>
     <family>ELB</family>
+    <comment>Auch https://www.flagsoft.ch/fb2004/freebible2004/text/freebible2004/output_html/01_gen_htm.html</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -358,7 +429,9 @@ Tags:
     <server>Obohu</server>
     <fullname>Einheitsübersetzung 1980</fullname>
     <year>1980</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -369,7 +442,9 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Einheitsübersetzung</fullname>
     <year>2016</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -380,6 +455,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Elberfelder NT</fullname>
     <year>1871</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -390,6 +467,8 @@ Tags:
     <server>Ebible</server>
     <fullname>Elberfelder</fullname>
     <year>1905</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
   <!-- Alternative (with Strong's)
     <version>
@@ -412,6 +491,32 @@ Tags:
   </version>
 
   <version>
+    <name>GNB1982</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Gute Nachricht Bibel</fullname>
+    <year>1982</year>
+    <generic_url>https://archive.org/details/diebibelinheutig0000unse/mode/2up</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>GNB1999</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Gute Nachricht Bibel</fullname>
+    <year>1999</year>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
     <name>GNB2018</name>
     <servername>GNB</servername>
     <language>DE</language>
@@ -419,6 +524,8 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Gute Nachricht Bibel</fullname>
     <year>2018</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
   <!--
   ("GNB", BIBLE_FULL, DBG, "GNB", GERMAN)
@@ -433,6 +540,37 @@ Tags:
   </version>
   -->
 
+<!--
+
+⚠️ Hintergrund:
+Johannes Greber (1874–1944) war ursprünglich katholischer Priester in Deutschland. Nach eigenen Angaben wandte er sich
+vom kirchlichen Dienst ab, nachdem er sich intensiv mit dem Spiritismus beschäftigte – insbesondere mit "geistiger
+Inspiration durch Medien", also Personen, die angeblich mit Geisterwesen kommunizieren.
+
+📘 Das "Greber NT" (1937):
+Titel: "Das Neue Testament – eine neue Übersetzung mit Erläuterungen aus der geistigen Welt"
+Grundlage laut Vorwort: "von Gottes Geistern durch ein Medium inspiriert"
+Greber beansprucht, dass Engelswesen ihm erklärten, wie das Neue Testament zu verstehen und zu übersetzen sei.
+In seinem Vorwort betont Greber, dass Bibelübersetzungen "verfälscht" seien und nur durch offenbarende Geistwesen
+korrekt verstanden werden könnten.
+
+📜 Theologische und kirchliche Bewertung:
+Starke Ablehnung durch alle christlichen Konfessionen
+Die Übersetzung ist nicht wissenschaftlich basiert (kein Bezug zu Nestle-Aland oder Textus Receptus)
+Inhaltlich weicht sie teilweise massiv von klassischen Textvarianten ab
+Besondere Nähe zur spiritistischen Bewegung (Kontakt zu Verstorbenen, "höheren Geistern", etc.)
+
+🛑 Beispiel:
+In Johannes 1,1 übersetzt Greber:
+„Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war ein Gott.“
+Das entspricht nicht dem orthodoxen christlichen Verständnis (Trinität), sondern eher gnostischen oder
+spiritistischen Auffassungen.
+
+Quellen (aus Analyse- und Kritikartikeln):
+Greber, J. (1937). Das Neue Testament – eine neue Übersetzung mit Erläuterungen aus der geistigen Welt
+Berichte des "Christian Research Institute" (USA)
+Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
+
   <version>
     <name>GRE</name>
     <servername>GREB</servername>
@@ -442,6 +580,7 @@ Tags:
     <fullname>Greber NT</fullname>
     <year>1936</year>
   </version>
+-->
 
   <version>
     <name>GRÜ</name>
@@ -451,7 +590,23 @@ Tags:
     <server>Obohu</server>
     <fullname>Grünewald (Riessler-Storr-Bibel) </fullname>
     <year>1924</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT,Q</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>HER1965</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Herder</fullname>
+    <year>1965</year>
+    <denomination>Katholisch</denomination>
+    <comment>Bibliothek</comment>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
   </version>
 
   <version>
@@ -462,7 +617,9 @@ Tags:
     <server>Obohu</server>
     <fullname>Herder</fullname>
     <year>2005</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -472,6 +629,7 @@ Tags:
     <content>NT</content>
     <server>NOCR</server>
     <fullname>Herder NT</fullname>
+    <year>2007</year>
   </version>
 
   <version>
@@ -482,6 +640,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Hoffnung für alle</fullname>
     <year>2002</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -492,6 +652,8 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Hoffnung für alle</fullname>
     <year>2015</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
   <!--
     <version>
@@ -512,6 +674,23 @@ Tags:
     <server>Obohu</server>
     <fullname>Henne-Rösch Bibel (Paderborner Bibel)</fullname>
     <year>1934</year>
+    <denomination>Katholisch</denomination>
+    <comment>Auch https://k-bibel.de/SGH.HR</comment>
+    <textbase_ot>Vulgata,MT</textbase_ot>
+    <textbase_nt>Vulgata,NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>HS</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>AT</content>
+    <server></server>
+    <fullname>Hamp und Stenzel AT</fullname>
+    <year>1980</year>
+    <denomination>Katholisch</denomination>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
@@ -523,6 +702,21 @@ Tags:
     <server>Github</server>
     <fullname>Herbert Jantzen NT</fullname>
     <year>2011</year>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>KEP</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server></server>
+    <fullname>Keppler-Bibel</fullname>
+    <year>1950</year>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://k-bibel.de/KPL</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -533,6 +727,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Knoch NT</fullname>
     <year>1939</year>
+    <textbase_nt>Eigene Rekonstruktion</textbase_nt>
   </version>
 
   <version>
@@ -544,6 +739,8 @@ Tags:
     <fullname>Luther</fullname>
     <year>1545</year>
     <family>L</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -555,6 +752,8 @@ Tags:
     <fullname>Luther (Letzte Hand)</fullname>
     <year>1545</year>
     <family>L</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -566,6 +765,8 @@ Tags:
     <fullname>Luther</fullname>
     <year>1912</year>
     <family>L</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
   <!--
     <version>
@@ -586,6 +787,8 @@ Tags:
     <fullname>Luther</fullname>
     <year>1984</year>
     <family>L</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!--
@@ -611,6 +814,8 @@ Tags:
     <year>2009</year>
     <family>L</family>
     <comment>Linguistische Revision der Lutherbibel 1912</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -622,6 +827,8 @@ Tags:
     <fullname>Luther</fullname>
     <year>2017</year>
     <family>L</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
   <!--
   <version>
@@ -635,6 +842,19 @@ Tags:
   -->
 
   <version>
+    <name>LB</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server></server>
+    <fullname>Das lebendige Buch</fullname>
+    <year>1983</year>
+    <comment>Bibliothek</comment>
+    <textbase_nt>TLB</textbase_nt>
+    <comment>Paraphrase auf Basis von TLB</comment>
+  </version>
+
+  <version>
     <name>LEONA</name>
     <servername>leo-na28</servername>
     <language>DE</language>
@@ -642,6 +862,7 @@ Tags:
     <server>Github</server>
     <fullname>Leonberger Bibel (NA) NT</fullname>
     <year>2015</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -652,7 +873,7 @@ Tags:
     <server>Github</server>
     <fullname>Leonberger Bibel (Robinson-Pierpoint 05)</fullname>
     <year>2015</year>
-    <textbase>Byzantine</textbase>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -663,8 +884,10 @@ Tags:
     <server>Obohu</server>
     <fullname>Leander van Ess</fullname>
     <year>1859</year>
-    <textbase>Vulgata</textbase>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <comment>An Vulgata und Originalsprachen orientiert</comment>
   </version>
 
   <version>
@@ -673,11 +896,12 @@ Tags:
     <language>DE</language>
     <content>FB</content>
     <server>Gratisbible</server>
-    <denomination>katholisch</denomination>
     <fullname>Leander van Ess revidiert</fullname>
     <year>1950</year>
-    <textbase>Vulgate</textbase>
-    <denomination>katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <denomination>Katholisch</denomination>
+    <comment>An Vulgata und Originalsprachen orientiert</comment>
   </version>
 
   <version>
@@ -688,18 +912,23 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Menge</fullname>
     <year>1939</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
-  <!-- Maybe coming soon
   <version>
     <name>M2020</name>
-    <servername>MEB</servername>
+    <servername></servername>
     <language>DE</language>
     <content>FB</content>
-    <server>DBG</server>
+    <server></server>
     <fullname>Menge</fullname>
+    <year>2020</year>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
-  -->
+
 
   <version>
     <name>MEI</name>
@@ -709,6 +938,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Abraham Meister NT</fullname>
     <year>1989</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -719,6 +949,21 @@ Tags:
     <server>Obohu</server>
     <fullname>Münchner NT</fullname>
     <year>1998</year>
+    <denomination>Katholisch</denomination>
+    <textbase_nt>NA?</textbase_nt>
+  </version>
+
+  <version>
+    <name>NEÜ</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Neue Evangelistische Übersetzung</fullname>
+    <year>2025</year>
+    <generic_url>https://neue.derbibelvertrauen.de/bbuch.html</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!-- Apparently they continually add OT books - check once in a while! -->
@@ -731,6 +976,8 @@ Tags:
     <server>DBG</server>
     <fullname>Neue Genfer Übersetzung NT</fullname>
     <year>2011</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
   <!--
   ("NGÜ", NTPLUS, BIBLESERVER, "NGÜ", GERMAN)
@@ -746,6 +993,20 @@ Tags:
   -->
 
   <version>
+    <name>NL2002</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Neues Leben. Die Bibel</fullname>
+    <year>2002</year>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>An NLT orientiert</comment>
+  </version>
+
+  <version>
     <name>NL2024</name>
     <servername>NLB</servername>
     <language>DE</language>
@@ -753,6 +1014,9 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Neues Leben. Die Bibel</fullname>
     <year>2024</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>An NLT orientiert</comment>
   </version>
 
   <!--
@@ -767,6 +1031,19 @@ Tags:
   </version>
   -->
 
+  <version>
+    <name>OB</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Offene Bibel</fullname>
+    <year>2016</year>
+    <generic_url>https://offene-bibel.de/wiki/Die_Offene_Bibel_online_lesen</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
   <!-- AKA Hampp-Stenzel-Kürzinger -->
   <version>
     <name>PAT</name>
@@ -776,8 +1053,36 @@ Tags:
     <server>Obohu</server>
     <fullname>Pattloch Bibel </fullname>
     <year>1979</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
     <comment>Alias Hampp-Stenzel-Kürzinger</comment>
+  </version>
+
+  <version>
+    <name>PF</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server></server>
+    <fullname>Pfäfflin</fullname>
+    <year>1937</year>
+    <comment>Bibliothek</comment>
+    <textbase_nt>Eigene Rekonstruktion</textbase_nt>
+  </version>
+
+  <version>
+    <name>RELB1985</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Revidierte Elberfelder</fullname>
+    <year>1985</year>
+    <family>ELB</family>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -789,6 +1094,22 @@ Tags:
     <fullname>Revidierte Elberfelder 1993</fullname>
     <year>1993</year>
     <family>ELB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>RELB1996</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Revidierte Elberfelder</fullname>
+    <year>1996</year>
+    <family>ELB</family>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -800,6 +1121,22 @@ Tags:
     <fullname>Revidierte Elberfelder 2006</fullname>
     <year>2006</year>
     <family>ELB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>SCH1926</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Schlachter</fullname>
+    <year>1926</year>
+    <family>SCH</family>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -810,6 +1147,23 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Schlachter</fullname>
     <year>1951</year>
+    <family>SCH</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+<version>
+    <name>SCH1975</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Schlachter</fullname>
+    <year>1975</year>
+    <family>SCH</family>
+    <comment>Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -820,6 +1174,21 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Schlachter</fullname>
     <year>2000</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>STE</name>
+    <servername></servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server></server>
+    <fullname>Stern</fullname>
+    <year>1994</year>
+    <denomination>Messianisch</denomination>
+    <comment>Bibliothek</comment>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!--
@@ -850,6 +1219,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Tafel-Bibel</fullname>
     <year>1911</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <!--
@@ -882,7 +1253,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Naftali Herz Tur-Sinai AT</fullname>
     <year>1954</year>
-    <denomination>jüdisch</denomination>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
@@ -893,6 +1265,9 @@ Tags:
     <server>Obohu</server>
     <fullname>Textbibel</fullname>
     <year>1906</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Nestle</textbase_nt>
+    <comment>Textbasis NT: Nestle (frühe Fassung, vor Nestle-Aland)</comment>
   </version>
 
   <version>
@@ -903,6 +1278,8 @@ Tags:
     <server>Github</server>
     <fullname>Volksbibel (Grünewald)</fullname>
     <year>2000</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -913,6 +1290,8 @@ Tags:
     <server>Github</server>
     <fullname>Volksbibel (Schönigh)</fullname>
     <year>2000</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -923,6 +1302,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Zürcher</fullname>
     <year>1931</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Weizsäcker/Nestle</textbase_nt>
   </version>
 
   <version>
@@ -933,6 +1314,8 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Zürcher</fullname>
     <year>2007</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
   <!-- The Copyright says 2019, but this is most certainly just a reprint of the 2017 version
   <version>
@@ -945,6 +1328,11 @@ Tags:
   </version>
   -->
 
+
+    <!-- ##############################################################
+         # English Versions                                           #
+         ############################################################## -->
+
   <version>
     <name>ABU</name>
     <servername>ABU</servername>
@@ -953,6 +1341,7 @@ Tags:
     <server>Studybible</server>
     <fullname>American Bible Union New Testament</fullname>
     <year>1865</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <!-- KnowingJesus would be faster, but there is no content!
@@ -975,7 +1364,8 @@ Tags:
     <fullname>American King James Version</fullname>
     <year>1999</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -986,6 +1376,7 @@ Tags:
     <server>NOCR</server>
     <fullname>Analytical-Literal Translation</fullname>
     <year>2001</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -997,6 +1388,8 @@ Tags:
     <fullname>Amplified Bible</fullname>
     <year>1965</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1008,6 +1401,8 @@ Tags:
     <fullname>Amplified Bible</fullname>
     <year>2015</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1019,6 +1414,8 @@ Tags:
     <fullname>Amplified Bible Classic Edition</fullname>
     <year>1987</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!-- Sudybible is slow
@@ -1039,6 +1436,21 @@ Tags:
     <server>KnowingJesus</server>
     <fullname>Anderson NT</fullname>
     <year>1864</year>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Stark an KJV orientiert</comment>
+  </version>
+
+  <version>
+    <name>ARA</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server></server>
+    <fullname>Peshitta Holy Bible Translated</fullname>
+    <year>2019</year>
+    <generic_url>https://biblehub.com/hpbt/genesis/1.htm</generic_url>
+    <textbase_ot>Peschitta</textbase_ot>
+    <textbase_nt>Peschitta</textbase_nt>
   </version>
 
   <version>
@@ -1049,6 +1461,21 @@ Tags:
     <server>Obohu</server>
     <fullname>American Standard Version</fullname>
     <year>1901</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
+  </version>
+
+  <version>
+    <name>ASV2015</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>American Standard Version</fullname>
+    <year>2015</year>
+    <generic_url>https://www.bibliatodo.com/en/the-bible/version/american-standard-version-2015</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <!-- "AV" is also known as KJV -->
@@ -1061,7 +1488,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Bishops Bible</fullname>
     <year>1568</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT,Vulgata</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1072,6 +1500,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Bible in Basic English</fullname>
     <year>1964</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Nestle</textbase_nt>
   </version>
 
   <version>
@@ -1082,6 +1512,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Berean Literal Bible NT</fullname>
     <year>2016</year>
+    <textbase_nt>NA,Byz</textbase_nt>
   </version>
 
   <version>
@@ -1092,6 +1523,19 @@ Tags:
     <server>NOCR</server>
     <fullname>Bishop's New Testament</fullname>
     <year>1595</year>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>BRB</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Berean Standard Bible</fullname>
+    <year>2020</year>
+    <generic_url>https://readersbible.com/brb.pdf</generic_url>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
@@ -1102,6 +1546,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Berean Standard Bible</fullname>
     <year>2016</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1112,6 +1558,7 @@ Tags:
     <server>Obohu</server>
     <fullname>Brenton Septuagint Translation</fullname>
     <year>1870</year>
+    <textbase_ot>LXX</textbase_ot>
   </version>
 
   <version>
@@ -1122,6 +1569,9 @@ Tags:
     <server>Studybible</server>
     <fullname>The Complete Apostles' Bible</fullname>
     <year>2004</year>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>LXX</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1132,6 +1582,7 @@ Tags:
     <server>NOCR</server>
     <fullname>Common Edition New Testament</fullname>
     <year>1865</year>
+    <textbase_nt>Eklektisch</textbase_nt>
   </version>
 
 
@@ -1143,6 +1594,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Common Edition New Testament</fullname>
     <year>1999</year>
+    <textbase_nt>Eklektisch</textbase_nt>
   </version>
 
   <version>
@@ -1153,6 +1605,8 @@ Tags:
     <server>NOCR</server>
     <fullname>Common Edition New Testament 2002</fullname>
     <year>2002</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1163,6 +1617,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Common English Bible</fullname>
     <year>2011</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1173,6 +1629,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Contemporary English Version</fullname>
     <year>1995</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!-- CAUTION: This is the only version that works on Biblehub!
@@ -1185,6 +1643,8 @@ Tags:
     <server>Biblehub</server>
     <fullname>Contemporary English Version (2nd edition)</fullname>
     <year>2006</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1196,6 +1656,8 @@ Tags:
     <fullname>Stern Complete Jewish Bible</fullname>
     <year>1998</year>
     <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1206,6 +1668,23 @@ Tags:
     <server>Studybible</server>
     <fullname>Coverdale Bible</fullname>
     <year>1535</year>
+    <textbase_ot>Vulgata,L,TYN,LXX</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>CPDV</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Catholic Public Domain Version</fullname>
+    <denomination>Katholisch</denomination>
+    <year>2009</year>
+    <generic_url>https://sacredbible.org/catholic/index.htm</generic_url>
+    <comment>Errata: https://sacredbible.org/errata.htm</comment>
+    <textbase_ot>Nova Vulgata</textbase_ot>
+    <textbase_nt>Nova Vulgata</textbase_nt>
   </version>
 
   <!-- Previous version: HCSB-->
@@ -1218,6 +1697,8 @@ Tags:
     <fullname>Christian Standard Bible</fullname>
     <year>2017</year>
     <family>HCSB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1228,6 +1709,9 @@ Tags:
     <server>Studybible</server>
     <fullname>A Conservative Version</fullname>
     <year>2005</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
+    <comment>Eigene Bearbeitung des MT und NT</comment>
   </version>
 
   <version>
@@ -1238,6 +1722,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Darby Bible Translation</fullname>
     <year>1890</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1248,6 +1734,7 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Disciples' Literal New Testament</fullname>
     <year>2011</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1258,7 +1745,9 @@ Tags:
     <server>NOCR</server>
     <fullname>Douay-Rheims</fullname>
     <year>1610</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
   </version>
 
   <version>
@@ -1269,8 +1758,10 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Douay-Rheims American Edition</fullname>
     <year>1899</year>
-    <denomination>katholisch</denomination>
-    <textbase>Vulgata</textbase>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
+    <comment>Reprint der ursprünglichen Douay-Rheims in modernisiertem Englisch</comment>
   </version>
 
   <version>
@@ -1281,7 +1772,9 @@ Tags:
     <server>NOCR</server>
     <fullname>Douay-Rheims Challoner Revision</fullname>
     <year>1752</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>Vulgata,KJV</textbase_ot>
+    <textbase_nt>Vulgata,KJV</textbase_nt>
   </version>
 
   <version>
@@ -1292,6 +1785,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Easy-to-Read Version</fullname>
     <year>2006</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1302,6 +1797,9 @@ Tags:
     <server>Studybible</server>
     <fullname>ExeGeses Companion Bible</fullname>
     <year>1993</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR?,mystische Lesarten</textbase_nt>
+    <comment>Mystisch-allegorisch, esoterisch. Wird von keiner christlichen Konfession anerkannt</comment>
   </version>
 
   <version>
@@ -1312,6 +1810,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>EasyEnglish Bible </fullname>
     <year>2019</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Für Lernende mit begrenztem Englisch-Wortschatz (ca. 2800 Wörter)</comment>
   </version>
 
   <version>
@@ -1322,16 +1823,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Evangelical Heritage Version</fullname>
     <year>2019</year>
-  </version>
-
-  <version>
-    <name>ELG</name>
-    <servername>engelg</servername>
-    <language>EN</language>
-    <content>NT</content>
-    <server>NOCR</server>
-    <fullname>The Everlasting Gospel NT</fullname>
-    <year>1984</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA,Byz</textbase_nt>
+    <comment>Konservativ-lutherisch</comment>
   </version>
 
   <!--
@@ -1345,8 +1839,24 @@ Tags:
     <server>Studybible</server>
     <fullname>English Jubilee</fullname>
     <year>2000</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Paraphrasierend; basiert auf spanischer Reina-Valera + KJV</comment>
   </version>
+
+  <version>
+    <name>ELG</name>
+    <servername>engelg</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>NOCR</server>
+    <fullname>The Everlasting Gospel NT</fullname>
+    <year>1984</year>
+    <textbase_nt>Eklektischer Text, beeinflusst von TR,NA</textbase_nt>
+    <comment>Evangelikal, endzeitlich orientiert, unklare textkritische Grundlage</comment>
+  </version>
+
+
 
   <version>
     <name>EMTV</name>
@@ -1356,6 +1866,7 @@ Tags:
     <server>Ebible</server>
     <fullname>English Majority Text Version</fullname>
     <year>2002</year>
+    <textbase_nt>Byz</textbase_nt>
   </version>
 
   <!--
@@ -1370,6 +1881,9 @@ Tags:
     <fullname>English Standard Version</fullname>
     <family>RSV</family>
     <year>2001</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Evangelikal, sehr beliebt, konservativ-literarischer Stil</comment>
   </version>
 
   <version>
@@ -1381,6 +1895,9 @@ Tags:
     <fullname>English Standard Version</fullname>
     <year>2007</year>
     <family>RSV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Evangelikal, sehr beliebt, konservativ-literarischer Stil</comment>
   </version>
 
   <version>
@@ -1392,6 +1909,9 @@ Tags:
     <fullname>English Standard Version</fullname>
     <year>2016</year>
     <family>RSV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Evangelikal, sehr beliebt, konservativ-literarischer Stil</comment>
   </version>
 
   <version>
@@ -1403,6 +1923,9 @@ Tags:
     <fullname>English Standard Version</fullname>
     <year>2025</year>
     <family>RSV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Evangelikal, sehr beliebt, konservativ-literarischer Stil</comment>
   </version>
 
   <version>
@@ -1414,6 +1937,9 @@ Tags:
     <fullname>English Standard Version Anglicised</fullname>
     <year>2001</year>
     <family>RSV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Evangelikal, sehr beliebt, konservativ-literarischer Stil. Britische Rechtschreibung</comment>
   </version>
 
   <version>
@@ -1424,7 +1950,8 @@ Tags:
     <server>Obohu</server>
     <fullname>John Wesley Etheridge - Übersetzung der westlichen Peshitta</fullname>
     <year>1846</year>
-    <textbase>Peshitta</textbase>
+    <textbase_nt>Peschitta</textbase_nt>
+    <comment>Erste englische Peshitta-Übersetzung (1846–1849)</comment>
   </version>
 
   <version>
@@ -1445,6 +1972,9 @@ Tags:
     <server>Ebible</server>
     <fullname>Free Bible Version</fullname>
     <year>2018</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Auch: https://freebibleversion.org/</comment>
   </version>
 
   <version>
@@ -1455,7 +1985,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Great Bible</fullname>
     <year>1539</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>Vulgata,L,Z,TYN</textbase_ot>
+    <textbase_nt>Vulgata,L,Z,TYN</textbase_nt>
   </version>
 
   <version>
@@ -1466,6 +1997,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Godbey New Testament</fullname>
     <year>1902</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1476,6 +2008,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Green's Literal Translation</fullname>
     <year>1985</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1487,7 +2021,8 @@ Tags:
     <fullname>Green's Modern King James Version</fullname>
     <year>1962</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1499,6 +2034,8 @@ Tags:
     <fullname>Good News Translation</fullname>
     <year>1992</year>
     <family>TEV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1510,7 +2047,8 @@ Tags:
     <fullname>Geneva Bible</fullname>
     <year>1599</year>
     <family>GNV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1521,6 +2059,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Goodspeed New Testament</fullname>
     <year>1923</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -1531,7 +2070,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>God's Word Translation</fullname>
     <year>1995</year>
-    <denomination>Lutheran</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1542,6 +2082,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Thomas Haweis New Testament</fullname>
     <year>1795</year>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Eng an KJV orientiert</comment>
   </version>
 
   <version>
@@ -1552,6 +2094,9 @@ Tags:
     <server>NOCR</server>
     <fullname>Holy Bible Revised Version</fullname>
     <year>1882</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
+    <comment>Erste offizielle Revision der KJV, britisch geprägt</comment>
   </version>
 
   <!-- New version: CSB-->
@@ -1564,6 +2109,8 @@ Tags:
     <fullname>Holman Christian Standard Bible</fullname>
     <year>1999</year>
     <family>HCSB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1575,6 +2122,8 @@ Tags:
     <fullname>Holman Christian Standard Bible</fullname>
     <year>2004</year>
     <family>HCSB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1586,6 +2135,8 @@ Tags:
     <fullname>Holman Christian Standard Bible</fullname>
     <year>2009</year>
     <family>HCSB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1597,8 +2148,10 @@ Tags:
     <fullname>Israeli Authorized Version</fullname>
     <year>2001</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
-    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA,Byz</textbase_nt>
+    <denomination>Messianisch</denomination>
+    <comment>Textbasis NA oder Byz. Mehrheitstext je nach Buch</comment>
   </version>
 
   <version>
@@ -1609,6 +2162,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>International Children’s Bible</fullname>
     <year>2015</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Basiert auf New Century Version</comment>
   </version>
 
 
@@ -1621,6 +2177,8 @@ Tags:
     <fullname>Isaac Leeser Tanakh</fullname>
     <year>1853</year>
     <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <comment>Erste jüdische Bibelübersetzung ins amerikanische Englisch</comment>
   </version>
 
 
@@ -1631,7 +2189,23 @@ Tags:
     <content>FB</content>
     <server>Biblegateway</server>
     <fullname>International Standard Version</fullname>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
     <year>2014</year>
+  </version>
+
+  <version>
+    <name>JB</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Jerusalem Bible</fullname>
+    <year>1966</year>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://archive.org/details/tamil-christian-ebook-jerusalem-bible-1966-study-edition</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1642,7 +2216,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Julia Evelina Smith Parker</fullname>
     <year>1876</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1653,6 +2228,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Jonathan Mitchell New Testament</fullname>
     <year>2014</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1662,8 +2238,10 @@ Tags:
     <content>OT</content>
     <server>Studybible</server>
     <fullname>Jewish Publication Society OT Translation with ASV modified to reflect the Byzantine text</fullname>
-    <denomination>Jewish</denomination>
+    <denomination>Jüdisch</denomination>
     <year>1917</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>ASV,Byz</textbase_nt>
   </version>
 
   <version>
@@ -1675,12 +2253,13 @@ Tags:
     <fullname>JPS Tanakh</fullname>
     <year>1985</year>
     <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <!--
   Translated from the Original Texts in Hebrew and Greek into Spanish by Casiodoro de Reina (1569) and compared with
   the revision of Cipriano de Valera (1602). Based on the New Testament of Francisco de Enzinas (1543) and on the New
-  Testament (1556) with the Psalms (1557) of Juan Perez de Pineda.\par This material was translated from Spanish into
+  Testament (1556) with the Psalms (1557) of Juan Perez de Pineda. This material was translated from Spanish into
   English by Russell M. Stendal and compared with the Old English Translation of William Tyndale (Pentateuch of 1530,
   Ploughboy Edition New Testament of 1534, Joshua to 2 Chronicles of 1537, and Jonah). It was also compared word for
   word with the Authorized Version (by King James) of 1611.
@@ -1694,6 +2273,8 @@ Tags:
     <fullname>Jubilee Bible 2000</fullname>
     <year>1537</year>
     <comment>Aus dem Spanischen übersetzt</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1705,6 +2286,8 @@ Tags:
     <fullname>King James 3 - The Literal Translation</fullname>
     <family>KJV</family>
     <year>2006</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1716,7 +2299,7 @@ Tags:
     <fullname>King James Clarified NT</fullname>
     <family>KJV</family>
     <year>1998</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1728,7 +2311,8 @@ Tags:
     <fullname>King James Bible - Pure Cambridge Edition</fullname>
     <family>KJV</family>
     <year>1900</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
 
@@ -1752,6 +2336,20 @@ Tags:
 
   <!-- Also known as Authorized Version-->
   <version>
+    <name>KJV1611</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>King James Version</fullname>
+    <family>KJV</family>
+    <year>1611</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <generic_url>https://www.kingjamesbibleonline.org/1611-Bible/</generic_url>
+  </version>
+
+  <version>
     <name>KJV1769</name>
     <servername>KJV</servername>
     <language>EN</language>
@@ -1760,7 +2358,8 @@ Tags:
     <fullname>King James Version</fullname>
     <family>KJV</family>
     <year>1769</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
   <!--
   <version>
@@ -1775,6 +2374,20 @@ Tags:
   -->
 
   <version>
+    <name>KJV1873</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>King James Version</fullname>
+    <family>KJV</family>
+    <year>1873</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <generic_url>https://archive.org/details/ENGKJVPCE_DBS_HS/English-%281873%29-Cambridge-Paragraph-KJV-Study-Bible/mode/2up</generic_url>
+  </version>
+
+  <version>
     <name>KJV2000</name>
     <servername>KJ2000</servername>
     <language>EN</language>
@@ -1783,7 +2396,8 @@ Tags:
     <fullname>King James Version 2000</fullname>
     <year>1999</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1795,7 +2409,8 @@ Tags:
     <fullname>21st Century King James Version</fullname>
     <year>1994</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1806,8 +2421,8 @@ Tags:
     <server>NOCR</server>
     <fullname>John Knox NT</fullname>
     <year>1945</year>
-    <textbase>Vulgata</textbase>
-    <denomination>Katholisch</denomination>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Frühe schottische Reformationsübersetzung, stark Tyndale-ähnlich</comment>
   </version>
 
   <version>
@@ -1818,7 +2433,8 @@ Tags:
     <server>Obohu</server>
     <fullname>George Lamsa Bible - Eastern Peshitta Translation</fullname>
     <year>1933</year>
-    <textbase>Peshitta</textbase>
+    <textbase_ot>Peschitta</textbase_ot>
+    <textbase_nt>Peschitta</textbase_nt>
   </version>
 
   <version>
@@ -1829,6 +2445,8 @@ Tags:
     <server>Obohu</server>
     <fullname>Lexham English Bible</fullname>
     <year>2012</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1840,6 +2458,20 @@ Tags:
     <fullname>Leeser Old Testament</fullname>
     <denomination>Jüdisch</denomination>
     <year>1853</year>
+    <textbase_ot>MT</textbase_ot>
+  </version>
+
+  <version>
+    <name>LHB</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Lighthouse Bible</fullname>
+    <year>2006</year>
+    <generic_url>https://www.bibliatodo.com/en/the-bible/version/lighthouse-bible-2006</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1850,6 +2482,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Living Oracles New Testament</fullname>
     <year>1835</year>
+    <textbase_nt>Griesbach</textbase_nt>
+    <comment>Frühe Abkehr vom TR</comment>
   </version>
 
   <version>
@@ -1860,6 +2494,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Legacy Standard Bible</fullname>
     <year>2021</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1870,6 +2506,8 @@ Tags:
     <server>NOCR</server>
     <fullname>Literal Translation Of The Holy Bible</fullname>
     <year>2000</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1880,6 +2518,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Daniel Mace New Testament</fullname>
     <year>1729</year>
+    <textbase_nt>Wetstein</textbase_nt>
   </version>
 
   <version>
@@ -1891,6 +2530,8 @@ Tags:
     <fullname>Matthew Bible</fullname>
     <year>1549</year>
     <family>MAT</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1901,7 +2542,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Modern English Version</fullname>
     <year>2014</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1912,6 +2554,7 @@ Tags:
     <server>Obohu</server>
     <fullname>William Graham MacDonald's Idiomatic Translation</fullname>
     <year>2006</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1923,7 +2566,8 @@ Tags:
     <fullname>Modern King James Version</fullname>
     <year>1962</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -1934,6 +2578,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Modern Literal Version</fullname>
     <year>2021</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
   </version>
 
   <version>
@@ -1944,6 +2590,8 @@ Tags:
     <server>Obohu</server>
     <fullname>James Moffatt New Testament</fullname>
     <year>1913</year>
+    <textbase_nt>Eklektisch</textbase_nt>
+    <comment>Weicht stark von TR ab, reflektiert frühe Textkritik in eigener Edition</comment>
   </version>
 
   <version>
@@ -1954,6 +2602,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Helen Barrett Montgomery New Testament</fullname>
     <year>1924</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <!-- Not sure if the following are different revisions-->
@@ -1965,6 +2614,8 @@ Tags:
     <server>Biblestudytools</server>
     <fullname>The Message</fullname>
     <year>2002</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1975,6 +2626,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>The Message</fullname>
     <year>2018</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1985,7 +2638,23 @@ Tags:
     <server>Obohu</server>
     <fullname>James Murdock Western Peshitto</fullname>
     <year>1852</year>
-    <textbase>Peshitta</textbase>
+    <textbase_nt>Peschitta</textbase_nt>
+    <comment>Erste engl. Übersetzung der westlichen syrischen Peschitta</comment>
+  </version>
+
+  <version>
+    <name>NAB</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>New American Bible</fullname>
+    <year>1970</year>
+    <family>NAB</family>
+    <denomination>Katholisch</denomination>
+    <generic_url>https://bible.usccb.org/bible</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -1998,6 +2667,8 @@ Tags:
     <year>2010</year>
     <family>NAB</family>
     <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2010,6 +2681,8 @@ Tags:
     <year>1977</year>
     <!-- according to NOcr and ChatGPT-->
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2021,6 +2694,8 @@ Tags:
     <fullname>New American Standard Bible</fullname>
     <year>1995</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2032,6 +2707,8 @@ Tags:
     <fullname>New American Standard Bible</fullname>
     <year>2020</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2040,9 +2717,11 @@ Tags:
     <language>EN</language>
     <content>FB</content>
     <server>Biblegateway</server>
-    <fullname>New katholisch Bible</fullname>
+    <fullname>New Catholic Bible</fullname>
     <year>2019</year>
     <denomination>Katholisch</denomination>
+    <textbase_ot>Nova Vulgata</textbase_ot>
+    <textbase_nt>Nova Vulgata</textbase_nt>
   </version>
 
   <version>
@@ -2053,6 +2732,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Century Version</fullname>
     <year>2005</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2063,6 +2744,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New English Translation</fullname>
     <year>2017</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2072,7 +2755,11 @@ Tags:
     <content>FB</content>
     <server>Gratisbible</server>
     <fullname>New Heart English Bible</fullname>
-    <year>2009</year>
+    <year>2025</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
+    <comment>Leicht überarbeitete Version der WEB mit Betonung auf Klarheit und Lesbarkeit</comment>
+    <family>WEB</family>
   </version>
 
   <version>
@@ -2084,6 +2771,23 @@ Tags:
     <fullname>New International Reader's Version</fullname>
     <year>2014</year>
     <family>NIV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>NIV1984</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>New International Version</fullname>
+    <year>1984</year>
+    <family>NIV</family>
+    <generic_url>https://archive.org/details/isbn_9780340589755/mode/2up</generic_url>
+    <comment>Auch: NIV Study Bible in Bibliothek</comment>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2095,6 +2799,8 @@ Tags:
     <fullname>New International Version</fullname>
     <year>2011</year>
     <family>NIV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2106,6 +2812,8 @@ Tags:
     <fullname>New International Version Anglicized</fullname>
     <year>2011</year>
     <family>NIV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2117,6 +2825,8 @@ Tags:
     <year>1985</year>
     <fullname>New Jerusalem Bible</fullname>
     <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2128,7 +2838,8 @@ Tags:
     <fullname>New King James Version</fullname>
     <year>1982</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
 
@@ -2140,6 +2851,8 @@ Tags:
     <server>NOCR</server>
     <fullname>New Living Translation Second Edition</fullname>
     <year>2004</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2150,6 +2863,8 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Living Translation</fullname>
     <year>2015</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>        
   </version>
 
   <version>
@@ -2160,6 +2875,9 @@ Tags:
     <server>NOCR</server>
     <fullname>New Life Version</fullname>
     <year>1969</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Für Menschen mit begrenztem Wortschatz (850 Wörter); stark vereinfacht</comment>
   </version>
 
   <version>
@@ -2170,6 +2888,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Life Version</fullname>
     <year>2003</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Für Menschen mit begrenztem Wortschatz (850 Wörter); stark vereinfacht</comment>
   </version>
 
   <version>
@@ -2180,7 +2901,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Matthew Bible NT</fullname>
     <year>2016</year>
-    <family>MATTHEW</family>
+    <family>MAT</family>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Überarbeitete Wiederveröffentlichung des Tyndale-Textes von 1537</comment>
   </version>
 
   <version>
@@ -2190,6 +2913,7 @@ Tags:
     <content>NT</content>
     <server>Studybible</server>
     <fullname>Noyes New Testament</fullname>
+    <textbase_nt>Griesbach</textbase_nt>
     <year>1869</year>
   </version>
 
@@ -2202,6 +2926,8 @@ Tags:
     <fullname>New Revised Standard Version</fullname>
     <year>1989</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2213,6 +2939,8 @@ Tags:
     <fullname>New Revised Standard Version Anglicised</fullname>
     <year>1995</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2224,7 +2952,9 @@ Tags:
     <fullname>New Revised Standard Version Anglicesd, Catholic Edition</fullname>
     <year>1995</year>
     <family>ASV</family>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2235,8 +2965,10 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Revised Standard Version Catholic Edition</fullname>
     <year>1993</year>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2248,6 +2980,8 @@ Tags:
     <fullname>New Revised Standard Version Updated Edition</fullname>
     <year>2021</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <!--
@@ -2271,6 +3005,36 @@ Tags:
     <server>Biblegateway</server>
     <fullname>New Testament for Everyone</fullname>
     <year>2019</year>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>OEB</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>NT</content>
+    <extracontent>RT,EST,PS,HOS,JO,AM,OB,JON,MI,NAH,HAB,ZEP,HAG,SACH</extracontent>
+    <server></server>
+    <fullname>Open English Bible</fullname>
+    <year>2020</year>
+    <generic_url>https://openenglishbible.org/oeb/2020.2/read/</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Public Domain Greek NT</textbase_nt>
+    <comment>Typische Editionen des "Public Domain Greek NT": Westcott-Hort (1881), Scrivener TR (1894), Tischendorf (8. Aufl.), von Soden (1913)</comment>
+  </version>
+
+  <version>
+    <name>OJB2003</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Orthodox Jewish Bible</fullname>
+    <year>2003</year>
+    <denomination>Jüdisch</denomination>
+    <generic_url>https://www.bibliatodo.com/en/the-bible/version/orthodox-jewish-bible</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2281,7 +3045,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Orthodox Jewish Bible</fullname>
     <year>2011</year>
-    <denomination>Jewish</denomination>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2292,7 +3058,9 @@ Tags:
     <server>NOCR</server>
     <fullname>Orthodox Jewish Brit Chadasha</fullname>
     <year>1996</year>
-    <denomination>Jewish</denomination>
+    <denomination>Messianisch</denomination>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Messianischer Kontrast zu OJB, teilweise davon abweichend</comment>
   </version>
 
   <version>
@@ -2303,7 +3071,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>J.B. Phillips NT</fullname>
     <year>1972</year>
-    <denomination>Anglican</denomination>
+    <denomination>Anglikanisch</denomination>
+    <textbase_nt>Eklektisch</textbase_nt>
+    <comment>Eigene Rekonstruktion auf Basis von Nestle-Aland 25</comment>
   </version>
 
   <version>
@@ -2314,6 +3084,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Wilbur Pickering's New Testament</fullname>
     <year>2015</year>
+    <textbase_nt>Byz</textbase_nt>
   </version>
 
   <version>
@@ -2325,6 +3096,7 @@ Tags:
     <fullname>Revised Geneva Translation NT</fullname>
     <year>2019</year>
     <family>GNV</family>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2335,6 +3107,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Riverside New Testament</fullname>
     <year>1923</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -2346,6 +3119,7 @@ Tags:
     <fullname>Revised King James NT</fullname>
     <year>2000</year>
     <family>KJV</family>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2356,7 +3130,12 @@ Tags:
     <server>Obohu</server>
     <fullname>Rotherham's Emphasized Bible</fullname>
     <year>1902</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
   </version>
+
+  <!--
+  Theologisch geprägt von Watchman Nee / Witness Lee
 
   <version>
     <name>RECV</name>
@@ -2367,6 +3146,7 @@ Tags:
     <fullname>Recovery Version NT</fullname>
     <year>1991</year>
   </version>
+  -->
 
   <version>
     <name>RSV1952</name>
@@ -2377,6 +3157,8 @@ Tags:
     <fullname>Revised Standard Version</fullname>
     <year>1952</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2388,6 +3170,8 @@ Tags:
     <fullname>Revised Standard Version</fullname>
     <year>1971</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2399,9 +3183,10 @@ Tags:
     <fullname>Revised Standard Version Catholic Edition</fullname>
     <year>1966</year>
     <family>ASV</family>
-    <denomination>katholisch</denomination>
+    <denomination>Katholisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
-
 
   <version>
     <name>RV</name>
@@ -2412,7 +3197,22 @@ Tags:
     <fullname>English Revised Version</fullname>
     <year>1885</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>Ben-Asher</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
+  </version>
+
+  <version>
+    <name>RVIC</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>THE REVISED VERSION (American Edition) Improved and Corrected</fullname>
+    <year>1901</year>
+    <family>RV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH</textbase_nt>
+    <generic_url>https://bibleresources.info/bible/?bv=RVIC&amp;book_id=1&amp;chapter=1</generic_url>
   </version>
 
   <version>
@@ -2424,7 +3224,7 @@ Tags:
     <fullname>Revised Youngs Literal Translation NT</fullname>
     <family>YLT</family>
     <year>2000</year>
-    <textbase>Textus Receptus</textbase>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -2435,7 +3235,7 @@ Tags:
     <server>Studybible</server>
     <fullname>LXX2012: Septuagint in American English</fullname>
     <year>2012</year>
-    <textbase>LXX</textbase>
+    <textbase_ot>LXX</textbase_ot>
   </version>
 
   <version>
@@ -2446,6 +3246,19 @@ Tags:
     <server>Studybible</server>
     <fullname>Leicester Ambrose Sawyer NT</fullname>
     <year>1858</year>
+    <textbase_nt>Eklektisch</textbase_nt>
+  </version>
+
+  <version>
+    <name>SET</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server></server>
+    <fullname>Stone Edition Tanakh</fullname>
+    <year>1996</year>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
@@ -2456,7 +3269,8 @@ Tags:
     <server>Obohu</server>
     <fullname>2001 Translation</fullname>
     <year>2001</year>
-    <textbase>LXX</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH,Byz</textbase_nt>
   </version>
 
   <version>
@@ -2467,6 +3281,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Twentieth Century New Testament</fullname>
     <year>1902</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -2478,17 +3293,33 @@ Tags:
     <fullname>Today's English Version (Good News Bible 1990)</fullname>
     <year>1990</year>
     <family>TEV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>TFT</name>
+    <servername>t4t</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Ebible</server>
+    <fullname>Translation for translators</fullname>
+    <year>2008</year>
+    <family>TEV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Nicht für allgemeine Leserschaft gedacht, sondern für Missionslinguisten</comment>
   </version>
 
   <version>
     <name>THO</name>
     <servername>THO</servername>
     <language>EN</language>
-    <content>FB</content>
+    <content>OT</content>
     <server>Obohu</server>
-    <fullname>Thomson</fullname>
+    <fullname>Charles Thomson Septuagint</fullname>
     <year>1808</year>
-    <textbase>LXX</textbase>
+    <textbase_ot>LXX</textbase_ot>
   </version>
 
   <version>
@@ -2499,6 +3330,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>The Living Bible</fullname>
     <year>1971</year>
+    <textbase_ot>KJV</textbase_ot>
+    <textbase_nt>KJV,ASV</textbase_nt>
+    <comment>Keine Übersetzung aus den Grundtexten, sondern eine paraphrasierende Nacherzählung</comment>
   </version>
 
   <version>
@@ -2509,7 +3343,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Tree of Life Version</fullname>
     <year>2015</year>
-    <denomination>Jewish</denomination>
+    <denomination>Messianisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2521,7 +3357,23 @@ Tags:
     <fullname>Third Millennium Bible</fullname>
     <year>1998</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Minimal überarbeitete KJV</comment>
+  </version>
+
+  <version>
+    <name>TPT</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server></server>
+    <fullname>The Passion Translation</fullname>
+    <year>2017</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <generic_url>https://www.bible.com/bible/1849/GEN.1.TPT</generic_url>
+    <comment>Hochgradig interpretativ, stark charismatisch gefärbt; keine klassische Übersetzung</comment>
   </version>
 
   <version>
@@ -2533,6 +3385,7 @@ Tags:
     <fullname>Tyndale-Rogers-Coverdale-Crammer NT (1537)</fullname>
     <year>1537</year>
     <family>TYN</family>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2543,7 +3396,23 @@ Tags:
     <server>Obohu</server>
     <fullname>The Scriptures</fullname>
     <year>1998</year>
-    <denomination>Jewish</denomination>
+    <denomination>Jüdisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>TS2009</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>The Scriptures</fullname>
+    <year>2009</year>
+    <denomination>Jüdisch</denomination>
+    <generic_url>https://www.bible.com/de/bible/316/GEN.1.TS2009</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2555,6 +3424,9 @@ Tags:
     <fullname>Today's New International Version (2005)</fullname>
     <year>2005</year>
     <family>NIV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Revision der NIV mit gendergerechter Sprache; später von NIV 2011 abgelöst</comment>
   </version>
 
   <version>
@@ -2566,6 +3438,8 @@ Tags:
     <fullname>William Tyndale Original NT</fullname>
     <family>TYN</family>
     <year>1526</year>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Erste englische NT-Übersetzung direkt aus dem Griechischen</comment>
   </version>
 
   <version>
@@ -2578,6 +3452,23 @@ Tags:
     <fullname>Tyndale</fullname>
     <family>TYN</family>
     <year>1534</year>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <!--
+    Not sure if there really is a difference
+  -->
+  <version>
+    <name>TYN1536</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Tyndale</fullname>
+    <family>TYN</family>
+    <year>1536</year>
+    <generic_url>https://biblehub.com/tnt/</generic_url>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2589,6 +3480,9 @@ Tags:
     <fullname>Updated Bible Version 2.05</fullname>
     <year>2004</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH,NA</textbase_nt>
+    <comment>Grundlage: Public Domain Critical Text (NA/WH)</comment>
   </version>
 
   <version>
@@ -2600,6 +3494,9 @@ Tags:
     <fullname>Updated Bible Version</fullname>
     <year>2006</year>
     <family>ASV</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>WH,NA</textbase_nt>
+    <comment>Grundlage: Public Domain Critical Text (NA/WH)</comment>
   </version>
 
   <version>
@@ -2611,7 +3508,9 @@ Tags:
     <fullname>Updated King James Version</fullname>
     <year>2005</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <comment>Sprache überarbeitet, textlich wie KJV</comment>
   </version>
 
   <version>
@@ -2622,6 +3521,7 @@ Tags:
     <server>Studybible</server>
     <fullname>An Understandable Version</fullname>
     <year>1994</year>
+    <textbase_nt>NA</textbase_nt>
   </version>
 
   <version>
@@ -2632,6 +3532,9 @@ Tags:
     <server>Biblegateway</server>
     <fullname>The Voice</fullname>
     <year>2012</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+    <comment>Sehr frei paraphrasierend</comment>
   </version>
 
   <!--
@@ -2645,6 +3548,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Venerably Illuminating Narrative</fullname>
     <year>1599</year>
+    <textbase_ot>?</textbase_ot>
+    <textbase_nt>?</textbase_nt>
   </version>
 
   <version>
@@ -2654,7 +3559,8 @@ Tags:
     <content>FB</content>
     <server>Obohu</server>
     <fullname>A Voice In The Wilderness</fullname>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
     <year>2010</year>
   </version>
 
@@ -2668,7 +3574,8 @@ Tags:
     <fullname>Webster Bible Translation</fullname>
     <year>1833</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2680,11 +3587,12 @@ Tags:
     <fullname>Revised Webster Update (1995)</fullname>
     <year>1995</year>
     <family>KJV</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
-  <!-- CAUTION: this is also available on Biblehub, but they use different patterns for different versions.
-   The versions they offer are not interesting enough.-->
+  <!-- It is no longer possible to download from Obohu.
+
   <version>
     <name>WEB</name>
     <servername>WEB</servername>
@@ -2693,7 +3601,23 @@ Tags:
     <server>Obohu</server>
     <fullname>World English Bible</fullname>
     <year>2022</year>
-    <family>ASV</family>
+    <family>WEB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
+  </version>
+  -->
+
+  <version>
+    <name>WEB</name>
+    <servername>WEB</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>World English Bible</fullname>
+    <year>2022</year>
+    <family>WEB</family>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
   </version>
 
   <version>
@@ -2704,6 +3628,7 @@ Tags:
     <server>Nocr</server>
     <fullname>Wesley's NT</fullname>
     <year>1750</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2714,6 +3639,7 @@ Tags:
     <server>Gratisbible</server>
     <fullname>Wesley's NT</fullname>
     <year>1755</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2724,6 +3650,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Williams NT</fullname>
     <year>1937</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -2734,6 +3661,33 @@ Tags:
     <server>Gratisbible</server>
     <fullname>Weymouth New Testament</fullname>
     <year>1929</year>
+    <textbase_nt>WH</textbase_nt>
+  </version>
+
+  <version>
+    <name>WMB</name>
+    <servername>engwmb</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Ebible</server>
+    <fullname>World Messianic Bible</fullname>
+    <year>2015</year>
+    <family>WEB</family>
+    <denomination>Messianisch</denomination>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>Byz</textbase_nt>
+    <comment>Hebräisch-messianisch angepasste Fassung der WEB</comment>
+  </version>
+
+  <version>
+    <name>WNT</name>
+    <servername>WNT</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Studybible</server>
+    <fullname>Weymouth New Testament</fullname>
+    <year>1903</year>
+    <textbase_nt>WH</textbase_nt>
   </version>
 
   <version>
@@ -2744,6 +3698,8 @@ Tags:
     <server>Studybible</server>
     <fullname>Worsley New Testament</fullname>
     <year>1770</year>
+    <textbase_nt>TR</textbase_nt>
+    <denomination>Baptistisch</denomination>
   </version>
 
   <version>
@@ -2754,6 +3710,20 @@ Tags:
     <server>Studybible</server>
     <fullname>Worrell NT</fullname>
     <year>1904</year>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>WOY</name>
+    <servername></servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server></server>
+    <fullname>Word of Yahweh</fullname>
+    <year>2003</year>
+    <generic_url>https://www.bibliatodo.com/en/the-bible/version/word-of-yahweh</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2764,6 +3734,7 @@ Tags:
     <server>Studybible</server>
     <fullname>Whiston's Primitive NT</fullname>
     <year>1745</year>
+    <textbase_nt>Beza</textbase_nt>
   </version>
 
   <version>
@@ -2774,6 +3745,7 @@ Tags:
     <server>Biblegateway</server>
     <fullname>Worldwide English NT</fullname>
     <year>1969</year>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
   <version>
@@ -2783,7 +3755,8 @@ Tags:
     <content>FB</content>
     <server>Biblegateway</server>
     <fullname>Wycliffe's Bible</fullname>
-    <textbase>Vulgata</textbase>
+    <textbase_ot>Vulgata</textbase_ot>
+    <textbase_nt>Vulgata</textbase_nt>
     <year>1388</year>
   </version>
 
@@ -2796,7 +3769,8 @@ Tags:
     <fullname>Young's Literal Translation</fullname>
     <year>1898</year>
     <family>YLT</family>
-    <textbase>Textus Receptus</textbase>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
   </version>
 
 </versions>
