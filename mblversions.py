@@ -99,7 +99,7 @@ class Versions:
             b_filter_by_language = True
             language_filter = [s.lower() for s in lfilter]
 
-        if server_filter is None:
+        if sfilter is None or sfilter == '':
             b_filter_by_server = False
         else:
             b_filter_by_server = True
