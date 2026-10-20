@@ -916,80 +916,81 @@ The servers should have a "weight" that defines the sequence in which they are t
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #
          ############################################################## -->
-  <bibleserver>
-    <name>Obohu</name>
-    <url>https://www.obohu.cz/</url>
-    <!-- bible/index.php?k=Mt&kap=1&styl=ELBU-->
-    <chapterurl>bible/index.php?k={book}&amp;kap={chapter}&amp;styl={version}</chapterurl>
-    <books>
-      <book name_de="Gn">GEN</book>
-      <book name_de="Ex">EX</book>
-      <book name_de="Lv">LEV</book>
-      <book name_de="Nu">NUM</book>
-      <book name_de="Dt">DTN</book>
-      <book name_de="Joz">JOS</book>
-      <book name_de="Sd">RI</book>
-      <book name_de="Rt">RT</book>
-      <book name_de="1S">1SAM</book>
-      <book name_de="2S">2SAM</book>
-      <book name_de="1Kr">1KÖN</book>
-      <book name_de="2Kr">2KÖN</book>
-      <book name_de="1Pa">1CHR</book>
-      <book name_de="2Pa">2CHR</book>
-      <book name_de="Ezd">ESR</book>
-      <book name_de="Neh">NEH</book>
-      <book name_de="Est">EST</book>
-      <book name_de="Jb">HI</book>
-      <book name_de="Z">PS</book>
-      <book name_de="Pr">SPR</book>
-      <book name_de="Ka">PRD</book>
-      <book name_de="Pis">HOH</book>
-      <book name_de="Iz">JES</book>
-      <book name_de="Jr">JER</book>
-      <book name_de="Pl">KLA</book>
-      <book name_de="Ez">HES</book>
-      <book name_de="Da">DAN</book>
-      <book name_de="Oz">HOS</book>
-      <book name_de="Jl">JO</book>
-      <book name_de="Am">AM</book>
-      <book name_de="Abd">OB</book>
-      <book name_de="Jon">JON</book>
-      <book name_de="Mi">MI</book>
-      <book name_de="Na">NAH</book>
-      <book name_de="Ab">HAB</book>
-      <book name_de="Sf">ZEP</book>
-      <book name_de="Ag">HAG</book>
-      <book name_de="Za">SACH</book>
-      <book name_de="Mal">MAL</book>
-      <book name_de="Mt">MT</book>
-      <book name_de="Mk">MK</book>
-      <book name_de="L">LK</book>
-      <book name_de="J">JOH</book>
-      <book name_de="Sk">APG</book>
-      <book name_de="R">RÖM</book>
-      <book name_de="1K">1KOR</book>
-      <book name_de="2K">2KOR</book>
-      <book name_de="Ga">GAL</book>
-      <book name_de="Ef">EPH</book>
-      <book name_de="Fp">PHIL</book>
-      <book name_de="Ko">KOL</book>
-      <book name_de="1Te">1THES</book>
-      <book name_de="2Te">2THES</book>
-      <book name_de="1Tm">1TIM</book>
-      <book name_de="2Tm">2TIM</book>
-      <book name_de="Tit">TIT</book>
-      <book name_de="Fm">PHIM</book>
-      <book name_de="Zd">HEB</book>
-      <book name_de="Jk">JAK</book>
-      <book name_de="1P">1PET</book>
-      <book name_de="2P">2PET</book>
-      <book name_de="1J">1JOH</book>
-      <book name_de="2J">2JOH</book>
-      <book name_de="3J">3JOH</book>
-      <book name_de="Ju">JUD</book>
-      <book name_de="Zj">OFF</book>
-    </books>
-  </bibleserver>
+<!--Unfortunately, Obohu does no longer work - it is now protected by WEDOS.protection-->
+<!--  <bibleserver>-->
+<!--    <name>Obohu</name>-->
+<!--    <url>https://www.obohu.cz/</url>-->
+<!--    &lt;!&ndash; bible/index.php?k=Mt&kap=1&styl=ELBU&ndash;&gt;-->
+<!--    <chapterurl>bible/index.php?k={book}&amp;kap={chapter}&amp;styl={version}</chapterurl>-->
+<!--    <books>-->
+<!--      <book name_de="Gn">GEN</book>-->
+<!--      <book name_de="Ex">EX</book>-->
+<!--      <book name_de="Lv">LEV</book>-->
+<!--      <book name_de="Nu">NUM</book>-->
+<!--      <book name_de="Dt">DTN</book>-->
+<!--      <book name_de="Joz">JOS</book>-->
+<!--      <book name_de="Sd">RI</book>-->
+<!--      <book name_de="Rt">RT</book>-->
+<!--      <book name_de="1S">1SAM</book>-->
+<!--      <book name_de="2S">2SAM</book>-->
+<!--      <book name_de="1Kr">1KÖN</book>-->
+<!--      <book name_de="2Kr">2KÖN</book>-->
+<!--      <book name_de="1Pa">1CHR</book>-->
+<!--      <book name_de="2Pa">2CHR</book>-->
+<!--      <book name_de="Ezd">ESR</book>-->
+<!--      <book name_de="Neh">NEH</book>-->
+<!--      <book name_de="Est">EST</book>-->
+<!--      <book name_de="Jb">HI</book>-->
+<!--      <book name_de="Z">PS</book>-->
+<!--      <book name_de="Pr">SPR</book>-->
+<!--      <book name_de="Ka">PRD</book>-->
+<!--      <book name_de="Pis">HOH</book>-->
+<!--      <book name_de="Iz">JES</book>-->
+<!--      <book name_de="Jr">JER</book>-->
+<!--      <book name_de="Pl">KLA</book>-->
+<!--      <book name_de="Ez">HES</book>-->
+<!--      <book name_de="Da">DAN</book>-->
+<!--      <book name_de="Oz">HOS</book>-->
+<!--      <book name_de="Jl">JO</book>-->
+<!--      <book name_de="Am">AM</book>-->
+<!--      <book name_de="Abd">OB</book>-->
+<!--      <book name_de="Jon">JON</book>-->
+<!--      <book name_de="Mi">MI</book>-->
+<!--      <book name_de="Na">NAH</book>-->
+<!--      <book name_de="Ab">HAB</book>-->
+<!--      <book name_de="Sf">ZEP</book>-->
+<!--      <book name_de="Ag">HAG</book>-->
+<!--      <book name_de="Za">SACH</book>-->
+<!--      <book name_de="Mal">MAL</book>-->
+<!--      <book name_de="Mt">MT</book>-->
+<!--      <book name_de="Mk">MK</book>-->
+<!--      <book name_de="L">LK</book>-->
+<!--      <book name_de="J">JOH</book>-->
+<!--      <book name_de="Sk">APG</book>-->
+<!--      <book name_de="R">RÖM</book>-->
+<!--      <book name_de="1K">1KOR</book>-->
+<!--      <book name_de="2K">2KOR</book>-->
+<!--      <book name_de="Ga">GAL</book>-->
+<!--      <book name_de="Ef">EPH</book>-->
+<!--      <book name_de="Fp">PHIL</book>-->
+<!--      <book name_de="Ko">KOL</book>-->
+<!--      <book name_de="1Te">1THES</book>-->
+<!--      <book name_de="2Te">2THES</book>-->
+<!--      <book name_de="1Tm">1TIM</book>-->
+<!--      <book name_de="2Tm">2TIM</book>-->
+<!--      <book name_de="Tit">TIT</book>-->
+<!--      <book name_de="Fm">PHIM</book>-->
+<!--      <book name_de="Zd">HEB</book>-->
+<!--      <book name_de="Jk">JAK</book>-->
+<!--      <book name_de="1P">1PET</book>-->
+<!--      <book name_de="2P">2PET</book>-->
+<!--      <book name_de="1J">1JOH</book>-->
+<!--      <book name_de="2J">2JOH</book>-->
+<!--      <book name_de="3J">3JOH</book>-->
+<!--      <book name_de="Ju">JUD</book>-->
+<!--      <book name_de="Zj">OFF</book>-->
+<!--    </books>-->
+<!--  </bibleserver>-->
 
   <!-- ##############################################################
        # Studybible                                                 #

@@ -283,7 +283,8 @@ Tags:
     <language>DE</language>
     <content>NT</content>
     <extracontent>PS</extracontent>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Albrecht NT</fullname>
     <year>1926</year>
     <denomination>Katholisch</denomination>
@@ -338,7 +339,8 @@ Tags:
     <servername>JAB</servername>
     <language>DE</language>
     <content>NT</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Bengel NT</fullname>
     <year>1742</year>
     <textbase_nt>TR</textbase_nt>
@@ -412,7 +414,8 @@ Tags:
     <servername>FB</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Elberfelder Ecclesia FreeBible</fullname>
     <year>2004</year>
     <family>ELB</family>
@@ -426,7 +429,8 @@ Tags:
     <servername>EIN</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Einheitsübersetzung 1980</fullname>
     <year>1980</year>
     <denomination>Katholisch</denomination>
@@ -724,7 +728,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>AEK</servername>
     <language>DE</language>
     <content>NT</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Knoch NT</fullname>
     <year>1939</year>
     <textbase_nt>Eigene Rekonstruktion</textbase_nt>
@@ -881,7 +886,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>LVE</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Leander van Ess</fullname>
     <year>1859</year>
     <denomination>Katholisch</denomination>
@@ -935,7 +941,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>MEI</servername>
     <language>DE</language>
     <content>NT</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Abraham Meister NT</fullname>
     <year>1989</year>
     <textbase_nt>NA</textbase_nt>
@@ -1050,7 +1057,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>PAT</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Pattloch Bibel </fullname>
     <year>1979</year>
     <denomination>Katholisch</denomination>
@@ -1216,7 +1224,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <language>DE</language>
     <content>NT</content>
     <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, 1SAM, 2SAM, 1KÖN, 2KÖN, PS, JES, JER, KLA, HES, DAN, HOS, JO, AM, OB, JON, Mi, NAH, HAG, ZEP, HAG, SACH, MAL</extracontent>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Tafel-Bibel</fullname>
     <year>1911</year>
     <textbase_ot>MT</textbase_ot>
@@ -1299,7 +1308,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>ZUR</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Zürcher</fullname>
     <year>1931</year>
     <textbase_ot>MT</textbase_ot>
@@ -2144,7 +2154,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>IAV</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>Israeli Authorized Version</fullname>
     <year>2001</year>
     <family>KJV</family>
@@ -2282,7 +2293,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>KJ3</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>King James 3 - The Literal Translation</fullname>
     <family>KJV</family>
     <year>2006</year>
@@ -2551,7 +2563,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>MIT</servername>
     <language>EN</language>
     <content>NT</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>William Graham MacDonald's Idiomatic Translation</fullname>
     <year>2006</year>
     <textbase_nt>NA</textbase_nt>
@@ -3266,7 +3279,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>T2001</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>2001 Translation</fullname>
     <year>2001</year>
     <textbase_ot>MT</textbase_ot>
@@ -3393,7 +3407,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>TS98</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>The Scriptures</fullname>
     <year>1998</year>
     <denomination>Jüdisch</denomination>
@@ -3557,7 +3572,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>VW</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+<!--    <server>Obohu</server>-->
+    <server></server>
     <fullname>A Voice In The Wilderness</fullname>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>TR</textbase_nt>
