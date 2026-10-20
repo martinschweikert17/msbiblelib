@@ -596,45 +596,45 @@ The servers should have a "weight" that defines the sequence in which they are t
       use still another set!!
       Currently, only the VBs have the OT
       -->
-      <book name_de="Gen">GEN</book>
-      <book name_de="Ex">EX</book>
-      <book name_de="Lev">LEV</book>
-      <book name_de="Num">NUM</book>
-      <book name_de="Dtn">DTN</book>
-      <book name_de="Jos">JOS</book>
-      <book name_de="Ri">RI</book>
-      <book name_de="Rut">RT</book>
-      <book name_de="1Sam">1SAM</book>
-      <book name_de="2Sam">2SAM</book>
-      <book name_de="1Kön">1KÖN</book>
-      <book name_de="2Kön">2KÖN</book>
-      <book name_de="1Chr">1CHR</book>
-      <book name_de="2Chr">2CHR</book>
-      <book name_de="Esra">ESR</book>
-      <book name_de="Neh">NEH</book>
-      <book name_de="Est">EST</book>
-      <book name_de="Ijob">HI</book>
-      <book name_de="Ps">PS</book>
-      <book name_de="Spr">SPR</book>
-      <book name_de="Koh">PRD</book>
-      <book name_de="Hld">HOH</book>
-      <book name_de="Jes">JES</book>
-      <book name_de="Jer">JER</book>
-      <book name_de="Klgl">KLA</book>
-      <book name_de="Ez">HES</book>
-      <book name_de="Dan">DAN</book>
-      <book name_de="Hos">HOS</book>
-      <book name_de="Joel">JO</book>
-      <book name_de="Amos">AM</book>
-      <book name_de="Obd">OB</book>
-      <book name_de="Jona">JON</book>
-      <book name_de="Mi">MI</book>
-      <book name_de="Nah">NAH</book>
-      <book name_de="Hab">HAB</book>
-      <book name_de="Zef">ZEP</book>
-      <book name_de="Hag">HAG</book>
-      <book name_de="Sach">SACH</book>
-      <book name_de="Mal">MAL</book>
+      <book name_obohu="1.Mo" name_de="Gen">GEN</book>
+      <book name_obohu="2.Mo" name_de="Ex">EX</book>
+      <book name_obohu="3.Mo" name_de="Lev">LEV</book>
+      <book name_obohu="4.Mo" name_de="Num">NUM</book>
+      <book name_obohu="5.Mo" name_de="Dtn">DTN</book>
+      <book name_obohu="Jos" name_de="Jos">JOS</book>
+      <book name_obohu="Ri" name_de="Ri">RI</book>
+      <book name_obohu="Rt" name_de="Rut">RT</book>
+      <book name_obohu="1.Sam" name_de="1Sam">1SAM</book>
+      <book name_obohu="2.Sam" name_de="2Sam">2SAM</book>
+      <book name_obohu="1.Kön" name_de="1Kön">1KÖN</book>
+      <book name_obohu="2.Kön" name_de="2Kön">2KÖN</book>
+      <book name_obohu="1.Chr" name_de="1Chr">1CHR</book>
+      <book name_obohu="2.Chr" name_de="2Chr">2CHR</book>
+      <book name_obohu="Esr" name_de="Esra">ESR</book>
+      <book name_obohu="Neh" name_de="Neh">NEH</book>
+      <book name_obohu="Est" name_de="Est">EST</book>
+      <book name_obohu="Hi" name_de="Ijob">HI</book>
+      <book name_obohu="Ps" name_de="Ps">PS</book>
+      <book name_obohu="Spr" name_de="Spr">SPR</book>
+      <book name_obohu="Pred" name_de="Koh">PRD</book>
+      <book name_obohu="Hld" name_de="Hld">HOH</book>
+      <book name_obohu="Jes" name_de="Jes">JES</book>
+      <book name_obohu="Jer" name_de="Jer">JER</book>
+      <book name_obohu="Klgl" name_de="Klgl">KLA</book>
+      <book name_obohu="Hes" name_de="Ez">HES</book>
+      <book name_obohu="Dan" name_de="Dan">DAN</book>
+      <book name_obohu="Hos" name_de="Hos">HOS</book>
+      <book name_obohu="Joe" name_de="Joel">JO</book>
+      <book name_obohu="Am" name_de="Amos">AM</book>
+      <book name_obohu="Obad" name_de="Obd">OB</book>
+      <book name_obohu="Jona" name_de="Jona">JON</book>
+      <book name_obohu="Mich" name_de="Mi">MI</book>
+      <book name_obohu="Nah" name_de="Nah">NAH</book>
+      <book name_obohu="Hab" name_de="Hab">HAB</book>
+      <book name_obohu="Zeph" name_de="Zef">ZEP</book>
+      <book name_obohu="Hag" name_de="Hag">HAG</book>
+      <book name_obohu="Sach" name_de="Sach">SACH</book>
+      <book name_obohu="Mal" name_de="Mal">MAL</book>
       <!--
       They all have the NT, with chaotic sets as described above!
       Col. 1: internal
@@ -642,33 +642,33 @@ The servers should have a "weight" that defines the sequence in which they are t
       Col. 3: LEO
       Col. 4: VB
       -->
-      <book name_de="Mt" name_en="Matt" name_extra="Mt">MT</book>
-      <book name_de="Mk" name_en="Mark" name_extra="Mk">MK</book>
-      <book name_de="Lk" name_en="Luke" name_extra="Lk">LK</book>
-      <book name_de="Jh" name_en="John" name_extra="Joh">JOH</book>
-      <book name_de="Ag" name_en="Acts" name_extra="Apg">APG</book>
-      <book name_de="Rm" name_en="Rom" name_extra="Röm">RÖM</book>
-      <book name_de="1Kr" name_en="1Cor" name_extra="1Kor">1KOR</book>
-      <book name_de="2Kr" name_en="2Cor" name_extra="2Kor">2KOR</book>
-      <book name_de="Ga" name_en="Gal" name_extra="Gal">GAL</book>
-      <book name_de="Eph" name_en="Eph" name_extra="Eph">EPH</book>
-      <book name_de="Php" name_en="Phil" name_extra="Phil">PHIL</book>
-      <book name_de="Kol" name_en="Col" name_extra="Kol">KOL</book>
-      <book name_de="1Th" name_en="1Thess" name_extra="1Thess">1THES</book>
-      <book name_de="2Th" name_en="2Thess" name_extra="2Thess">2THES</book>
-      <book name_de="1Tm" name_en="1Tim" name_extra="1Tim">1TIM</book>
-      <book name_de="2Tm" name_en="2Tim" name_extra="2Tim">2TIM</book>
-      <book name_de="Tt" name_en="Titus" name_extra="Tit">TIT</book>
-      <book name_de="Phm" name_en="Phlm" name_extra="Phlm">PHIM</book>
-      <book name_de="Heb" name_en="Heb" name_extra="Hebr">HEB</book>
-      <book name_de="Jk" name_en="Jas" name_extra="Jak">JAK</book>
-      <book name_de="1P" name_en="1Pet" name_extra="1Petr">1PET</book>
-      <book name_de="2P" name_en="2Pet" name_extra="2Petr">2PET</book>
-      <book name_de="1Jh" name_en="1John" name_extra="1Joh">1JOH</book>
-      <book name_de="2Jh" name_en="2John" name_extra="2Joh">2JOH</book>
-      <book name_de="3Jh" name_en="3John" name_extra="3Joh">3JOH</book>
-      <book name_de="Jud" name_en="Jude" name_extra="Jud">JUD</book>
-      <book name_de="Off" name_en="Rev" name_extra="Offb">OFF</book>
+      <book name_obohu="Mt" name_de="Mt" name_en="Matt" name_extra="Mt">MT</book>
+      <book name_obohu="Markus" name_de="Mk" name_en="Mark" name_extra="Mk">MK</book>
+      <book name_obohu="Lk" name_de="Lk" name_en="Luke" name_extra="Lk">LK</book>
+      <book name_obohu="Joh" name_de="Jh" name_en="John" name_extra="Joh">JOH</book>
+      <book name_obohu="Apg" name_de="Ag" name_en="Acts" name_extra="Apg">APG</book>
+      <book name_obohu="Röm" name_de="Rm" name_en="Rom" name_extra="Röm">RÖM</book>
+      <book name_obohu="1.Kor" name_de="1Kr" name_en="1Cor" name_extra="1Kor">1KOR</book>
+      <book name_obohu="2.Kor" name_de="2Kr" name_en="2Cor" name_extra="2Kor">2KOR</book>
+      <book name_obohu="Gal" name_de="Ga" name_en="Gal" name_extra="Gal">GAL</book>
+      <book name_obohu="Eph" name_de="Eph" name_en="Eph" name_extra="Eph">EPH</book>
+      <book name_obohu="Phil" name_de="Php" name_en="Phil" name_extra="Phil">PHIL</book>
+      <book name_obohu="Kol" name_de="Kol" name_en="Col" name_extra="Kol">KOL</book>
+      <book name_obohu="1.Thes" name_de="1Th" name_en="1Thess" name_extra="1Thess">1THES</book>
+      <book name_obohu="2.Thes" name_de="2Th" name_en="2Thess" name_extra="2Thess">2THES</book>
+      <book name_obohu="1.Tim" name_de="1Tm" name_en="1Tim" name_extra="1Tim">1TIM</book>
+      <book name_obohu="2.Tim" name_de="2Tm" name_en="2Tim" name_extra="2Tim">2TIM</book>
+      <book name_obohu="Tit" name_de="Tt" name_en="Titus" name_extra="Tit">TIT</book>
+      <book name_obohu="Phlm" name_de="Phm" name_en="Phlm" name_extra="Phlm">PHIM</book>
+      <book name_obohu="Heb" name_de="Heb" name_en="Heb" name_extra="Hebr">HEB</book>
+      <book name_obohu="Jak" name_de="Jk" name_en="Jas" name_extra="Jak">JAK</book>
+      <book name_obohu="1.Pet" name_de="1P" name_en="1Pet" name_extra="1Petr">1PET</book>
+      <book name_obohu="2.Pet" name_de="2P" name_en="2Pet" name_extra="2Petr">2PET</book>
+      <book name_obohu="1.Joh" name_de="1Jh" name_en="1John" name_extra="1Joh">1JOH</book>
+      <book name_obohu="2.Joh" name_de="2Jh" name_en="2John" name_extra="2Joh">2JOH</book>
+      <book name_obohu="3.Joh" name_de="3Jh" name_en="3John" name_extra="3Joh">3JOH</book>
+      <book name_obohu="Jud" name_de="Jud" name_en="Jude" name_extra="Jud">JUD</book>
+      <book name_obohu="Off" name_de="Off" name_en="Rev" name_extra="Offb">OFF</book>
     </books>
   </bibleserver>
 

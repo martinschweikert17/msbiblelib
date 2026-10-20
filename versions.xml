@@ -358,10 +358,10 @@ Tags:
 
   <version>
     <name>BR</name>
-    <servername>BRU</servername>
+    <servername>BuberRosenzweig</servername>
     <language>DE</language>
     <content>OT</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Buber / Rosenzweig</fullname>
     <year>1929</year>
     <denomination>Jüdisch</denomination>
@@ -449,10 +449,10 @@ Tags:
 
   <version>
     <name>ELB1871</name>
-    <servername>ELB</servername>
+    <servername>ELB1871</servername>
     <language>DE</language>
     <content>NT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Elberfelder NT</fullname>
     <year>1871</year>
     <textbase_ot>MT</textbase_ot>
@@ -584,10 +584,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>GRÜ</name>
-    <servername>GB</servername>
+    <servername>Gruenewald</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Grünewald (Riessler-Storr-Bibel) </fullname>
     <year>1924</year>
     <denomination>Katholisch</denomination>
@@ -611,10 +611,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>HER2005</name>
-    <servername>HRD</servername>
+    <servername>Herder</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Herder</fullname>
     <year>2005</year>
     <denomination>Katholisch</denomination>
@@ -668,10 +668,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>HR</name>
-    <servername>HRB</servername>
+    <servername>HenneRoesch</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Henne-Rösch Bibel (Paderborner Bibel)</fullname>
     <year>1934</year>
     <denomination>Katholisch</denomination>
@@ -758,10 +758,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>L1912</name>
-    <servername>LUTA</servername>
+    <servername>Luther1912</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Luther</fullname>
     <year>1912</year>
     <family>L</family>
@@ -943,10 +943,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>MNT</name>
-    <servername>MNT</servername>
+    <servername>MuenchenerNT</servername>
     <language>DE</language>
     <content>NT</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Münchner NT</fullname>
     <year>1998</year>
     <denomination>Katholisch</denomination>
@@ -1250,7 +1250,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>NHTS</servername>
     <language>DE</language>
     <content>OT</content>
-    <server>Obohu</server>
+    <server>Github</server>
     <fullname>Naftali Herz Tur-Sinai AT</fullname>
     <year>1954</year>
     <denomination>Jüdisch</denomination>
@@ -1259,10 +1259,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>TXT</name>
-    <servername>TB</servername>
+    <servername>deutkw</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Ebible</server>
     <fullname>Textbibel</fullname>
     <year>1906</year>
     <textbase_ot>MT</textbase_ot>
@@ -1458,7 +1458,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>ASV</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>American Standard Version</fullname>
     <year>1901</year>
     <textbase_ot>MT</textbase_ot>
@@ -1552,10 +1552,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>BST</name>
-    <servername>BES</servername>
+    <servername>Brenton</servername>
     <language>EN</language>
     <content>OT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Brenton Septuagint Translation</fullname>
     <year>1870</year>
     <textbase_ot>LXX</textbase_ot>
@@ -1652,7 +1652,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>CJB</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>Stern Complete Jewish Bible</fullname>
     <year>1998</year>
     <denomination>Jüdisch</denomination>
@@ -1716,10 +1716,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>DBY</name>
-    <servername>DB</servername>
+    <servername>DARBY</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>Darby Bible Translation</fullname>
     <year>1890</year>
     <textbase_ot>MT</textbase_ot>
@@ -1891,7 +1891,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>ESV</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>English Standard Version</fullname>
     <year>2007</year>
     <family>RSV</family>
@@ -1944,10 +1944,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>ETHE</name>
-    <servername>ETHE</servername>
+    <servername>Etheridge</servername>
     <language>EN</language>
     <content>NT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>John Wesley Etheridge - Übersetzung der westlichen Peshitta</fullname>
     <year>1846</year>
     <textbase_nt>Peschitta</textbase_nt>
@@ -2005,7 +2005,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>LITV</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Green's Literal Translation</fullname>
     <year>1985</year>
     <textbase_ot>MT</textbase_ot>
@@ -2210,10 +2210,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>JESP</name>
-    <servername>JESP</servername>
+    <servername>JuliaSmith</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Julia Evelina Smith Parker</fullname>
     <year>1876</year>
     <textbase_ot>MT</textbase_ot>
@@ -2304,10 +2304,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>KJPCE</name>
-    <servername>KJPCE</servername>
+    <servername>KJV_Cambridge</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>King James Bible - Pure Cambridge Edition</fullname>
     <family>KJV</family>
     <year>1900</year>
@@ -2427,10 +2427,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>LAMSA</name>
-    <servername>LAMSA</servername>
+    <servername>Lamsa</servername>
     <language>EN</language>
-    <content>FB</content>
-    <server>Obohu</server>
+    <content>NT</content>
+    <server>Studybible</server>
     <fullname>George Lamsa Bible - Eastern Peshitta Translation</fullname>
     <year>1933</year>
     <textbase_ot>Peschitta</textbase_ot>
@@ -2442,7 +2442,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>LEB</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>Lexham English Bible</fullname>
     <year>2012</year>
     <textbase_ot>MT</textbase_ot>
@@ -2584,10 +2584,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>MOF</name>
-    <servername>MOF</servername>
+    <servername>Moffatt</servername>
     <language>EN</language>
     <content>NT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>James Moffatt New Testament</fullname>
     <year>1913</year>
     <textbase_nt>Eklektisch</textbase_nt>
@@ -2632,10 +2632,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>MURD</name>
-    <servername>MURD</servername>
+    <servername>Murdock</servername>
     <language>EN</language>
     <content>NT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>James Murdock Western Peshitto</fullname>
     <year>1852</year>
     <textbase_nt>Peschitta</textbase_nt>
@@ -3124,10 +3124,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>REB</name>
-    <servername>ROT</servername>
+    <servername>Rotherham</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Rotherham's Emphasized Bible</fullname>
     <year>1902</year>
     <textbase_ot>MT</textbase_ot>
@@ -3313,10 +3313,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>THO</name>
-    <servername>THO</servername>
+    <servername>Thomson</servername>
     <language>EN</language>
     <content>OT</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Charles Thomson Septuagint</fullname>
     <year>1808</year>
     <textbase_ot>LXX</textbase_ot>
@@ -3567,10 +3567,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   <!-- AKA "Webster's Revision" -->
   <version>
     <name>WBT1833</name>
-    <servername>WEBS</servername>
+    <servername>Webster</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Studybible</server>
     <fullname>Webster Bible Translation</fullname>
     <year>1833</year>
     <family>KJV</family>
@@ -3765,7 +3765,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>YLT</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Obohu</server>
+    <server>Biblegateway</server>
     <fullname>Young's Literal Translation</fullname>
     <year>1898</year>
     <family>YLT</family>

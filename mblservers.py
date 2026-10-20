@@ -27,6 +27,7 @@ class Bibleservers:
                 book_dict['name_de'] = book.get('name_de')
                 book_dict['name_en'] = book.get('name_en') if book.get('name_en') is not None else book.get('name_de')
                 book_dict['name_extra'] = book.get('name_extra') if book.get('name_extra') is not None else book.get('name_de')
+                book_dict['name_obohu'] = book.get('name_obohu') if book.get('name_obohu') is not None else book.get('name_de')
                 book_dict['abbreviation'] = book.text
                 server_dict['books'].append(book_dict)
             servers.append(server_dict)
