@@ -22,7 +22,7 @@ Tags:
          # Original texts                                             #
          ############################################################## -->
 
-  <!-- Interesting, but not necessary for normal use
+
   <version>
     <name>AL</name>
     <servername>hebalp</servername>
@@ -31,7 +31,7 @@ Tags:
     <server>NOCR</server>
     <fullname>Codex Aleppo</fullname>
   </version>
-  -->
+
 
   <version>
     <name>BHS</name>
