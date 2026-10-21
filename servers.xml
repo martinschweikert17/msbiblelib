@@ -836,79 +836,160 @@ The servers should have a "weight" that defines the sequence in which they are t
        # NOCR                                                       #
        # Novum Organum Christianum Reformandum                      #
        ############################################################## -->
-  <!-- They reject scrapers, but they can be fooled by headers -->
+<!--nocr.net no longer exists - it redirects to hangl.net (see server Hangl)-->
+<!--  &lt;!&ndash; They reject scrapers, but they can be fooled by headers &ndash;&gt;-->
+<!--  <bibleserver>-->
+<!--    <name>NOCR</name>-->
+<!--    <url>https://nocr.net/</url>-->
+<!--    &lt;!&ndash; hbm/english/engbib/index.php/Ge/1 &ndash;&gt;-->
+<!--    <chapterurl>hbm/{language}/{version}/index.php/{book}/{chapter}</chapterurl>-->
+<!--    <books>-->
+<!--      <book name_de="Ge">GEN</book>-->
+<!--      <book name_de="Ex">EX</book>-->
+<!--      <book name_de="Le">LEV</book>-->
+<!--      <book name_de="Nu">NUM</book>-->
+<!--      <book name_de="De">DTN</book>-->
+<!--      <book name_de="Jos">JOS</book>-->
+<!--      <book name_de="Jud">RI</book>-->
+<!--      <book name_de="Ru">RT</book>-->
+<!--      <book name_de="1Sa">1SAM</book>-->
+<!--      <book name_de="2Sa">2SAM</book>-->
+<!--      <book name_de="1Ki">1KÖN</book>-->
+<!--      <book name_de="2Ki">2KÖN</book>-->
+<!--      <book name_de="1Ch">1CHR</book>-->
+<!--      <book name_de="2Ch">2CHR</book>-->
+<!--      <book name_de="Ezr">ESR</book>-->
+<!--      <book name_de="Ne">NEH</book>-->
+<!--      <book name_de="Es">EST</book>-->
+<!--      <book name_de="Job">HI</book>-->
+<!--      <book name_de="Ps">PS</book>-->
+<!--      <book name_de="Pr">SPR</book>-->
+<!--      <book name_de="Ec">PRD</book>-->
+<!--      <book name_de="So">HOH</book>-->
+<!--      <book name_de="Isa">JES</book>-->
+<!--      <book name_de="Jer">JER</book>-->
+<!--      <book name_de="La">KLA</book>-->
+<!--      <book name_de="Eze">HES</book>-->
+<!--      <book name_de="Da">DAN</book>-->
+<!--      <book name_de="Ho">HOS</book>-->
+<!--      <book name_de="Joe">JO</book>-->
+<!--      <book name_de="Am">AM</book>-->
+<!--      <book name_de="Ob">OB</book>-->
+<!--      <book name_de="Jon">JON</book>-->
+<!--      <book name_de="Mic">MI</book>-->
+<!--      <book name_de="Na">NAH</book>-->
+<!--      <book name_de="Hab">HAB</book>-->
+<!--      <book name_de="Zep">ZEP</book>-->
+<!--      <book name_de="Hag">HAG</book>-->
+<!--      <book name_de="Zec">SACH</book>-->
+<!--      <book name_de="Mal">MAL</book>-->
+<!--      <book name_de="Mt">MT</book>-->
+<!--      <book name_de="Mr">MK</book>-->
+<!--      <book name_de="Lu">LK</book>-->
+<!--      <book name_de="Joh">JOH</book>-->
+<!--      <book name_de="Ac">APG</book>-->
+<!--      <book name_de="Ro">RÖM</book>-->
+<!--      <book name_de="1Co">1KOR</book>-->
+<!--      <book name_de="2Co">2KOR</book>-->
+<!--      <book name_de="Ga">GAL</book>-->
+<!--      <book name_de="Eph">EPH</book>-->
+<!--      <book name_de="Php">PHIL</book>-->
+<!--      <book name_de="Col">KOL</book>-->
+<!--      <book name_de="1Th">1THES</book>-->
+<!--      <book name_de="2Th">2THES</book>-->
+<!--      <book name_de="1Ti">1TIM</book>-->
+<!--      <book name_de="2Ti">2TIM</book>-->
+<!--      <book name_de="Tit">TIT</book>-->
+<!--      <book name_de="Phm">PHIM</book>-->
+<!--      <book name_de="Heb">HEB</book>-->
+<!--      <book name_de="Jas">JAK</book>-->
+<!--      <book name_de="1Pe">1PET</book>-->
+<!--      <book name_de="2Pe">2PET</book>-->
+<!--      <book name_de="1Jo">1JOH</book>-->
+<!--      <book name_de="2Jo">2JOH</book>-->
+<!--      <book name_de="3Jo">3JOH</book>-->
+<!--      <book name_de="Jude">JUD</book>-->
+<!--      <book name_de="Re">OFF</book>-->
+<!--    </books>-->
+<!--  </bibleserver>-->
+
+  <!-- ##############################################################
+       # Hangl                                                      #
+       ############################################################## -->
+
+  <!-- Successor of nocr.net (MySword viewer). Books are numbered 1-66, also for NT-only modules -->
   <bibleserver>
-    <name>NOCR</name>
-    <url>https://nocr.net/</url>
-    <!-- hbm/english/engbib/index.php/Ge/1 -->
-    <chapterurl>hbm/{language}/{version}/index.php/{book}/{chapter}</chapterurl>
+    <name>Hangl</name>
+    <url>https://hangl.net/</url>
+    <!-- index.php?mid=hangl_bible_viewer&tab=bible&mod=NRSV.SQLite3&bk=23&ch=7 -->
+    <chapterurl>index.php?mid=hangl_bible_viewer&amp;tab=bible&amp;mod={version}&amp;bk={book}&amp;ch={chapter}</chapterurl>
     <books>
-      <book name_de="Ge">GEN</book>
-      <book name_de="Ex">EX</book>
-      <book name_de="Le">LEV</book>
-      <book name_de="Nu">NUM</book>
-      <book name_de="De">DTN</book>
-      <book name_de="Jos">JOS</book>
-      <book name_de="Jud">RI</book>
-      <book name_de="Ru">RT</book>
-      <book name_de="1Sa">1SAM</book>
-      <book name_de="2Sa">2SAM</book>
-      <book name_de="1Ki">1KÖN</book>
-      <book name_de="2Ki">2KÖN</book>
-      <book name_de="1Ch">1CHR</book>
-      <book name_de="2Ch">2CHR</book>
-      <book name_de="Ezr">ESR</book>
-      <book name_de="Ne">NEH</book>
-      <book name_de="Es">EST</book>
-      <book name_de="Job">HI</book>
-      <book name_de="Ps">PS</book>
-      <book name_de="Pr">SPR</book>
-      <book name_de="Ec">PRD</book>
-      <book name_de="So">HOH</book>
-      <book name_de="Isa">JES</book>
-      <book name_de="Jer">JER</book>
-      <book name_de="La">KLA</book>
-      <book name_de="Eze">HES</book>
-      <book name_de="Da">DAN</book>
-      <book name_de="Ho">HOS</book>
-      <book name_de="Joe">JO</book>
-      <book name_de="Am">AM</book>
-      <book name_de="Ob">OB</book>
-      <book name_de="Jon">JON</book>
-      <book name_de="Mic">MI</book>
-      <book name_de="Na">NAH</book>
-      <book name_de="Hab">HAB</book>
-      <book name_de="Zep">ZEP</book>
-      <book name_de="Hag">HAG</book>
-      <book name_de="Zec">SACH</book>
-      <book name_de="Mal">MAL</book>
-      <book name_de="Mt">MT</book>
-      <book name_de="Mr">MK</book>
-      <book name_de="Lu">LK</book>
-      <book name_de="Joh">JOH</book>
-      <book name_de="Ac">APG</book>
-      <book name_de="Ro">RÖM</book>
-      <book name_de="1Co">1KOR</book>
-      <book name_de="2Co">2KOR</book>
-      <book name_de="Ga">GAL</book>
-      <book name_de="Eph">EPH</book>
-      <book name_de="Php">PHIL</book>
-      <book name_de="Col">KOL</book>
-      <book name_de="1Th">1THES</book>
-      <book name_de="2Th">2THES</book>
-      <book name_de="1Ti">1TIM</book>
-      <book name_de="2Ti">2TIM</book>
-      <book name_de="Tit">TIT</book>
-      <book name_de="Phm">PHIM</book>
-      <book name_de="Heb">HEB</book>
-      <book name_de="Jas">JAK</book>
-      <book name_de="1Pe">1PET</book>
-      <book name_de="2Pe">2PET</book>
-      <book name_de="1Jo">1JOH</book>
-      <book name_de="2Jo">2JOH</book>
-      <book name_de="3Jo">3JOH</book>
-      <book name_de="Jude">JUD</book>
-      <book name_de="Re">OFF</book>
+      <book name_de="1">GEN</book>
+      <book name_de="2">EX</book>
+      <book name_de="3">LEV</book>
+      <book name_de="4">NUM</book>
+      <book name_de="5">DTN</book>
+      <book name_de="6">JOS</book>
+      <book name_de="7">RI</book>
+      <book name_de="8">RT</book>
+      <book name_de="9">1SAM</book>
+      <book name_de="10">2SAM</book>
+      <book name_de="11">1KÖN</book>
+      <book name_de="12">2KÖN</book>
+      <book name_de="13">1CHR</book>
+      <book name_de="14">2CHR</book>
+      <book name_de="15">ESR</book>
+      <book name_de="16">NEH</book>
+      <book name_de="17">EST</book>
+      <book name_de="18">HI</book>
+      <book name_de="19">PS</book>
+      <book name_de="20">SPR</book>
+      <book name_de="21">PRD</book>
+      <book name_de="22">HOH</book>
+      <book name_de="23">JES</book>
+      <book name_de="24">JER</book>
+      <book name_de="25">KLA</book>
+      <book name_de="26">HES</book>
+      <book name_de="27">DAN</book>
+      <book name_de="28">HOS</book>
+      <book name_de="29">JO</book>
+      <book name_de="30">AM</book>
+      <book name_de="31">OB</book>
+      <book name_de="32">JON</book>
+      <book name_de="33">MI</book>
+      <book name_de="34">NAH</book>
+      <book name_de="35">HAB</book>
+      <book name_de="36">ZEP</book>
+      <book name_de="37">HAG</book>
+      <book name_de="38">SACH</book>
+      <book name_de="39">MAL</book>
+      <book name_de="40">MT</book>
+      <book name_de="41">MK</book>
+      <book name_de="42">LK</book>
+      <book name_de="43">JOH</book>
+      <book name_de="44">APG</book>
+      <book name_de="45">RÖM</book>
+      <book name_de="46">1KOR</book>
+      <book name_de="47">2KOR</book>
+      <book name_de="48">GAL</book>
+      <book name_de="49">EPH</book>
+      <book name_de="50">PHIL</book>
+      <book name_de="51">KOL</book>
+      <book name_de="52">1THES</book>
+      <book name_de="53">2THES</book>
+      <book name_de="54">1TIM</book>
+      <book name_de="55">2TIM</book>
+      <book name_de="56">TIT</book>
+      <book name_de="57">PHIM</book>
+      <book name_de="58">HEB</book>
+      <book name_de="59">JAK</book>
+      <book name_de="60">1PET</book>
+      <book name_de="61">2PET</book>
+      <book name_de="62">1JOH</book>
+      <book name_de="63">2JOH</book>
+      <book name_de="64">3JOH</book>
+      <book name_de="65">JUD</book>
+      <book name_de="66">OFF</book>
     </books>
   </bibleserver>
 
