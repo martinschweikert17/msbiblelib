@@ -499,6 +499,18 @@ Tags:
   </version>
 
   <version>
+    <name>ELBBK</name>
+    <servername>elb_bk</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>Bibelkommentare</server>
+    <fullname>Elberfelder Übersetzung (Version 1.3 von bibelkommentare.de)</fullname>
+    <!-- Modernizes the spelling of ELB1932 -->
+    <family>ELB</family>
+    <textbase_ot>MT</textbase_ot>
+  </version>
+
+  <version>
     <name>ELB2006</name>
     <servername>ELB</servername>
     <language>DE</language>
@@ -506,17 +518,6 @@ Tags:
     <server>Bibleserver</server>
     <fullname>Elberfelder 2006</fullname>
     <year>2006</year>
-  </version>
-
-  <version>
-    <name>ELBBK</name>
-    <servername>elb_bk</servername>
-    <language>DE</language>
-    <content>FB</content>
-    <server>Bibelkommentare</server>
-    <fullname>Elberfelder Übersetzung (Version 1.3 von bibelkommentare.de)</fullname>
-    <family>ELB</family>
-    <textbase_ot>MT</textbase_ot>
   </version>
 
   <version>
