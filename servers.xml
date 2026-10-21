@@ -344,13 +344,16 @@ The servers should have a "weight" that defines the sequence in which they are t
   </bibleserver>
 
   <!-- ##############################################################
-       # CSV                                                        #
+       # Bibelkommentare                                            #
        ############################################################## -->
+
+  <!-- Has the Elberfelder Edition CSV (elb_csv), which is no longer reachable at csv-bibel.de.
+       For an unknown version, they silently show their default (elb_bk) -->
   <bibleserver>
-    <name>CSV</name>
-    <url>https://www.csv-bibel.de/</url>
-    <!-- There is no version in the chapter URL;  they only offer 1 version -->
-    <chapterurl>bibel/{book}-{chapter}</chapterurl>
+    <name>Bibelkommentare</name>
+    <url>https://www.bibelkommentare.de/</url>
+    <!-- bibel/elb_csv/jesaja/7 -->
+    <chapterurl>bibel/{version}/{book}/{chapter}</chapterurl>
     <books>
       <book name_de="1-mose">GEN</book>
       <book name_de="2-mose">EX</book>
@@ -420,6 +423,85 @@ The servers should have a "weight" that defines the sequence in which they are t
       <book name_de="offenbarung">OFF</book>
     </books>
   </bibleserver>
+
+<!--csv-bibel.de no longer works - it is protected by a JavaScript challenge. ECSV is now taken from Bibelkommentare-->
+<!--  &lt;!&ndash; ##############################################################-->
+<!--       # CSV                                                        #-->
+<!--       ############################################################## &ndash;&gt;-->
+<!--  <bibleserver>-->
+<!--    <name>CSV</name>-->
+<!--    <url>https://www.csv-bibel.de/</url>-->
+<!--    &lt;!&ndash; There is no version in the chapter URL;  they only offer 1 version &ndash;&gt;-->
+<!--    <chapterurl>bibel/{book}-{chapter}</chapterurl>-->
+<!--    <books>-->
+<!--      <book name_de="1-mose">GEN</book>-->
+<!--      <book name_de="2-mose">EX</book>-->
+<!--      <book name_de="3-mose">LEV</book>-->
+<!--      <book name_de="4-mose">NUM</book>-->
+<!--      <book name_de="5-mose">DTN</book>-->
+<!--      <book name_de="josua">JOS</book>-->
+<!--      <book name_de="richter">RI</book>-->
+<!--      <book name_de="ruth">RT</book>-->
+<!--      <book name_de="1-samuel">1SAM</book>-->
+<!--      <book name_de="2-samuel">2SAM</book>-->
+<!--      <book name_de="1-koenige">1KÖN</book>-->
+<!--      <book name_de="2-koenige">2KÖN</book>-->
+<!--      <book name_de="1-chronika">1CHR</book>-->
+<!--      <book name_de="2-chronika">2CHR</book>-->
+<!--      <book name_de="esra">ESR</book>-->
+<!--      <book name_de="nehemia">NEH</book>-->
+<!--      <book name_de="esther">EST</book>-->
+<!--      <book name_de="hiob">HI</book>-->
+<!--      <book name_de="psalm">PS</book>-->
+<!--      <book name_de="sprueche">SPR</book>-->
+<!--      <book name_de="prediger">PRD</book>-->
+<!--      <book name_de="hohelied">HOH</book>-->
+<!--      <book name_de="jesaja">JES</book>-->
+<!--      <book name_de="jeremia">JER</book>-->
+<!--      <book name_de="klagelieder">KLA</book>-->
+<!--      <book name_de="hesekiel">HES</book>-->
+<!--      <book name_de="daniel">DAN</book>-->
+<!--      <book name_de="hosea">HOS</book>-->
+<!--      <book name_de="joel">JO</book>-->
+<!--      <book name_de="amos">AM</book>-->
+<!--      <book name_de="obadja">OB</book>-->
+<!--      <book name_de="jona">JON</book>-->
+<!--      <book name_de="micha">MI</book>-->
+<!--      <book name_de="nahum">NAH</book>-->
+<!--      <book name_de="habakuk">HAB</book>-->
+<!--      <book name_de="zephanja">ZEP</book>-->
+<!--      <book name_de="haggai">HAG</book>-->
+<!--      <book name_de="sacharja">SACH</book>-->
+<!--      <book name_de="maleachi">MAL</book>-->
+<!--      <book name_de="matthaeus">MT</book>-->
+<!--      <book name_de="markus">MK</book>-->
+<!--      <book name_de="lukas">LK</book>-->
+<!--      <book name_de="johannes">JOH</book>-->
+<!--      <book name_de="apostelgeschichte">APG</book>-->
+<!--      <book name_de="roemer">RÖM</book>-->
+<!--      <book name_de="1-korinther">1KOR</book>-->
+<!--      <book name_de="2-korinther">2KOR</book>-->
+<!--      <book name_de="galater">GAL</book>-->
+<!--      <book name_de="epheser">EPH</book>-->
+<!--      <book name_de="philipper">PHIL</book>-->
+<!--      <book name_de="kolosser">KOL</book>-->
+<!--      <book name_de="1-thessalonicher">1THES</book>-->
+<!--      <book name_de="2-thessalonicher">2THES</book>-->
+<!--      <book name_de="1-timotheus">1TIM</book>-->
+<!--      <book name_de="2-timotheus">2TIM</book>-->
+<!--      <book name_de="titus">TIT</book>-->
+<!--      <book name_de="philemon">PHIM</book>-->
+<!--      <book name_de="hebraeer">HEB</book>-->
+<!--      <book name_de="jakobus">JAK</book>-->
+<!--      <book name_de="1-petrus">1PET</book>-->
+<!--      <book name_de="2-petrus">2PET</book>-->
+<!--      <book name_de="1-johannes">1JOH</book>-->
+<!--      <book name_de="2-johannes">2JOH</book>-->
+<!--      <book name_de="3-johannes">3JOH</book>-->
+<!--      <book name_de="judas">JUD</book>-->
+<!--      <book name_de="offenbarung">OFF</book>-->
+<!--    </books>-->
+<!--  </bibleserver>-->
 
     <!-- ##############################################################
          # DBG                                                        #

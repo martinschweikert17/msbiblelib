@@ -399,10 +399,12 @@ Tags:
 
   <version>
     <name>ECSV</name>
-    <servername>CSV</servername>
+<!--    <servername>CSV</servername>-->
+    <servername>elb_csv</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>CSV</server>
+<!--    <server>CSV</server>-->
+    <server>Bibelkommentare</server>
     <fullname>Elberfelder Übersetzung Edition CSV</fullname>
     <year>2003</year>
     <family>ELB</family>
