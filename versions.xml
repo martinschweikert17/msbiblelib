@@ -3658,7 +3658,8 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <servername>engwley</servername>
     <language>EN</language>
     <content>NT</content>
-    <server>Nocr</server>
+<!--    <server>Nocr</server>-->
+    <server></server>
     <fullname>Wesley's NT</fullname>
     <year>1750</year>
     <textbase_nt>TR</textbase_nt>
@@ -3683,17 +3684,6 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <server>Studybible</server>
     <fullname>Williams NT</fullname>
     <year>1937</year>
-    <textbase_nt>WH</textbase_nt>
-  </version>
-
-  <version>
-    <name>WNT</name>
-    <servername>wmth</servername>
-    <language>EN</language>
-    <content>NT</content>
-    <server>Gratisbible</server>
-    <fullname>Weymouth New Testament</fullname>
-    <year>1929</year>
     <textbase_nt>WH</textbase_nt>
   </version>
 
