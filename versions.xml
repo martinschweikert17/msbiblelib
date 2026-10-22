@@ -1570,6 +1570,17 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_nt>Nestle</textbase_nt>
   </version>
 
+  <!-- Same text as BV2020 in the verses checked -->
+  <version>
+    <name>BKJV</name>
+    <servername>BKJV.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Breakthrough KJV</fullname>
+    <year></year>
+  </version>
+
   <version>
     <name>BLB</name>
     <servername>BLB</servername>
@@ -1626,6 +1637,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <fullname>Brenton Septuagint Translation</fullname>
     <year>1870</year>
     <textbase_ot>LXX</textbase_ot>
+  </version>
+
+  <version>
+    <name>BSV</name>
+    <servername>BSV.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Bond Slave Version</fullname>
+    <year></year>
+  </version>
+
+  <version>
+    <name>BV2020</name>
+    <servername>BV2020.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Breakthrough Version</fullname>
+    <year>2020</year>
   </version>
 
   <version>
@@ -1714,6 +1745,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2006</year>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>CGV</name>
+    <servername>CGV.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Context Group Version</fullname>
+    <year>2010</year>
   </version>
 
   <version>
@@ -2034,6 +2075,17 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2011</year>
   </version>
 
+  <!-- Translation of the Robinson-Pierpont Byzantine text -->
+  <version>
+    <name>FAA</name>
+    <servername>FAA.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Far Above All Translation</fullname>
+    <year>2005</year>
+  </version>
+
   <version>
     <name>FBV</name>
     <servername>engfbv</servername>
@@ -2082,6 +2134,17 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_nt>TR</textbase_nt>
   </version>
 
+  <!-- Only the Gospel and the letters of John -->
+  <version>
+    <name>GLW</name>
+    <servername>GLW.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>God's Living Word</fullname>
+    <year></year>
+  </version>
+
   <version>
     <name>GMKJV</name>
     <servername>MKJV.SQLite3</servername>
@@ -2121,6 +2184,19 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_nt>TR</textbase_nt>
   </version>
 
+  <!-- Hangl's module has the notes of the Geneva Bible inside the verse text, without markup
+       ("In the First of all, ... out of nothing. beginning God created"); John 3:16 shows only the note
+  <version>
+    <name>GNV1587</name>
+    <servername>GB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Geneva Bible</fullname>
+    <year>1587</year>
+  </version>
+  -->
+
   <version>
     <name>GSNT</name>
     <servername>Goodspeed</servername>
@@ -2142,6 +2218,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>1995</year>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>GWN</name>
+    <servername>GWN.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>God's Word to the Nations</fullname>
+    <year></year>
   </version>
 
   <version>
@@ -2210,6 +2296,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <family>HCSB</family>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>HNC</name>
+    <servername>HNC.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Holy New Covenant</fullname>
+    <year></year>
+  </version>
+
+  <version>
+    <name>HRB2012</name>
+    <servername>Hrb2012.bbl</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Hebraic Roots Bible</fullname>
+    <year>2012</year>
   </version>
 
   <version>
@@ -2581,6 +2687,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>LOGOS</name>
+    <servername>Logos.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>The Logos Bible</fullname>
+    <year>1972</year>
+  </version>
+
+  <version>
     <name>LONT</name>
     <servername>Living_Oracles</servername>
     <language>EN</language>
@@ -2602,6 +2718,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2021</year>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
+    <name>LSV</name>
+    <servername>Lsv.bbl</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Literal Standard Version</fullname>
+    <year>2020</year>
   </version>
 
   <version>
@@ -2858,6 +2984,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>NEV</name>
+    <servername>NEV.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>New European Version</fullname>
+    <year>2011</year>
+  </version>
+
+  <version>
     <name>NHEB</name>
     <servername>nheb</servername>
     <language>EN</language>
@@ -2869,6 +3005,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_nt>Byz</textbase_nt>
     <comment>Leicht überarbeitete Version der WEB mit Betonung auf Klarheit und Lesbarkeit</comment>
     <family>WEB</family>
+  </version>
+
+  <version>
+    <name>NIOBE</name>
+    <servername>Niobe.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Niobi Study Bible</fullname>
+    <year></year>
   </version>
 
   <version>
@@ -3082,6 +3228,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>NRSVCI</name>
+    <servername>NRSV-CI.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>New Revised Standard Version Catholic Interconfessional</fullname>
+    <year></year>
+  </version>
+
+  <version>
     <name>NRSVUE</name>
     <servername>NRSVUE</servername>
     <language>EN</language>
@@ -3106,6 +3262,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2006</year>
   </version>
   -->
+
+  <version>
+    <name>NSB</name>
+    <servername>NSB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>New Simplified Bible</fullname>
+    <year>2004</year>
+  </version>
 
   <version>
     <name>NTE</name>
@@ -3198,6 +3364,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>PICK2016</name>
+    <servername>WPNT2.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Wilbur Pickering's New Testament: The Sovereign Creator Has Spoken</fullname>
+    <year>2016</year>
+  </version>
+
+  <version>
+    <name>REMEDY</name>
+    <servername>Remedy.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>The Remedy, 1st Edition</fullname>
+    <year></year>
+  </version>
+
+  <version>
     <name>RGT</name>
     <servername>RGT</servername>
     <language>EN</language>
@@ -3207,6 +3393,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2019</year>
     <family>GNV</family>
     <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <version>
+    <name>RHB</name>
+    <servername>RHB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Restored Holy Bible 8.0</fullname>
+    <year></year>
   </version>
 
   <version>
@@ -3299,6 +3495,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>RSVCI</name>
+    <servername>RSV-CI.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Revised Standard Version Catholic Interconfessional</fullname>
+    <year></year>
+  </version>
+
+  <version>
     <name>RV</name>
     <servername>ERV</servername>
     <language>EN</language>
@@ -3323,6 +3529,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>WH</textbase_nt>
     <generic_url>https://bibleresources.info/bible/?bv=RVIC&amp;book_id=1&amp;chapter=1</generic_url>
+  </version>
+
+  <version>
+    <name>RVOT</name>
+    <servername>RVOT.SQLite3</servername>
+    <language>EN</language>
+    <content>OT</content>
+    <server>Hangl</server>
+    <fullname>Recovery Version (Old Testament)</fullname>
+    <year>1999</year>
   </version>
 
   <version>
@@ -3360,6 +3576,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>SENT</name>
+    <servername>SENT.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Spoken English New Testament</fullname>
+    <year>2012</year>
+  </version>
+
+  <version>
     <name>SET</name>
     <servername></servername>
     <language>EN</language>
@@ -3369,6 +3595,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>1996</year>
     <denomination>Jüdisch</denomination>
     <textbase_ot>MT</textbase_ot>
+  </version>
+
+  <version>
+    <name>SOMB</name>
+    <servername>Somb.bbl</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Son of Man Bible</fullname>
+    <year></year>
   </version>
 
   <version>
@@ -3616,6 +3852,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>UDB</name>
+    <servername>UDB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Unlocked Dynamic Bible</fullname>
+    <year>2017</year>
+  </version>
+
+  <version>
     <name>UKJV</name>
     <servername>UKJV</servername>
     <language>EN</language>
@@ -3627,6 +3873,16 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>TR</textbase_nt>
     <comment>Sprache überarbeitet, textlich wie KJV</comment>
+  </version>
+
+  <version>
+    <name>ULB</name>
+    <servername>ULB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Unlocked Literal Bible</fullname>
+    <year>2017</year>
   </version>
 
   <version>
@@ -3680,7 +3936,27 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <year>2010</year>
   </version>
 
+  <version>
+    <name>WB</name>
+    <servername>WB.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>Welcome Bible</fullname>
+    <year></year>
+  </version>
+
   <!-- AKA "Webster's Revision" -->
+  <version>
+    <name>WBMS</name>
+    <servername>WBMS.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>Wycliffe's Bible with Modern Spelling</fullname>
+    <year></year>
+  </version>
+
   <version>
     <name>WBT1833</name>
     <servername>Webster</servername>
@@ -3737,6 +4013,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>WEBBE</name>
+    <servername>WEBBE.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>World English Bible British Edition</fullname>
+    <year></year>
+  </version>
+
+  <version>
+    <name>WEBM</name>
+    <servername>WEBM.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>World English Bible: Messianic Edition</fullname>
+    <year>1997</year>
+  </version>
+
+  <version>
     <name>WES1750</name>
     <servername>engwley</servername>
     <language>EN</language>
@@ -3783,6 +4079,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>Byz</textbase_nt>
     <comment>Hebräisch-messianisch angepasste Fassung der WEB</comment>
+  </version>
+
+  <version>
+    <name>WMBB</name>
+    <servername>WMBB.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>World Messianic Bible British Edition</fullname>
+    <year></year>
+  </version>
+
+  <version>
+    <name>WMTH</name>
+    <servername>WMTH-JM.SQLite3</servername>
+    <language>EN</language>
+    <content>NT</content>
+    <server>Hangl</server>
+    <fullname>New Weymouth Version NT: Jesus Messiah Edition</fullname>
+    <year></year>
   </version>
 
   <version>
