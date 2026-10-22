@@ -191,8 +191,9 @@ class References:
                 fv = parsed_info['fromverse']
                 if fv != '':
                     # It must not be bigger than the max verse of the chapter
+                    # If the chapter does not exist, there is no max verse (that was reported above)
                     maxv = self._biblebooks.get_max_verse(parsed_info['frombook'], parsed_info['fromchapter'])
-                    if int(maxv) > maxv:
+                    if maxv is not None and int(fv) > maxv:
                         parsed_info['passed'] = False
                         s = f'{parsed_info["frombook"]}{parsed_info["fromchapter"]} hat nur {maxv} Verse'
                         parsed_info['messages'] += f'\n{s}' if parsed_info['messages'] else s

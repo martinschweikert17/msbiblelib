@@ -2412,10 +2412,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   <!-- Also known as Authorized Version-->
   <version>
     <name>KJV1611</name>
-    <servername>KJV1611.SQLite3</servername>
+<!--    <servername>KJV1611.SQLite3</servername>-->
+    <servername>1611_</servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Hangl</server>
+<!--    <server>Hangl</server>-->
+    <server>KingJamesBibleOnline</server>
     <fullname>King James Version</fullname>
     <family>KJV</family>
     <year>1611</year>
@@ -2426,10 +2428,13 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>KJV1769</name>
-    <servername>KJV</servername>
+<!--    <servername>KJV</servername>-->
+    <!-- KingJamesBibleOnline has no prefix for the 1769 edition -->
+    <servername></servername>
     <language>EN</language>
     <content>FB</content>
-    <server>Biblegateway</server>
+<!--    <server>Biblegateway</server>-->
+    <server>KingJamesBibleOnline</server>
     <fullname>King James Version</fullname>
     <family>KJV</family>
     <year>1769</year>

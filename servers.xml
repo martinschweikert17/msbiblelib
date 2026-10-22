@@ -1652,6 +1652,88 @@ The servers should have a "weight" that defines the sequence in which they are t
     </books>
   </bibleserver>
 
+  <!-- ##############################################################
+       # KingJamesBibleOnline                                       #
+       # kingjamesbibleonline.org: KJV 1611 and 1769                #
+       ############################################################## -->
+
+  <!-- One page per chapter, one <p> per verse: <span class='versehover'>16 </span>For God so loved ...
+       The 1611 edition has the prefix "1611_" (its servername), the 1769 edition none (empty servername) -->
+  <bibleserver>
+    <name>KingJamesBibleOnline</name>
+    <url>https://www.kingjamesbibleonline.org/</url>
+    <!-- 1611_Genesis-Chapter-1/, Genesis-Chapter-1/ -->
+    <chapterurl>{version}{book}-Chapter-{chapter}/</chapterurl>
+    <books>
+      <book name_de="Genesis">GEN</book>
+      <book name_de="Exodus">EX</book>
+      <book name_de="Leviticus">LEV</book>
+      <book name_de="Numbers">NUM</book>
+      <book name_de="Deuteronomy">DTN</book>
+      <book name_de="Joshua">JOS</book>
+      <book name_de="Judges">RI</book>
+      <book name_de="Ruth">RT</book>
+      <book name_de="1-Samuel">1SAM</book>
+      <book name_de="2-Samuel">2SAM</book>
+      <book name_de="1-Kings">1KÖN</book>
+      <book name_de="2-Kings">2KÖN</book>
+      <book name_de="1-Chronicles">1CHR</book>
+      <book name_de="2-Chronicles">2CHR</book>
+      <book name_de="Ezra">ESR</book>
+      <book name_de="Nehemiah">NEH</book>
+      <book name_de="Esther">EST</book>
+      <book name_de="Job">HI</book>
+      <book name_de="Psalms">PS</book>
+      <book name_de="Proverbs">SPR</book>
+      <book name_de="Ecclesiastes">PRD</book>
+      <book name_de="Song-of-Solomon">HOH</book>
+      <book name_de="Isaiah">JES</book>
+      <book name_de="Jeremiah">JER</book>
+      <book name_de="Lamentations">KLA</book>
+      <book name_de="Ezekiel">HES</book>
+      <book name_de="Daniel">DAN</book>
+      <book name_de="Hosea">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obadiah">OB</book>
+      <book name_de="Jonah">JON</book>
+      <book name_de="Micah">MI</book>
+      <book name_de="Nahum">NAH</book>
+      <book name_de="Habakkuk">HAB</book>
+      <book name_de="Zephaniah">ZEP</book>
+      <book name_de="Haggai">HAG</book>
+      <book name_de="Zechariah">SACH</book>
+      <book name_de="Malachi">MAL</book>
+      <book name_de="Matthew">MT</book>
+      <book name_de="Mark">MK</book>
+      <book name_de="Luke">LK</book>
+      <book name_de="John">JOH</book>
+      <book name_de="Acts">APG</book>
+      <book name_de="Romans">RÖM</book>
+      <book name_de="1-Corinthians">1KOR</book>
+      <book name_de="2-Corinthians">2KOR</book>
+      <book name_de="Galatians">GAL</book>
+      <book name_de="Ephesians">EPH</book>
+      <book name_de="Philippians">PHIL</book>
+      <book name_de="Colossians">KOL</book>
+      <book name_de="1-Thessalonians">1THES</book>
+      <book name_de="2-Thessalonians">2THES</book>
+      <book name_de="1-Timothy">1TIM</book>
+      <book name_de="2-Timothy">2TIM</book>
+      <book name_de="Titus">TIT</book>
+      <book name_de="Philemon">PHIM</book>
+      <book name_de="Hebrews">HEB</book>
+      <book name_de="James">JAK</book>
+      <book name_de="1-Peter">1PET</book>
+      <book name_de="2-Peter">2PET</book>
+      <book name_de="1-John">1JOH</book>
+      <book name_de="2-John">2JOH</book>
+      <book name_de="3-John">3JOH</book>
+      <book name_de="Jude">JUD</book>
+      <book name_de="Revelation">OFF</book>
+    </books>
+  </bibleserver>
+
     <!-- ##############################################################
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #
