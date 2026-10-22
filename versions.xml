@@ -3283,10 +3283,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>RVIC</name>
-    <servername></servername>
+    <servername>RVIC</servername>
     <language>EN</language>
     <content>FB</content>
-    <server></server>
+    <server>BibleResources</server>
     <fullname>THE REVISED VERSION (American Edition) Improved and Corrected</fullname>
     <year>1901</year>
     <family>RV</family>
@@ -3347,7 +3347,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <language>EN</language>
     <content>FB</content>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>2001Translation</server>
     <fullname>2001 Translation</fullname>
     <year>2001</year>
     <textbase_ot>MT</textbase_ot>

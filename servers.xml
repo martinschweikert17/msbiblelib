@@ -1488,6 +1488,170 @@ The servers should have a "weight" that defines the sequence in which they are t
     </books>
   </bibleserver>
 
+  <!-- ##############################################################
+       # BibleResources                                             #
+       # bibleresources.info: RVIC                                  #
+       ############################################################## -->
+
+  <!-- The page loads the chapter with a POST to ajax_data.php; the parameters of chapterurl are sent as form data.
+       The answer is JSON: {"content": [{"verse_nb": "16", "verse_txt": "<span ...><strong>3:16</strong> For God ..."}]}
+       Books are numbered 1-66 -->
+  <bibleserver>
+    <name>BibleResources</name>
+    <url>https://bibleresources.info/</url>
+    <chapterurl>wp-content/plugins/bible_text_audio/ajax_data.php?chapter={chapter}&amp;book_id2={book}&amp;bible_version_abbr2={version}&amp;anchor=</chapterurl>
+    <books>
+      <book name_de="1">GEN</book>
+      <book name_de="2">EX</book>
+      <book name_de="3">LEV</book>
+      <book name_de="4">NUM</book>
+      <book name_de="5">DTN</book>
+      <book name_de="6">JOS</book>
+      <book name_de="7">RI</book>
+      <book name_de="8">RT</book>
+      <book name_de="9">1SAM</book>
+      <book name_de="10">2SAM</book>
+      <book name_de="11">1KÖN</book>
+      <book name_de="12">2KÖN</book>
+      <book name_de="13">1CHR</book>
+      <book name_de="14">2CHR</book>
+      <book name_de="15">ESR</book>
+      <book name_de="16">NEH</book>
+      <book name_de="17">EST</book>
+      <book name_de="18">HI</book>
+      <book name_de="19">PS</book>
+      <book name_de="20">SPR</book>
+      <book name_de="21">PRD</book>
+      <book name_de="22">HOH</book>
+      <book name_de="23">JES</book>
+      <book name_de="24">JER</book>
+      <book name_de="25">KLA</book>
+      <book name_de="26">HES</book>
+      <book name_de="27">DAN</book>
+      <book name_de="28">HOS</book>
+      <book name_de="29">JO</book>
+      <book name_de="30">AM</book>
+      <book name_de="31">OB</book>
+      <book name_de="32">JON</book>
+      <book name_de="33">MI</book>
+      <book name_de="34">NAH</book>
+      <book name_de="35">HAB</book>
+      <book name_de="36">ZEP</book>
+      <book name_de="37">HAG</book>
+      <book name_de="38">SACH</book>
+      <book name_de="39">MAL</book>
+      <book name_de="40">MT</book>
+      <book name_de="41">MK</book>
+      <book name_de="42">LK</book>
+      <book name_de="43">JOH</book>
+      <book name_de="44">APG</book>
+      <book name_de="45">RÖM</book>
+      <book name_de="46">1KOR</book>
+      <book name_de="47">2KOR</book>
+      <book name_de="48">GAL</book>
+      <book name_de="49">EPH</book>
+      <book name_de="50">PHIL</book>
+      <book name_de="51">KOL</book>
+      <book name_de="52">1THES</book>
+      <book name_de="53">2THES</book>
+      <book name_de="54">1TIM</book>
+      <book name_de="55">2TIM</book>
+      <book name_de="56">TIT</book>
+      <book name_de="57">PHIM</book>
+      <book name_de="58">HEB</book>
+      <book name_de="59">JAK</book>
+      <book name_de="60">1PET</book>
+      <book name_de="61">2PET</book>
+      <book name_de="62">1JOH</book>
+      <book name_de="63">2JOH</book>
+      <book name_de="64">3JOH</book>
+      <book name_de="65">JUD</book>
+      <book name_de="66">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # 2001Translation                                            #
+       # 2001translation.org: 2001 Translation (T2001)              #
+       ############################################################## -->
+
+  <!-- One page per book (content/read/john), chapters start with <h2>3</h2>, verses with <sup class="vs">16</sup>.
+       Names exist in variants that the reader can switch: Jehovah/Yahweh/"Lord" (span.j/.y/.m) and
+       Jesus/Yeshua/Ishoa (span.js/.ys/.is). The translation reorders and combines some verses -->
+  <bibleserver>
+    <name>2001Translation</name>
+    <url>https://2001translation.org/</url>
+    <chapterurl>content/read/{book}#{chapter}</chapterurl>
+    <books>
+      <book name_de="genesis">GEN</book>
+      <book name_de="exodus">EX</book>
+      <book name_de="leviticus">LEV</book>
+      <book name_de="numbers">NUM</book>
+      <book name_de="deuteronomy">DTN</book>
+      <book name_de="joshua">JOS</book>
+      <book name_de="judges">RI</book>
+      <book name_de="ruth">RT</book>
+      <book name_de="1-samuel">1SAM</book>
+      <book name_de="2-samuel">2SAM</book>
+      <book name_de="1-kings">1KÖN</book>
+      <book name_de="2-kings">2KÖN</book>
+      <book name_de="1-chronicles">1CHR</book>
+      <book name_de="2-chronicles">2CHR</book>
+      <book name_de="ezra">ESR</book>
+      <book name_de="nehemiah">NEH</book>
+      <book name_de="esther">EST</book>
+      <book name_de="job">HI</book>
+      <book name_de="psalms">PS</book>
+      <book name_de="proverbs">SPR</book>
+      <book name_de="ecclesiastes">PRD</book>
+      <book name_de="song-of-solomon">HOH</book>
+      <book name_de="isaiah">JES</book>
+      <book name_de="jeremiah">JER</book>
+      <book name_de="lamentations">KLA</book>
+      <book name_de="ezekiel">HES</book>
+      <book name_de="daniel">DAN</book>
+      <book name_de="hosea">HOS</book>
+      <book name_de="joel">JO</book>
+      <book name_de="amos">AM</book>
+      <book name_de="obadiah">OB</book>
+      <book name_de="jonah">JON</book>
+      <book name_de="micah">MI</book>
+      <book name_de="nahum">NAH</book>
+      <book name_de="habakkuk">HAB</book>
+      <book name_de="zephaniah">ZEP</book>
+      <book name_de="haggai">HAG</book>
+      <book name_de="zechariah">SACH</book>
+      <book name_de="malachi">MAL</book>
+      <book name_de="matthew">MT</book>
+      <book name_de="mark">MK</book>
+      <book name_de="luke">LK</book>
+      <book name_de="john">JOH</book>
+      <book name_de="acts">APG</book>
+      <book name_de="romans">RÖM</book>
+      <book name_de="1-corinthians">1KOR</book>
+      <book name_de="2-corinthians">2KOR</book>
+      <book name_de="galatians">GAL</book>
+      <book name_de="ephesians">EPH</book>
+      <book name_de="philippians">PHIL</book>
+      <book name_de="colossians">KOL</book>
+      <book name_de="1-thessalonians">1THES</book>
+      <book name_de="2-thessalonians">2THES</book>
+      <book name_de="1-timothy">1TIM</book>
+      <book name_de="2-timothy">2TIM</book>
+      <book name_de="titus">TIT</book>
+      <book name_de="philemon">PHIM</book>
+      <book name_de="hebrews">HEB</book>
+      <book name_de="james">JAK</book>
+      <book name_de="1-peter">1PET</book>
+      <book name_de="2-peter">2PET</book>
+      <book name_de="1-john">1JOH</book>
+      <book name_de="2-john">2JOH</book>
+      <book name_de="3-john">3JOH</book>
+      <book name_de="jude">JUD</book>
+      <book name_de="revelation">OFF</book>
+    </books>
+  </bibleserver>
+
     <!-- ##############################################################
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #
