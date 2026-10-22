@@ -430,11 +430,12 @@ Tags:
 
   <version>
     <name>EINH1980</name>
-    <servername>EIN</servername>
+<!--    <servername>EIN</servername>-->
+    <servername>EUe</servername>
     <language>DE</language>
     <content>FB</content>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>Github</server>
     <fullname>Einheitsübersetzung 1980</fullname>
     <year>1980</year>
     <denomination>Katholisch</denomination>
@@ -1272,12 +1273,13 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   -->
   <version>
     <name>TAF</name>
-    <servername>TAF</servername>
+<!--    <servername>TAF</servername>-->
+    <servername>GerTafel</servername>
     <language>DE</language>
     <content>NT</content>
-    <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, 1SAM, 2SAM, 1KÖN, 2KÖN, PS, JES, JER, KLA, HES, DAN, HOS, JO, AM, OB, JON, Mi, NAH, HAG, ZEP, HAG, SACH, MAL</extracontent>
+    <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, 1SAM, 2SAM, 1KÖN, 2KÖN, PS, JES, JER, KLA, HES, DAN, HOS, JO, AM, OB, JON, MI, NAH, HAB, ZEP, HAG, SACH, MAL</extracontent>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>CrossWire</server>
     <fullname>Tafel-Bibel</fullname>
     <year>1911</year>
     <textbase_ot>MT</textbase_ot>
@@ -1357,11 +1359,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>Z1931</name>
-    <servername>ZUR</servername>
+<!--    <servername>ZUR</servername>-->
+    <servername>GerZurcher</servername>
     <language>DE</language>
     <content>FB</content>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>CrossWire</server>
     <fullname>Zürcher</fullname>
     <year>1931</year>
     <textbase_ot>MT</textbase_ot>
