@@ -2412,13 +2412,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   <!-- Also known as Authorized Version-->
   <version>
     <name>KJV1611</name>
-<!--    <servername>KJV1611.SQLite3</servername>-->
+    <servername>KJV1611.SQLite3</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Hangl</server>
+    <fullname>King James Version</fullname>
+    <family>KJV</family>
+    <year>1611</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+    <generic_url>https://www.kingjamesbibleonline.org/1611-Bible/</generic_url>
+  </version>
+
+  <!-- The language of the 17th century, as KingJamesBibleOnline delivers it ("For God so loued þe world") -->
+  <version>
+    <name>KJV1611O</name>
     <servername>1611_</servername>
     <language>EN</language>
     <content>FB</content>
-<!--    <server>Hangl</server>-->
     <server>KingJamesBibleOnline</server>
-    <fullname>King James Version</fullname>
+    <fullname>King James Version (original language)</fullname>
     <family>KJV</family>
     <year>1611</year>
     <textbase_ot>MT</textbase_ot>
@@ -2428,14 +2441,26 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>KJV1769</name>
-<!--    <servername>KJV</servername>-->
+    <servername>KJV</servername>
+    <language>EN</language>
+    <content>FB</content>
+    <server>Biblegateway</server>
+    <fullname>King James Version</fullname>
+    <family>KJV</family>
+    <year>1769</year>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>TR</textbase_nt>
+  </version>
+
+  <!-- The language of the 17th century, as KingJamesBibleOnline delivers it -->
+  <version>
+    <name>KJV1769O</name>
     <!-- KingJamesBibleOnline has no prefix for the 1769 edition -->
     <servername></servername>
     <language>EN</language>
     <content>FB</content>
-<!--    <server>Biblegateway</server>-->
     <server>KingJamesBibleOnline</server>
-    <fullname>King James Version</fullname>
+    <fullname>King James Version (original language)</fullname>
     <family>KJV</family>
     <year>1769</year>
     <textbase_ot>MT</textbase_ot>
