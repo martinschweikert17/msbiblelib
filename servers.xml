@@ -1075,6 +1075,252 @@ The servers should have a "weight" that defines the sequence in which they are t
     </books>
   </bibleserver>
 
+  <!-- ##############################################################
+       # KBibel                                                     #
+       # Catholic Bibles: Allioli, Arndt, Henne-Rösch, Keppler      #
+       ############################################################## -->
+
+  <!-- The pages (k-bibel.de/ALL.1839/Johannes3) are filled by JavaScript; the chapters come from XML files.
+       Psalms are numbered as in the Vulgate. Allioli_1860 only has 1Petr - Jud, k-bibel.de shows 1839 for the rest -->
+  <bibleserver>
+    <name>KBibel</name>
+    <url>https://k-bibel.de/</url>
+    <!-- BibleAppXmlData/Allioli_1839/Joh3.xml -->
+    <chapterurl>BibleAppXmlData/{version}/{book}{chapter}.xml</chapterurl>
+    <books>
+      <book name_de="Gen">GEN</book>
+      <book name_de="Ex">EX</book>
+      <book name_de="Lev">LEV</book>
+      <book name_de="Num">NUM</book>
+      <book name_de="Dtn">DTN</book>
+      <book name_de="Jos">JOS</book>
+      <book name_de="Ri">RI</book>
+      <book name_de="Rut">RT</book>
+      <book name_de="1Sam">1SAM</book>
+      <book name_de="2Sam">2SAM</book>
+      <book name_de="1Koen">1KÖN</book>
+      <book name_de="2Koen">2KÖN</book>
+      <book name_de="1Chr">1CHR</book>
+      <book name_de="2Chr">2CHR</book>
+      <book name_de="Esra">ESR</book>
+      <book name_de="Neh">NEH</book>
+      <book name_de="Est">EST</book>
+      <book name_de="Ijob">HI</book>
+      <book name_de="Ps">PS</book>
+      <book name_de="Spr">SPR</book>
+      <book name_de="Koh">PRD</book>
+      <book name_de="Hld">HOH</book>
+      <book name_de="Jes">JES</book>
+      <book name_de="Jer">JER</book>
+      <book name_de="Klgl">KLA</book>
+      <book name_de="Ez">HES</book>
+      <book name_de="Dan">DAN</book>
+      <book name_de="Hos">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Am">AM</book>
+      <book name_de="Obd">OB</book>
+      <book name_de="Jona">JON</book>
+      <book name_de="Mi">MI</book>
+      <book name_de="Nah">NAH</book>
+      <book name_de="Hab">HAB</book>
+      <book name_de="Zef">ZEP</book>
+      <book name_de="Hag">HAG</book>
+      <book name_de="Sach">SACH</book>
+      <book name_de="Mal">MAL</book>
+      <book name_de="Mt">MT</book>
+      <book name_de="Mk">MK</book>
+      <book name_de="Lk">LK</book>
+      <book name_de="Joh">JOH</book>
+      <book name_de="Apg">APG</book>
+      <book name_de="Roem">RÖM</book>
+      <book name_de="1Kor">1KOR</book>
+      <book name_de="2Kor">2KOR</book>
+      <book name_de="Gal">GAL</book>
+      <book name_de="Eph">EPH</book>
+      <book name_de="Phil">PHIL</book>
+      <book name_de="Kol">KOL</book>
+      <book name_de="1Thess">1THES</book>
+      <book name_de="2Thess">2THES</book>
+      <book name_de="1Tim">1TIM</book>
+      <book name_de="2Tim">2TIM</book>
+      <book name_de="Tit">TIT</book>
+      <book name_de="Phlm">PHIM</book>
+      <book name_de="Hebr">HEB</book>
+      <book name_de="Jak">JAK</book>
+      <book name_de="1Petr">1PET</book>
+      <book name_de="2Petr">2PET</book>
+      <book name_de="1Joh">1JOH</book>
+      <book name_de="2Joh">2JOH</book>
+      <book name_de="3Joh">3JOH</book>
+      <book name_de="Jud">JUD</book>
+      <book name_de="Offb">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # Flagsoft                                                   #
+       # FreeBible 2004 (Elberfelder Ecclesia FreeBible)            #
+       ############################################################## -->
+
+  <!-- One page per book; the chapter is only the anchor (#3), verses are <a name="3_16">.
+       The page is ISO-8859-1, but the HTTP header has no charset -->
+  <bibleserver>
+    <name>Flagsoft</name>
+    <url>https://www.flagsoft.ch/</url>
+    <!-- fb2004/freebible2004/text/freebible2004/output_html/66_rev_htm.html -->
+    <chapterurl>fb2004/freebible2004/text/freebible2004/output_html/{book}_htm.html#{chapter}</chapterurl>
+    <books>
+      <book name_de="01_gen">GEN</book>
+      <book name_de="02_exo">EX</book>
+      <book name_de="03_lev">LEV</book>
+      <book name_de="04_num">NUM</book>
+      <book name_de="05_deu">DTN</book>
+      <book name_de="06_jos">JOS</book>
+      <book name_de="07_jdg">RI</book>
+      <book name_de="08_rut">RT</book>
+      <book name_de="09_1sa">1SAM</book>
+      <book name_de="10_2sa">2SAM</book>
+      <book name_de="11_1ki">1KÖN</book>
+      <book name_de="12_2ki">2KÖN</book>
+      <book name_de="13_1ch">1CHR</book>
+      <book name_de="14_2ch">2CHR</book>
+      <book name_de="15_ezr">ESR</book>
+      <book name_de="16_neh">NEH</book>
+      <book name_de="17_est">EST</book>
+      <book name_de="18_job">HI</book>
+      <book name_de="19_psa">PS</book>
+      <book name_de="20_pro">SPR</book>
+      <book name_de="21_ecc">PRD</book>
+      <book name_de="22_sol">HOH</book>
+      <book name_de="23_isa">JES</book>
+      <book name_de="24_jer">JER</book>
+      <book name_de="25_lam">KLA</book>
+      <book name_de="26_eze">HES</book>
+      <book name_de="27_dan">DAN</book>
+      <book name_de="28_hos">HOS</book>
+      <book name_de="29_joe">JO</book>
+      <book name_de="30_amo">AM</book>
+      <book name_de="31_oba">OB</book>
+      <book name_de="32_jon">JON</book>
+      <book name_de="33_mic">MI</book>
+      <book name_de="34_nah">NAH</book>
+      <book name_de="35_hab">HAB</book>
+      <book name_de="36_zep">ZEP</book>
+      <book name_de="37_hag">HAG</book>
+      <book name_de="38_zec">SACH</book>
+      <book name_de="39_mal">MAL</book>
+      <book name_de="40_mat">MT</book>
+      <book name_de="41_mar">MK</book>
+      <book name_de="42_luk">LK</book>
+      <book name_de="43_joh">JOH</book>
+      <book name_de="44_act">APG</book>
+      <book name_de="45_rom">RÖM</book>
+      <book name_de="46_1co">1KOR</book>
+      <book name_de="47_2co">2KOR</book>
+      <book name_de="48_gal">GAL</book>
+      <book name_de="49_eph">EPH</book>
+      <book name_de="50_phi">PHIL</book>
+      <book name_de="51_kol">KOL</book>
+      <book name_de="52_1th">1THES</book>
+      <book name_de="53_2th">2THES</book>
+      <book name_de="54_1ti">1TIM</book>
+      <book name_de="55_2ti">2TIM</book>
+      <book name_de="56_tit">TIT</book>
+      <book name_de="57_phm">PHIM</book>
+      <book name_de="58_heb">HEB</book>
+      <book name_de="59_jak">JAK</book>
+      <book name_de="60_1pe">1PET</book>
+      <book name_de="61_2pe">2PET</book>
+      <book name_de="62_1jo">1JOH</book>
+      <book name_de="63_2jo">2JOH</book>
+      <book name_de="64_3jo">3JOH</book>
+      <book name_de="65_jud">JUD</book>
+      <book name_de="66_rev">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
+       # DerBibelVertrauen                                          #
+       # Neue Evangelistische Übersetzung by K.-H. Vanheiden        #
+       ############################################################## -->
+
+  <!-- One page per book; the chapter is only the anchor (#3_1), verses are <span class="vers" id="3_16">.
+       NEÜ is also on Bibleserver (NEÜ), but without the texts of the footnotes -->
+  <bibleserver>
+    <name>DerBibelVertrauen</name>
+    <url>https://neue.derbibelvertrauen.de/</url>
+    <!-- jo.html -->
+    <chapterurl>{book}.html#{chapter}_1</chapterurl>
+    <books>
+      <book name_de="1mo">GEN</book>
+      <book name_de="2mo">EX</book>
+      <book name_de="3mo">LEV</book>
+      <book name_de="4mo">NUM</book>
+      <book name_de="5mo">DTN</book>
+      <book name_de="jos">JOS</book>
+      <book name_de="ri">RI</book>
+      <book name_de="rut">RT</book>
+      <book name_de="1sam">1SAM</book>
+      <book name_de="2sam">2SAM</book>
+      <book name_de="1koe">1KÖN</book>
+      <book name_de="2koe">2KÖN</book>
+      <book name_de="1chr">1CHR</book>
+      <book name_de="2chr">2CHR</book>
+      <book name_de="esra">ESR</book>
+      <book name_de="neh">NEH</book>
+      <book name_de="est">EST</book>
+      <book name_de="hiob">HI</book>
+      <book name_de="ps">PS</book>
+      <book name_de="spr">SPR</book>
+      <book name_de="pred">PRD</book>
+      <book name_de="hl">HOH</book>
+      <book name_de="jes">JES</book>
+      <book name_de="jer">JER</book>
+      <book name_de="kla">KLA</book>
+      <book name_de="hes">HES</book>
+      <book name_de="dan">DAN</book>
+      <book name_de="hos">HOS</book>
+      <book name_de="joel">JO</book>
+      <book name_de="amos">AM</book>
+      <book name_de="obadja">OB</book>
+      <book name_de="jona">JON</book>
+      <book name_de="mi">MI</book>
+      <book name_de="nah">NAH</book>
+      <book name_de="hab">HAB</book>
+      <book name_de="zef">ZEP</book>
+      <book name_de="hag">HAG</book>
+      <book name_de="sach">SACH</book>
+      <book name_de="mal">MAL</book>
+      <book name_de="mt">MT</book>
+      <book name_de="mk">MK</book>
+      <book name_de="lk">LK</book>
+      <book name_de="jo">JOH</book>
+      <book name_de="apg">APG</book>
+      <book name_de="roe">RÖM</book>
+      <book name_de="1kor">1KOR</book>
+      <book name_de="2kor">2KOR</book>
+      <book name_de="gal">GAL</book>
+      <book name_de="eph">EPH</book>
+      <book name_de="phil">PHIL</book>
+      <book name_de="kol">KOL</book>
+      <book name_de="1thes">1THES</book>
+      <book name_de="2thes">2THES</book>
+      <book name_de="1tim">1TIM</book>
+      <book name_de="2tim">2TIM</book>
+      <book name_de="tit">TIT</book>
+      <book name_de="phm">PHIM</book>
+      <book name_de="hebr">HEB</book>
+      <book name_de="jak">JAK</book>
+      <book name_de="1pt">1PET</book>
+      <book name_de="2pt">2PET</book>
+      <book name_de="1jo">1JOH</book>
+      <book name_de="2jo">2JOH</book>
+      <book name_de="3jo">3JOH</book>
+      <book name_de="jud">JUD</book>
+      <book name_de="off">OFF</book>
+    </books>
+  </bibleserver>
+
     <!-- ##############################################################
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #

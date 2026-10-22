@@ -295,10 +295,10 @@ Tags:
 
   <version>
     <name>ALL1839</name>
-    <servername></servername>
+    <servername>Allioli_1839</servername>
     <language>DE</language>
     <content>FB</content>
-    <server></server>
+    <server>KBibel</server>
     <fullname>Allioli-Bibel</fullname>
     <year>1839</year>
     <denomination>Katholisch</denomination>
@@ -309,10 +309,10 @@ Tags:
 
   <version>
     <name>ALL1860</name>
-    <servername></servername>
+    <servername>Allioli_1860</servername>
     <language>DE</language>
     <content>FB</content>
-    <server></server>
+    <server>KBibel</server>
     <fullname>Allioli-Bibel</fullname>
     <year>1860</year>
     <denomination>Katholisch</denomination>
@@ -323,14 +323,14 @@ Tags:
 
   <version>
     <name>ALLA</name>
-    <servername></servername>
+    <servername>Arndt_1914</servername>
     <language>DE</language>
     <content>FB</content>
-    <server></server>
+    <server>KBibel</server>
     <fullname>Allioli-Arndt Bibel</fullname>
     <year>1914</year>
     <denomination>Katholisch</denomination>
-    <generic_url>https://k-bibel.de/ALL.1860</generic_url>
+    <generic_url>https://k-bibel.de/ARN.de</generic_url>
     <textbase_ot>Vulgata</textbase_ot>
     <textbase_nt>Vulgata</textbase_nt>
     <comment>Revision der Allioli-Bibel mit sprachlicher Modernisierung</comment>
@@ -414,10 +414,12 @@ Tags:
 
   <version>
     <name>EEF</name>
-    <servername>Eef2004.bbl</servername>
+<!--    <servername>Eef2004.bbl</servername>-->
+    <servername>freebible2004</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Hangl</server>
+<!--    <server>Hangl</server>-->
+    <server>Flagsoft</server>
     <fullname>Elberfelder Ecclesia FreeBible</fullname>
     <year>2004</year>
     <family>ELB</family>
@@ -699,10 +701,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>HR</name>
-    <servername>HenneRoesch</servername>
+<!--    <servername>HenneRoesch</servername>-->
+    <servername>Schöningh_HR</servername>
     <language>DE</language>
     <content>FB</content>
-    <server>Github</server>
+<!--    <server>Github</server>-->
+    <server>KBibel</server>
     <fullname>Henne-Rösch Bibel (Paderborner Bibel)</fullname>
     <year>1934</year>
     <denomination>Katholisch</denomination>
@@ -738,10 +742,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>KEP</name>
-    <servername></servername>
+    <servername>Keppler_1950</servername>
     <language>DE</language>
     <content>NT</content>
-    <server></server>
+    <server>KBibel</server>
     <fullname>Keppler-Bibel</fullname>
     <year>1950</year>
     <denomination>Katholisch</denomination>
@@ -990,10 +994,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>NEÜ</name>
-    <servername></servername>
+    <servername>neue</servername>
     <language>DE</language>
     <content>FB</content>
-    <server></server>
+    <server>DerBibelVertrauen</server>
     <fullname>Neue Evangelistische Übersetzung</fullname>
     <year>2025</year>
     <generic_url>https://neue.derbibelvertrauen.de/bbuch.html</generic_url>
