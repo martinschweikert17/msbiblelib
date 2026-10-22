@@ -1321,6 +1321,89 @@ The servers should have a "weight" that defines the sequence in which they are t
     </books>
   </bibleserver>
 
+  <!-- ##############################################################
+       # OffeneBibel                                                #
+       # Offene Bibel: Lesefassung (OBL) and Studienfassung (OBS)   #
+       ############################################################## -->
+
+  <!-- MediaWiki; one page per chapter (Genesis_1) with both versions: <div class="lesefassung"> (verses l1, l2, ...)
+       and <div class="studienfassung"> (verses s1, s2, ...). The servername of the version selects the div.
+       1-chapter books have no chapter number in the URL (Obadja); many chapters are missing or have only a SF -->
+  <bibleserver>
+    <name>OffeneBibel</name>
+    <url>https://offene-bibel.de/</url>
+    <!-- wiki/Genesis_1 -->
+    <chapterurl>wiki/{book}_{chapter}</chapterurl>
+    <books>
+      <book name_de="Genesis">GEN</book>
+      <book name_de="Exodus">EX</book>
+      <book name_de="Levitikus">LEV</book>
+      <book name_de="Numeri">NUM</book>
+      <book name_de="Deuteronomium">DTN</book>
+      <book name_de="Josua">JOS</book>
+      <book name_de="Richter">RI</book>
+      <book name_de="Rut">RT</book>
+      <book name_de="1_Samuel">1SAM</book>
+      <book name_de="2_Samuel">2SAM</book>
+      <book name_de="1_Könige">1KÖN</book>
+      <book name_de="2_Könige">2KÖN</book>
+      <book name_de="1_Chronik">1CHR</book>
+      <book name_de="2_Chronik">2CHR</book>
+      <book name_de="Esra">ESR</book>
+      <book name_de="Nehemia">NEH</book>
+      <book name_de="Ester">EST</book>
+      <book name_de="Ijob">HI</book>
+      <book name_de="Psalm">PS</book>
+      <book name_de="Sprichwörter">SPR</book>
+      <book name_de="Kohelet">PRD</book>
+      <book name_de="Hohelied">HOH</book>
+      <book name_de="Jesaja">JES</book>
+      <book name_de="Jeremia">JER</book>
+      <book name_de="Klagelieder">KLA</book>
+      <book name_de="Ezechiel">HES</book>
+      <book name_de="Daniel">DAN</book>
+      <book name_de="Hosea">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obadja">OB</book>
+      <book name_de="Jona">JON</book>
+      <book name_de="Micha">MI</book>
+      <book name_de="Nahum">NAH</book>
+      <book name_de="Habakuk">HAB</book>
+      <book name_de="Zefanja">ZEP</book>
+      <book name_de="Haggai">HAG</book>
+      <book name_de="Sacharja">SACH</book>
+      <book name_de="Maleachi">MAL</book>
+      <book name_de="Matthäus">MT</book>
+      <book name_de="Markus">MK</book>
+      <book name_de="Lukas">LK</book>
+      <book name_de="Johannes">JOH</book>
+      <book name_de="Apostelgeschichte">APG</book>
+      <book name_de="Römer">RÖM</book>
+      <book name_de="1_Korinther">1KOR</book>
+      <book name_de="2_Korinther">2KOR</book>
+      <book name_de="Galater">GAL</book>
+      <book name_de="Epheser">EPH</book>
+      <book name_de="Philipper">PHIL</book>
+      <book name_de="Kolosser">KOL</book>
+      <book name_de="1_Thessalonicher">1THES</book>
+      <book name_de="2_Thessalonicher">2THES</book>
+      <book name_de="1_Timotheus">1TIM</book>
+      <book name_de="2_Timotheus">2TIM</book>
+      <book name_de="Titus">TIT</book>
+      <book name_de="Philemon">PHIM</book>
+      <book name_de="Hebräer">HEB</book>
+      <book name_de="Jakobus">JAK</book>
+      <book name_de="1_Petrus">1PET</book>
+      <book name_de="2_Petrus">2PET</book>
+      <book name_de="1_Johannes">1JOH</book>
+      <book name_de="2_Johannes">2JOH</book>
+      <book name_de="3_Johannes">3JOH</book>
+      <book name_de="Judas">JUD</book>
+      <book name_de="Offenbarung">OFF</book>
+    </books>
+  </bibleserver>
+
     <!-- ##############################################################
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #

@@ -457,11 +457,15 @@ Tags:
 
   <version>
     <name>ELB1871</name>
-    <servername>ELB1871</servername>
+<!--    <servername>ELB1871</servername>-->
+    <servername>Gerelb1871.bbl</servername>
     <language>DE</language>
-    <content>NT</content>
-    <server>Studybible</server>
-    <fullname>Elberfelder NT</fullname>
+<!--    <content>NT</content>-->
+    <content>FB</content>
+<!--    <server>Studybible</server>-->
+    <!-- Studybible has only the NT, Hangl the full Bible -->
+    <server>Hangl</server>
+    <fullname>Elberfelder</fullname>
     <year>1871</year>
     <textbase_ot>MT</textbase_ot>
     <textbase_nt>TR</textbase_nt>
@@ -1070,13 +1074,28 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
   -->
 
+  <!-- Offene Bibel, Lesefassung; incomplete, many chapters are missing -->
   <version>
-    <name>OB</name>
-    <servername></servername>
+    <name>OBL</name>
+    <servername>lesefassung</servername>
     <language>DE</language>
     <content>FB</content>
-    <server></server>
-    <fullname>Offene Bibel</fullname>
+    <server>OffeneBibel</server>
+    <fullname>Offene Bibel (Lesefassung)</fullname>
+    <year>2016</year>
+    <generic_url>https://offene-bibel.de/wiki/Die_Offene_Bibel_online_lesen</generic_url>
+    <textbase_ot>MT</textbase_ot>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <!-- Offene Bibel, Studienfassung; incomplete, many chapters are missing -->
+  <version>
+    <name>OBS</name>
+    <servername>studienfassung</servername>
+    <language>DE</language>
+    <content>FB</content>
+    <server>OffeneBibel</server>
+    <fullname>Offene Bibel (Studienfassung)</fullname>
     <year>2016</year>
     <generic_url>https://offene-bibel.de/wiki/Die_Offene_Bibel_online_lesen</generic_url>
     <textbase_ot>MT</textbase_ot>
