@@ -1743,10 +1743,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>CPDV</name>
-    <servername></servername>
+    <servername>cpdv</servername>
     <language>EN</language>
     <content>FB</content>
-    <server></server>
+    <server>Biblehub</server>
     <fullname>Catholic Public Domain Version</fullname>
     <denomination>Katholisch</denomination>
     <year>2009</year>
@@ -2158,11 +2158,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>HBRV</name>
-    <servername>enghbr</servername>
+<!--    <servername>enghbr</servername>-->
+    <servername>RV.SQLite3</servername>
     <language>EN</language>
     <content>FB</content>
 <!--    <server>NOCR</server>-->
-    <server></server>
+    <server>Hangl</server>
     <fullname>Holy Bible Revised Version</fullname>
     <year>1882</year>
     <textbase_ot>MT</textbase_ot>
@@ -2411,10 +2412,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   <!-- Also known as Authorized Version-->
   <version>
     <name>KJV1611</name>
-    <servername></servername>
+    <servername>KJV1611.SQLite3</servername>
     <language>EN</language>
     <content>FB</content>
-    <server></server>
+    <server>Hangl</server>
     <fullname>King James Version</fullname>
     <family>KJV</family>
     <year>1611</year>
@@ -2538,10 +2539,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>LHB</name>
-    <servername></servername>
+    <servername>LHB.SQLite3</servername>
     <language>EN</language>
     <content>FB</content>
-    <server></server>
+    <server>Hangl</server>
     <fullname>Lighthouse Bible</fullname>
     <year>2006</year>
     <generic_url>https://www.bibliatodo.com/en/the-bible/version/lighthouse-bible-2006</generic_url>
@@ -2749,11 +2750,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>NASB1977</name>
-    <servername>engnas</servername>
+<!--    <servername>engnas</servername>-->
+    <servername>nasb77</servername>
     <language>EN</language>
     <content>FB</content>
 <!--    <server>NOCR</server>-->
-    <server></server>
+    <server>Biblehub</server>
     <fullname>New American Standard Bible</fullname>
     <year>1977</year>
     <!-- according to NOcr and ChatGPT-->
@@ -3470,11 +3472,12 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>TS1998</name>
-    <servername>TS98</servername>
+<!--    <servername>TS98</servername>-->
+    <servername>TS.SQLite3</servername>
     <language>EN</language>
     <content>FB</content>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>Hangl</server>
     <fullname>The Scriptures</fullname>
     <year>1998</year>
     <denomination>Jüdisch</denomination>
@@ -3788,10 +3791,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
 
   <version>
     <name>WOY</name>
-    <servername></servername>
+    <servername>WOY.SQLite3</servername>
     <language>EN</language>
     <content>FB</content>
-    <server></server>
+    <server>Hangl</server>
     <fullname>Word of Yahweh</fullname>
     <year>2003</year>
     <generic_url>https://www.bibliatodo.com/en/the-bible/version/word-of-yahweh</generic_url>
