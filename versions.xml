@@ -25,10 +25,13 @@ Tags:
 
   <version>
     <name>AL</name>
-    <servername>hebalp</servername>
+<!--    <servername>hebalp</servername>-->
+    <!-- Mechon Mamre: text with teamim (cantillation), after the Aleppo Codex in the tradition of M. Breuer -->
+    <servername>ct</servername>
     <language>HE</language>
     <content>OT</content>
-    <server>NOCR</server>
+<!--    <server>NOCR</server>-->
+    <server>MechonMamre</server>
     <fullname>Codex Aleppo</fullname>
   </version>
 

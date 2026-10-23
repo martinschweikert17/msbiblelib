@@ -1734,6 +1734,62 @@ The servers should have a "weight" that defines the sequence in which they are t
     </books>
   </bibleserver>
 
+  <!-- ##############################################################
+       # MechonMamre                                                #
+       # mechon-mamre.org: Hebrew text after the Aleppo Codex       #
+       ############################################################## -->
+
+  <!-- One page per chapter; the books are numbered in the order of the Hebrew canon, Samuel, Kings, Chronicles and
+       Ezra/Nehemiah are split into a and b. The chapter has 2 digits, from 100 on the tens become a letter
+       (Ps 100 = c26a0.htm, see handle_html). The servername of the version is the directory (ct: with teamim) -->
+  <bibleserver>
+    <name>MechonMamre</name>
+    <url>https://mechon-mamre.org/</url>
+    <!-- c/ct/c0101.htm, c/ct/c08b01.htm, c/ct/c26a0.htm -->
+    <chapterurl>c/{version}/c{book}{chapter}.htm</chapterurl>
+    <books>
+      <book name_de="01">GEN</book>
+      <book name_de="02">EX</book>
+      <book name_de="03">LEV</book>
+      <book name_de="04">NUM</book>
+      <book name_de="05">DTN</book>
+      <book name_de="06">JOS</book>
+      <book name_de="07">RI</book>
+      <book name_de="29">RT</book>
+      <book name_de="08a">1SAM</book>
+      <book name_de="08b">2SAM</book>
+      <book name_de="09a">1KÖN</book>
+      <book name_de="09b">2KÖN</book>
+      <book name_de="25a">1CHR</book>
+      <book name_de="25b">2CHR</book>
+      <book name_de="35a">ESR</book>
+      <book name_de="35b">NEH</book>
+      <book name_de="33">EST</book>
+      <book name_de="27">HI</book>
+      <book name_de="26">PS</book>
+      <book name_de="28">SPR</book>
+      <book name_de="31">PRD</book>
+      <book name_de="30">HOH</book>
+      <book name_de="10">JES</book>
+      <book name_de="11">JER</book>
+      <book name_de="32">KLA</book>
+      <book name_de="12">HES</book>
+      <book name_de="34">DAN</book>
+      <book name_de="13">HOS</book>
+      <book name_de="14">JO</book>
+      <book name_de="15">AM</book>
+      <book name_de="16">OB</book>
+      <book name_de="17">JON</book>
+      <book name_de="18">MI</book>
+      <book name_de="19">NAH</book>
+      <book name_de="20">HAB</book>
+      <book name_de="21">ZEP</book>
+      <book name_de="22">HAG</book>
+      <book name_de="23">SACH</book>
+      <book name_de="24">MAL</book>
+    </books>
+  </bibleserver>
+
     <!-- ##############################################################
          # Obohu                                                      #
          # Czech "O Bohu" = "About God"                               #
