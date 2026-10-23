@@ -63,6 +63,10 @@ class Versions:
                 # In the former case, give a link to the online location; in the latter case, leave this empty - the
                 # caller needs to interpret this accordingly.
                 'generic_url': t('generic_url'),
+                # Fallback servers, tried one after the other if the server fails:
+                #   <fallback server="CrossWire" servername="GerElb1871"/>
+                'fallbacks': [{'server': f.get('server', ''), 'servername': f.get('servername', '')}
+                              for f in version.findall('fallback')],
             }
             versions.append(version_dict)
 
