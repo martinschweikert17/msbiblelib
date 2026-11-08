@@ -531,16 +531,6 @@ Tags:
   </version>
 
   <version>
-    <name>ELB2006</name>
-    <servername>ELB</servername>
-    <language>DE</language>
-    <content>FB</content>
-    <server>Bibleserver</server>
-    <fullname>Elberfelder 2006</fullname>
-    <year>2006</year>
-  </version>
-
-  <version>
     <name>GNB1982</name>
     <servername></servername>
     <language>DE</language>
