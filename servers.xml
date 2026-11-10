@@ -1489,6 +1489,88 @@ The servers should have a "weight" that defines the sequence in which they are t
   </bibleserver>
 
   <!-- ##############################################################
+       # Sword                                                      #
+       # Local SWORD modules (~/.sword), read with pysword          #
+       ############################################################## -->
+
+  <!-- Nothing is downloaded, so url/chapterurl stay empty. The module names are the same as on CrossWire
+       (GerElb1905, GerSch, KJV). Book names are the OSIS ids; handle_html finds pysword's book name and the
+       number of verses in pysword.canons for the versification of the module -->
+  <bibleserver>
+    <name>Sword</name>
+    <url></url>
+    <chapterurl></chapterurl>
+    <books>
+      <book name_de="Gen">GEN</book>
+      <book name_de="Exod">EX</book>
+      <book name_de="Lev">LEV</book>
+      <book name_de="Num">NUM</book>
+      <book name_de="Deut">DTN</book>
+      <book name_de="Josh">JOS</book>
+      <book name_de="Judg">RI</book>
+      <book name_de="Ruth">RT</book>
+      <book name_de="1Sam">1SAM</book>
+      <book name_de="2Sam">2SAM</book>
+      <book name_de="1Kgs">1KÖN</book>
+      <book name_de="2Kgs">2KÖN</book>
+      <book name_de="1Chr">1CHR</book>
+      <book name_de="2Chr">2CHR</book>
+      <book name_de="Ezra">ESR</book>
+      <book name_de="Neh">NEH</book>
+      <book name_de="Esth">EST</book>
+      <book name_de="Job">HI</book>
+      <book name_de="Ps">PS</book>
+      <book name_de="Prov">SPR</book>
+      <book name_de="Eccl">PRD</book>
+      <book name_de="Song">HOH</book>
+      <book name_de="Isa">JES</book>
+      <book name_de="Jer">JER</book>
+      <book name_de="Lam">KLA</book>
+      <book name_de="Ezek">HES</book>
+      <book name_de="Dan">DAN</book>
+      <book name_de="Hos">HOS</book>
+      <book name_de="Joel">JO</book>
+      <book name_de="Amos">AM</book>
+      <book name_de="Obad">OB</book>
+      <book name_de="Jonah">JON</book>
+      <book name_de="Mic">MI</book>
+      <book name_de="Nah">NAH</book>
+      <book name_de="Hab">HAB</book>
+      <book name_de="Zeph">ZEP</book>
+      <book name_de="Hag">HAG</book>
+      <book name_de="Zech">SACH</book>
+      <book name_de="Mal">MAL</book>
+      <book name_de="Matt">MT</book>
+      <book name_de="Mark">MK</book>
+      <book name_de="Luke">LK</book>
+      <book name_de="John">JOH</book>
+      <book name_de="Acts">APG</book>
+      <book name_de="Rom">RÖM</book>
+      <book name_de="1Cor">1KOR</book>
+      <book name_de="2Cor">2KOR</book>
+      <book name_de="Gal">GAL</book>
+      <book name_de="Eph">EPH</book>
+      <book name_de="Phil">PHIL</book>
+      <book name_de="Col">KOL</book>
+      <book name_de="1Thess">1THES</book>
+      <book name_de="2Thess">2THES</book>
+      <book name_de="1Tim">1TIM</book>
+      <book name_de="2Tim">2TIM</book>
+      <book name_de="Titus">TIT</book>
+      <book name_de="Phlm">PHIM</book>
+      <book name_de="Heb">HEB</book>
+      <book name_de="Jas">JAK</book>
+      <book name_de="1Pet">1PET</book>
+      <book name_de="2Pet">2PET</book>
+      <book name_de="1John">1JOH</book>
+      <book name_de="2John">2JOH</book>
+      <book name_de="3John">3JOH</book>
+      <book name_de="Jude">JUD</book>
+      <book name_de="Rev">OFF</book>
+    </books>
+  </bibleserver>
+
+  <!-- ##############################################################
        # BibleResources                                             #
        # bibleresources.info: RVIC                                  #
        ############################################################## -->

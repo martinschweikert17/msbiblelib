@@ -120,30 +120,25 @@ class Versions:
         # Iterate through the versions and select those that match the filters
         for v in self._versions:
 
-            # If they want specific versions, no other filters need to be tested.
+            # If they want specific versions, the language filter need not be tested.
             # If a version is in their list, we take it
             if b_filter_by_version:
-
-                if v['name'].lower() in version_filter:
-                    a_selected_versions.append(v)
-
-            # So they want to filter by language or by server (maybe both)
+                version_match = v['name'].lower() in version_filter
+            # Otherwise the language filter decides (if enabled)
+            elif b_filter_by_language:
+                version_match = v.get('language').lower() in language_filter
             else:
-                # Initialize flags to determine if the current dictionary matches the filters
-                language_match = True
-                server_match = True
+                version_match = True
 
-                # Check the language filter if enabled
-                if b_filter_by_language:
-                    language_match = v.get('language').lower() in language_filter
+            # The server filter also applies to specific versions (--versions ELB1905 --server Sword). A version
+            # matches if the server is its server or one of its fallback servers
+            server_match = True
+            if b_filter_by_server:
+                servers = [v.get('server') or ''] + [f['server'] for f in v['fallbacks']]
+                server_match = server_filter in [s.lower() for s in servers]
 
-                # Check the server filter if enabled
-                if b_filter_by_server:
-                    server_match = v.get('server').lower() == server_filter
-
-                # If both conditions are met, add the dictionary to a_selected_versions
-                if language_match and server_match:
-                    a_selected_versions.append(v)
+            if version_match and server_match:
+                a_selected_versions.append(v)
 
         return a_selected_versions
 

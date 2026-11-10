@@ -488,6 +488,7 @@ Tags:
     <language>DE</language>
     <content>FB</content>
     <server>Ebible</server>
+    <fallback server="Sword" servername="GerElb1905"/>
     <fallback server="CrossWire" servername="GerElb1905"/>
     <fullname>Elberfelder</fullname>
     <year>1905</year>
@@ -496,16 +497,7 @@ Tags:
     <!-- kein TR: 1 Joh 5,7 (Comma Johanneum) und Apg 8,37 fehlen im Text oder stehen in Klammern -->
     <textbase_nt>Eklektisch</textbase_nt>
   </version>
-  <!-- Alternative (with Strong's)
-    <version>
-    <name>ELB1905</name>
-    <servername>ELBS</servername>
-    <language>DE</language>
-    <content>FB</content>
-    <server>Obohu</server>
-    <fullname>Elberfelder 1905</fullname>
-  </version>
-  -->
+
   <version>
     <name>ELB1932</name>
     <servername>elb_1932</servername>
@@ -2600,6 +2592,7 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
     <language>EN</language>
     <content>FB</content>
     <server>Biblegateway</server>
+    <fallback server="Sword" servername="KJV"/>
     <fallback server="Biblestudytools" servername="kjv"/>
     <fallback server="KingJamesBibleOnline" servername=""/>
     <fullname>King James Version</fullname>
