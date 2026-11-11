@@ -287,12 +287,13 @@ Tags:
 
   <version>
     <name>ALB</name>
-    <servername>ALBR</servername>
+<!--    <servername>ALBR</servername>  Name bei Obohu; Sword braucht den Modulnamen -->
+    <servername>GerAlbrecht</servername>
     <language>DE</language>
     <content>NT</content>
     <extracontent>PS</extracontent>
 <!--    <server>Obohu</server>-->
-    <server></server>
+    <server>Sword</server>
     <fullname>Albrecht NT</fullname>
     <year>1926</year>
     <denomination>Katholisch</denomination>
@@ -488,7 +489,7 @@ Tags:
     <language>DE</language>
     <content>FB</content>
     <server>Ebible</server>
-    <fallback server="Sword" servername="GerElb1905"/>
+    <!-- Bearbeiteter Text   <fallback server="Sword" servername="GerElb1905"/>-->
     <fallback server="CrossWire" servername="GerElb1905"/>
     <fullname>Elberfelder</fullname>
     <year>1905</year>
