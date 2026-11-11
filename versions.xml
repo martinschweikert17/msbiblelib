@@ -292,7 +292,6 @@ Tags:
     <language>DE</language>
     <content>NT</content>
     <extracontent>PS</extracontent>
-<!--    <server>Obohu</server>-->
     <server>Sword</server>
     <fullname>Albrecht NT</fullname>
     <year>1926</year>
@@ -1140,6 +1139,17 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   </version>
 
   <version>
+    <name>REINH</name>
+    <servername>GerReinhardt</servername>
+    <language>DE</language>
+    <content>NT</content>
+    <server>Sword</server>
+    <fullname>Reinhardt Evangelien</fullname>
+    <year>1910</year>
+    <textbase_nt>NA</textbase_nt>
+  </version>
+
+  <version>
     <name>RELB1985</name>
     <servername></servername>
     <language>DE</language>
@@ -1282,12 +1292,10 @@ Evangelikale Apologetik-Artikel zu "New Age-Einflüssen in Bibelübersetzungen"
   -->
   <version>
     <name>TAF</name>
-<!--    <servername>TAF</servername>-->
     <servername>GerTafel</servername>
     <language>DE</language>
     <content>NT</content>
     <extracontent>GEN, EX, LEV, NUM, DTN, JOS, RI, 1SAM, 2SAM, 1KÖN, 2KÖN, PS, JES, JER, KLA, HES, DAN, HOS, JO, AM, OB, JON, MI, NAH, HAB, ZEP, HAG, SACH, MAL</extracontent>
-<!--    <server>Obohu</server>-->
     <server>CrossWire</server>
     <fullname>Tafel-Bibel</fullname>
     <year>1911</year>
